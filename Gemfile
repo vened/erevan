@@ -10,6 +10,8 @@ gem 'haml'
 gem 'jquery-rails'
 #gem "will_paginate"
 gem 'ckeditor'
+gem "paperclip", "~> 2.3"
+
 
 group :development do
 	gem 'annotate-models', '1.0.4'

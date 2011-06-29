@@ -31,8 +31,8 @@ if Object.const_defined?("Ckeditor")
      
     # The same as for downloads files, only to upload images
     #config.swf_image_file_types_description = "Images"
-    #config.swf_image_file_types = "*.jpg;*.jpeg;*.png;*.gif"
-    #config.swf_image_file_size_limit = "5 MB"
+    config.swf_image_file_types = "*.jpg;*.jpeg;*.png;*.gif"
+    config.swf_image_file_size_limit = "5 MB"
     #config.swf_image_file_upload_limit = 10
     
     # Path for view all uploaded files
@@ -48,7 +48,7 @@ if Object.const_defined?("Ckeditor")
     #config.file_manager_image_upload_uri = "/ckeditor/pictures"
    
     # Model's names witch processing in ckeditor_controller
-    #config.file_manager_image_model = "Ckeditor::Picture"
+    config.file_manager_image_model = "Ckeditor::Picture"
     #config.file_manager_file_model = "Ckeditor::AttachmentFile"
   end
 end

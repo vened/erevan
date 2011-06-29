@@ -1,0 +1,21 @@
+= form_for [:admin, @page] do |f|
+  = f.error_messages
+  %p
+    = f.label :meta_key
+    %br
+    = f.text_field :meta_key
+  %p
+    = f.label :meta_desc
+    %br
+    = f.text_field :meta_desc
+  %p
+    = f.label :title
+    %br
+    = f.text_field :title
+  %p
+    = f.label :desc
+    %br
+    -#= f.text_area :desc
+    = f.cktext_area :desc
+  %p
+    = f.submit

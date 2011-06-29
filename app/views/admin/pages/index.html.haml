@@ -1,0 +1,16 @@
+%table
+  %tr
+    %th Заголовок
+    %th Текст
+    %th Meta key
+    %th Meta desc
+    %th
+  - for page in @pages
+    %tr
+      %td= page.title
+      %td= raw page.desc
+      %td= page.meta_key
+      %td= page.meta_desc
+      %td= link_to 'Редактировать', edit_admin_page_path(page)
+
+%p= link_to "New Page", new_admin_page_path

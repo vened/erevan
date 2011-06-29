@@ -1,0 +1,15 @@
+%h1= @page.title
+%p= raw @page.desc
+%p
+  %div
+    %strong Meta Key:
+  = @page.meta_key
+%p
+  %div
+    %strong Meta Desc:
+  = @page.meta_desc
+
+%p
+  = link_to "Редактировать", edit_admin_page_path(@page)
+  |
+  = link_to "К списку страниц", admin_pages_path

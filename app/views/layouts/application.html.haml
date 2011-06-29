@@ -1,0 +1,51 @@
+!!! Strict
+%html{:xmlns => "http://www.w3.org/1999/xhtml", "xml:lang" => "ru", :lang => "ru"}
+
+  %head
+    %title= title
+    %meta{"http-equiv"=>"Content-Type", :content=>"text/html; charset=utf-8"}
+    %meta{:content => meta_key, :name => "keywords"}
+    %meta{:content => meta_desc, :name => "description"}
+    = csrf_meta_tag
+    = stylesheet_link_tag "application"
+    -#= javascript_include_tag :all
+    = javascript_include_tag "jquery.min"
+    = javascript_include_tag "jquery.selectbox-0.6.1"
+    = javascript_include_tag "audio"
+    -#= yield(:head)
+
+  %body.fp
+    #p
+      #page
+        .page_bg
+          .page_bg_b
+
+            #header
+              %h1.logo
+                %a{:href => "/"}
+                  %img{:src => "/img/logo.png", :alt =>"Ресторан Ереван", :title => "Ресторан Ереван"}
+            
+            %ul#menu
+              %li.act
+                %a{:href => "/"} Главная
+              %li
+                %a{:href => "/restaurant"} Ресторан
+              %li
+                %a{:href => "/shashlyk"} Шашлычная
+              %li
+                %a{:href => "1"} Виртуальный тур
+              %li 
+                %a{:href => "1"} Контакты
+              %li
+                %a{:href => "1"} Отзывы
+
+            = raw slider
+            
+            #section
+              = yield
+              .clear
+            
+      .fc
+        %br
+
+    = raw footer

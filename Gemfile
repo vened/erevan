@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.9'
+gem 'rails', '3.0.8'
 
 gem 'sqlite3', '1.3.3', :group => :development
 gem 'haml'
@@ -39,4 +39,4 @@ end
 # group :development, :test do
 #   gem 'webrat'
 # end
-gem "mocha", :group => :test
+# gem "mocha", :group => :test

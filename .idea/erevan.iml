@@ -42,12 +42,6 @@
     </requirement>
     <requirement>
       <requirement>
-        <dependency name="mocha" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
-      </requirement>
-      <source from="Gemfile" />
-    </requirement>
-    <requirement>
-      <requirement>
         <dependency name="nifty-generators" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
       </requirement>
       <source from="Gemfile" />
@@ -60,7 +54,7 @@
     </requirement>
     <requirement>
       <requirement>
-        <dependency name="rails" version="3.0.9" bound="EQUAL" git="false" path="false" doRequire="true" />
+        <dependency name="rails" version="3.0.8" bound="EQUAL" git="false" path="false" doRequire="true" />
       </requirement>
       <source from="Gemfile" />
     </requirement>

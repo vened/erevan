@@ -56,8 +56,8 @@ div.red{color:red;font-size:30px;margin:30px 0 35px;}
 .secondary-navigation ul li a{display:block;padding:10px 15px;}
 #footer{padding-bottom:20px;}
 /* pagination */
-.pagination a,.pagination span{padding:2px 5px;margin-right:5px;display:block;float:left;border-style:solid;border-width:1px;}
-.pagination span.current{font-weight:bold;}
+.pagination a, .pagination span, .pagination em{padding:2px 5px;margin-right:5px;display:block;float:left;border-style:solid;border-width:1px;}
+.pagination em{font-weight:bold;}
 .pagination a{text-decoration:none;}
 /* tables */
 .table{width:100%;border-collapse:collapse;margin-bottom:15px;}
@@ -87,12 +87,17 @@ input.check_box{margin:0;padding:0;}
 .button_to input{background:none;border:none;display:inline;font-size:12px;color:#A72D2E;cursor:pointer;font-family: helvetica, arial, sans-serif;}
 #user-navigation .button_to input{color:#FFFFFF;}
 /* lists */
-ul.list{margin:0;padding:0;list-style-type:none;}
-ul.list li{clear:left;padding-bottom:5px;}
+ul.list{margin:0;padding:0 0 20px;list-style-type:none;}
+ul.list li{clear:left;margin:0 0 20px;padding:20px 0 5px;}
 ul.list li .left{float:left;}
 ul.list li .left .avatar{width:50px;height:50px;}
 ul.list li .item{margin-left:80px;}
 ul.list li .item .avatar{float:left;margin:0 5px 5px 0;width:30px;height:30px;}
+ul.list li .username{float:left;margin:8px 0 0 0}
+ul.list li .username b{}
+ul.list li .delete{float:right;margin:8px 0 0 0}
+.clear { clear:both;}
+
 /* box */
 #box{width:500px;margin:50px auto;}
 #box .block{margin-bottom:20px;}

@@ -1,0 +1,15 @@
+%h2 Отзывы
+
+%ul.list
+  -for feedback in @feedbacks
+    %li
+      .desc= feedback.desc
+      .username
+        Пользователь:
+        %b= feedback.user
+      .delete
+        = link_to "Удалить отзыв", [:admin, feedback], :method => :delete, :confirm => "Точно удалить?"
+      .clear
+
+
+= will_paginate @feedbacks, :previous_label => "«", :next_label => "»"

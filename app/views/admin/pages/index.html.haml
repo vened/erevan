@@ -19,9 +19,18 @@
         %p= page.title
         %div= link_to 'Редактировать страницу', edit_admin_page_path(page)
       %td
-        - for i in page.images
-          %p= image_tag i.image_url(:thumb)
-        = link_to "Редактирование изображений в шапке",  admin_page_images_path(page)
+        -if page.url == 'home'
+          - for i in page.images
+            %p= image_tag i.image_url(:thumb)
+          = link_to "Редактирование изображений в шапке",  admin_page_images_path(page)
+        -if page.url == 'restaurant'
+          - for i in page.images
+            %p= image_tag i.image_url(:thumb)
+          = link_to "Редактирование изображений в шапке",  admin_page_images_path(page)
+        -if page.url == 'shashlyk'
+          - for i in page.images
+            %p= image_tag i.image_url(:thumb)
+          = link_to "Редактирование изображений в шапке",  admin_page_images_path(page)
       %td= raw page.desc
       %td= page.meta_key
       %td= page.meta_desc

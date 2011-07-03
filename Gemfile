@@ -8,7 +8,7 @@ gem 'rails', '3.0.8'
 gem 'sqlite3'
 gem 'haml'
 gem 'jquery-rails'
-#gem "will_paginate"
+gem "will_paginate", "~> 3.0.pre2"
 gem 'ckeditor'
 gem "paperclip", "~> 2.3"
 gem "rmagick"

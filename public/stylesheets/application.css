@@ -25,6 +25,10 @@ body { width:100%; margin:0 auto; font:14px/1.2 Philosopher, Arial; color:#000;}
 .page_bg_b { padding:0 58px; background:#fcedcd url("../img/page_bg.jpg"); padding-bottom:30px; position:relative;}
 #header { background:url("../img/bg_header.jpg") no-repeat 50% 0; margin:0 -58px -80px; height:340px;}
 
+/*error_messages*/
+.error_messages{margin:10px 0;padding:10px;border:1px solid red;color:red}
+.error_messages h2{font-size:20px;line-height:22px;margin:0 0 5px}
+#section .error_messages p{line-height:18px}
 /* fones */
 .fp #p, .page_w #p { background:#ffcf88 url("../img/bg1.png");}
 .page2 #p { background:#c39d2f url("../img/bg3.png");}
@@ -43,10 +47,10 @@ body { width:100%; margin:0 auto; font:14px/1.2 Philosopher, Arial; color:#000;}
 #menu li { display:inline; margin:0 22px;}
 #menu .act a, #menu a:hover, .nav a:hover, .nav a.act, .nav span { color:#9c2815;}
 
-.nav { font:14px Arial;}
-.nav a { color:#ad2a1f;}
-.nav a, .nav span { padding:0 2px;}
-.nav a.act { text-decoration:none;}
+.pagination { font:14px Arial;}
+.pagination a { color:#ad2a1f;}
+.pagination a, .nav span { padding:0 2px;}
+.pagination em {font-style:normal; text-decoration:none;}
 
 
 /* images */
@@ -66,8 +70,9 @@ body { width:100%; margin:0 auto; font:14px/1.2 Philosopher, Arial; color:#000;}
 .right .feed_n { background:url("../img/feed_n.png") no-repeat 100% 0; text-align:right;}
 
 #feed_form { float:right; width:254px;}
-#feed_form a { font:italic bold 18px/24px Georgia; border-bottom:1px dotted #630b08;}
-#feed_form div { text-align:center;}
+#feed_form div.toggle { text-align:center;font:italic bold 18px/24px Georgia; border-bottom:1px dotted #630b08;cursor:pointer;color:#630b08;}
+#feed_form div.toggle:hover { color:#9c2815;}
+#feed_form form{display:none}
 #feed_form label, #feed_form input, #feed_form textarea { display:block; width:99%; margin:3px 0; padding:3px 0; font:italic 13px/24px Georgia;}
 #feed_form label { margin-top:15px; font:italic bold 14px/18px Georgia}
 

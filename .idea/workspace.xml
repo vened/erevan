@@ -2,6 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63b80dfe-778c-4db0-adeb-3a8e5378e907" name="Default" comment="сделал страницу виртуального тура, контакты и отзывы">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/&quot;app/views/layouts/application_сhaml&quot;" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ckeditor_assets/pictures/5/content_bnn_tour.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ckeditor_assets/pictures/5/original_bnn_tour.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ckeditor_assets/pictures/5/thumb_bnn_tour.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ckeditor_assets/pictures/6/content_bnn_tour.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ckeditor_assets/pictures/6/original_bnn_tour.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ckeditor_assets/pictures/6/thumb_bnn_tour.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/image/image/48/bnn_rest.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/image/image/48/pic_head_bnn_rest.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/image/image/48/thumb_bnn_rest.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/image/image/49/bnn_shash.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/image/image/49/pic_head_bnn_shash.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/image/image/49/thumb_bnn_shash.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/image/image/50/bnn_shash.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/image/image/50/pic_head_bnn_shash.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/image/image/50/thumb_bnn_shash.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/image/image/51/bnn_shash.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/image/image/51/pic_head_bnn_shash.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/image/image/51/thumb_bnn_shash.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/feedbacks_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/feedbacks_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/feedback.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20110703171612_create_feedbacks.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fixtures/feedbacks.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/functional/feedbacks_controller_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/feedback_test.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="erevan.iws" />

@@ -11,6 +11,8 @@ gem 'jquery-rails'
 #gem "will_paginate"
 gem 'ckeditor'
 gem "paperclip", "~> 2.3"
+gem "rmagick"
+gem 'carrierwave'
 
 
 group :development do

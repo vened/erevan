@@ -7,6 +7,7 @@
 .wat-cf{display:block;}
 /* End hide from IE-mac */
 h1{margin:15px 0;font-size:22px;font-weight:normal;}
+.content h1{margin:10px 0 35px;font-size:30px;font-weight:normal;text-align:center;}
 h2{font-size:22px;margin:15px 0;font-weight:normal;}
 h3{font-size:18px;margin:10px 0;font-weight:normal;}
 h4{font-size:16px;margin:10px 0;font-weight:normal;}
@@ -19,16 +20,18 @@ body{font-size:12px;font-family:sans-serif;}
 #header{position:relative;padding-top:1px;}
 #header h1{margin:0;padding:10px 0;font-size:26px;}
 #header h1 a:link,#header h1 a:active,#header h1 a:hover,#header h1 a:visited{text-decoration:none;}
-#main{width:73%;float:right;}
+#main{width:81%;float:right;}
 .actions-bar{padding:10px 1px;}
 .actions-bar .actions{float:left;}
 .actions-bar .pagination{float:right;padding:1px 0;}
-#sidebar{width:25%;float:left;}
+#sidebar{width:18%;float:left;}
 #sidebar h3{padding:10px 15px;margin:0;font-size:13px;}
 #sidebar .block{margin-bottom:20px;padding-bottom:10px;}
 #sidebar .block .content{padding:0 15px;}
 #sidebar ul.navigation li a:link,#sidebar ul.navigation li a:visited{display:block;padding:10px 15px;}
 #sidebar .block .sidebar-block,#sidebar .notice{padding:10px;}
+
+div.red{color:red;font-size:30px;margin:30px 0 35px;}
 
 #SideMenu{padding:20px 0 10px 0;}
 #SideMenu li{margin: 0 0 10px;list-style:none;font-size:14px;}
@@ -98,53 +101,6 @@ ul.list li .item .avatar{float:left;margin:0 5px 5px 0;width:30px;height:30px;}
 /* custom */
 .code{font-family: Courier, 'Courier New', monospace;color:#36393D;}
 /* tables */
-table.tablesorter {
-	font-family:arial;
-	margin:10px 0pt 15px;
-	font-size: 13px;
-	width: 100%;
-	text-align: left;
-}
-table.tablesorter thead tr th, table.tablesorter tfoot tr th {
-	background-color: #999;
-	border: 1px solid #FFF;
-	font-size:14px;
-	padding: 8px 40px;
-}
-table.tablesorter thead tr .header {
-	background-image: url(small.gif);
-	background-repeat: no-repeat;
-	background-position: 13px center;
-	cursor: pointer;
-}
-table.tablesorter thead tr th.last{background-image:none}
-table.tablesorter tbody td {
-	color: #3D3D3D;
-	padding: 4px;
-	background-color: #FFF;
-	vertical-align: top;
-}
-table.tablesorter tbody tr.odd td {#user-navigation{:style => "top:0"}
-          %ul.wat-cf
-            %li=link_to pat(:profile), url(:accounts, :edit, :id => current_account.id)
-            %li=button_to pat(:logout), url(:sessions, :destroy), :method => :delete, :class => :button_to
-            %li
-              %a{:href => "/", :target => "_blank"} Перейти на сайт
-	background-color:#F0F0F6;
-}
-table.tablesorter thead tr .headerSortUp {
-	background-image: url(small_asc.gif);
-}
-table.tablesorter thead tr .headerSortDown {
-	background-image: url(small_desc.gif);
-}
-table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
-background-color: #8dbdd8;
-}
-table.tablesorter thead tr{border:1px solid #ccc}
-table.tablesorter tbody tr td{padding:10px 20px;border:1px solid #ccc}
-
-
 
 .small {
     font-size: 11px;
@@ -197,18 +153,23 @@ hr {
 
 #main .block .content {
     background: #FFF;
-    padding: 10px 20px;
+    padding: 10px 20px 40px;
 }
 
 table {border-spacing:0;border-collapse: collapse;}
 .content table{width:100%;}
-.content table th{padding:5px 10px;border-right:1px solid #fff;background:yellowgreen;color:#fff;font-size:14px;font-weight:normal}
+.content table th{padding:5px 10px;border-right:1px solid #fff;background:yellowgreen;color:#fff;font-size:12px;font-weight:normal}
+.content table th.col-1{width:150px}
+.content table th.col-4, .content table th.col-5{white-space:nowrap;}
 .content table td{padding:10px;border-right:1px solid #ccc;border-bottom:1px solid #ccc}
 .content table td:first-child{border-left:1px solid #ccc}
 
 #main .block .content h2 {
-    margin-left: 15px;
+    margin:10px 0 20px;
 }
+
+#main .block .content .title{margin: 10px 0 35px;color: #7A1818;font-size: 25px;font-weight: normal}
+#main .block .content .title span{color:#666;font-size:15px}
 
 #sidebar .block {
     background: #FFF;
@@ -456,3 +417,11 @@ ul.list li .item .avatar {
     -moz-border-radius-bottomright: 4px;
     -webkit-border-bottom-right-radius: 4px;
 }
+
+
+#ImagesList{padding:0 0 30px;list-style:none}
+#ImagesList li{margin:0 0 25px;}
+
+.content input[type="text"]{width:99%;height:25px;padding:0 5px;border:1px solid #ccc}
+#SeoBlock{display:none;}
+span.toggle{color:#ff4500;border-bottom:1px dashed;font-size:18px;cursor:pointer}

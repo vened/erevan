@@ -8,7 +8,9 @@
     %meta{:content => meta_key, :name => "keywords"}
     %meta{:content => meta_desc, :name => "description"}
     = stylesheet_link_tag "admin"
-    = javascript_include_tag :all
+    = javascript_include_tag "jquery.min"
+    = javascript_include_tag "rails"
+    = javascript_include_tag "admin"
     = javascript_include_tag :ckeditor
     = csrf_meta_tag
 
@@ -36,8 +38,8 @@
             .content
               %ul#SideMenu
                 %li
-                  %a{:href => "/admin/pages"} Статические страницы
+                  %a{:href => "/admin"} Статические страницы
                 %li
-                  %a{:href => "/admin/pages"} Меню
+                  %a{:href => "/admin"} Меню
                 %li
-                  %a{:href => "/admin/pages"} Меню
+                  %a{:href => "/admin"} Меню

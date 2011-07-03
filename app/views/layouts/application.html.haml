@@ -11,6 +11,8 @@
     -#= javascript_include_tag :all
     = javascript_include_tag "jquery.min"
     = javascript_include_tag "jquery.selectbox-0.6.1"
+    = javascript_include_tag "jquery.cycle.lite.min"
+    = javascript_include_tag "main"
     = javascript_include_tag "audio"
     -#= yield(:head)
 
@@ -24,20 +26,8 @@
               %h1.logo
                 %a{:href => "/"}
                   %img{:src => "/img/logo.png", :alt =>"Ресторан Ереван", :title => "Ресторан Ереван"}
-            
-            %ul#menu
-              %li.act
-                %a{:href => "/"} Главная
-              %li
-                %a{:href => "/restaurant"} Ресторан
-              %li
-                %a{:href => "/shashlyk"} Шашлычная
-              %li
-                %a{:href => "1"} Виртуальный тур
-              %li 
-                %a{:href => "1"} Контакты
-              %li
-                %a{:href => "1"} Отзывы
+
+            = raw menu
 
             = raw slider
             

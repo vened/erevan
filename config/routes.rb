@@ -1,13 +1,15 @@
 Erevan::Application.routes.draw do
 
-  #resources :pages
+	# resources :pages
 
 	root :to => "pages#home"
 	match '/restaurant',    :to => 'pages#restaurant'
 	match '/shashlyk',    :to => 'pages#shashlyk'
-
+	
 	namespace :admin do
-		resources :pages
+		resources :pages, :path => "/" do
+			resources :images
+		end
 	end
 
 

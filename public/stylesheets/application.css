@@ -50,7 +50,7 @@ body { width:100%; margin:0 auto; font:14px/1.2 Philosopher, Arial; color:#000;}
 
 
 /* images */
-#slider { margin:55px 0 66px; padding:40px; background:#ffcf88 url("../img/bg2.png");}
+#slider { height:247px;margin:55px 0 66px; padding:40px; background:#ffcf88 url("../img/bg2.png");}
 #slider img { vertical-align:top;}
 .tour { margin:31px 0 66px; padding:10px; background:#ffcf88 url("../img/bg2.png");}
 #tour  img { vertical-align:top;}

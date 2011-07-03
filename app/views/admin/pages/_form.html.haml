@@ -1,20 +1,24 @@
-= form_for [:admin, @page] do |f|
+= form_for [:admin, @page], :html => {:multipart => true} do |f|
   = f.error_messages
   %p
-    = f.label :meta_key
-    %br
-    = f.text_field :meta_key
-  %p
-    = f.label :meta_desc
-    %br
-    = f.text_field :meta_desc
-  %p
-    = f.label :title
+    = f.label :title, "Заголовок"
     %br
     = f.text_field :title
   %p
-    = f.label :desc
+    = f.label :desc, "Текст"
     %br
     = f.cktext_area :desc, :language => 'ru'
+  %div#SeoSwith
+    %span.toggle SEO данные
+  #SeoBlock
+    %p
+      = f.label :meta_key, "Meta Key - Ключевые слова, через запятую"
+      %br
+      = f.text_field :meta_key
+    %p
+      = f.label :meta_desc, "Meta Desc - Краткое описание"
+      %br
+      = f.text_field :meta_desc
+
   %p
-    = f.submit
+    = f.submit "Сохранить"

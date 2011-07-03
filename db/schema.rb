@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110629172658) do
+ActiveRecord::Schema.define(:version => 20110629172660) do
 
   create_table "ckeditor_assets", :force => true do |t|
     t.string   "data_file_name",                                 :null => false
@@ -30,6 +30,13 @@ ActiveRecord::Schema.define(:version => 20110629172658) do
   add_index "ckeditor_assets", ["assetable_type", "type", "assetable_id"], :name => "idx_assetable_type"
   add_index "ckeditor_assets", ["user_id"], :name => "fk_user"
 
+  create_table "images", :force => true do |t|
+    t.string   "image"
+    t.integer  "page_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "pages", :force => true do |t|
     t.string   "meta_key"
     t.string   "meta_desc"
@@ -38,6 +45,7 @@ ActiveRecord::Schema.define(:version => 20110629172658) do
     t.text     "desc"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "image"
   end
 
 end

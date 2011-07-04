@@ -30,11 +30,16 @@ GEM
     activesupport (3.0.8)
     annotate-models (1.0.4)
     arel (2.0.10)
+    bcrypt-ruby (2.1.4)
     builder (2.1.2)
     carrierwave (0.5.4)
       activesupport (~> 3.0)
     ckeditor (3.5.0)
       mime-types (>= 1.16)
+    devise (1.3.3)
+      bcrypt-ruby (~> 2.1.2)
+      orm_adapter (~> 0.0.3)
+      warden (~> 1.0.3)
     erubis (2.6.6)
       abstract (>= 1.0.0)
     haml (3.1.2)
@@ -48,8 +53,8 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.16)
-    mocha (0.9.12)
     nifty-generators (0.4.6)
+    orm_adapter (0.0.5)
     paperclip (2.3.11)
       activerecord (>= 2.3.0)
       activesupport (>= 2.3.2)
@@ -79,6 +84,8 @@ GEM
     treetop (1.4.9)
       polyglot (>= 0.3.1)
     tzinfo (0.3.29)
+    warden (1.0.4)
+      rack (>= 1.0)
     will_paginate (3.0.pre2)
 
 PLATFORMS
@@ -88,12 +95,12 @@ DEPENDENCIES
   annotate-models (= 1.0.4)
   carrierwave
   ckeditor
+  devise
   haml
   jquery-rails
-  mocha
   nifty-generators
   paperclip (~> 2.3)
   rails (= 3.0.8)
   rmagick
-  sqlite3
+  sqlite3 (= 1.3.3)
   will_paginate (~> 3.0.pre2)

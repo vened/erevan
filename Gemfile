@@ -10,6 +10,7 @@ gem 'ckeditor'
 gem "paperclip", "~> 2.3"
 gem "rmagick"
 gem 'carrierwave'
+gem 'devise'
 
 
 group :development do

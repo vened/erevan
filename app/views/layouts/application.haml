@@ -21,8 +21,14 @@
           %a{:href => "/admin"} Админка
         #user-navigation{:style => "top:15px"}
           %ul.wat-cf
-            %li sdfasfd
-            %li sdfrf
+            -if user_signed_in?
+              %li
+                %b Вы вошли как
+              %li
+                %b= current_user.email
+              %li
+                %b= link_to "Выйти", destroy_user_session_path
+
             %li
               %a{:href => "/", :target => "_blank"} Перейти на сайт
       #wrapper.wat-cf

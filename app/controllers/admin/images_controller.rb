@@ -1,17 +1,19 @@
 # encoding: utf-8
 class Admin::ImagesController < ApplicationController
 
+  before_filter :authenticate_user!
+
 	def index
     @page = Page.find(params[:page_id])
     @image = Image.new(params[:id])
     @images = @page.images
-		render :layout => 'admin'
+		render :layout => 'application'
   end
 
 	def create
 		@page = Page.find(params[:page_id])
 		@image = @page.images.create(params[:image])
-		redirect_to admin_page_images_path
+		render :layout => 'application'
 	end
 
 

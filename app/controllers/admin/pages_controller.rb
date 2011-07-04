@@ -1,19 +1,21 @@
 # encoding: utf-8
 class Admin::PagesController < ApplicationController
+
+  before_filter :authenticate_user!
 		
 	def index
     @pages = Page.all
-		render :layout => 'admin'
+		render :layout => 'application'
   end
 
 	def show
     @page = Page.find(params[:id])
-		render :layout => 'admin'
+		render :layout => 'application'
   end
 
 	def new
     @page = Page.new
-		render :layout => 'admin'
+		render :layout => 'application'
   end
 
   def create
@@ -21,13 +23,13 @@ class Admin::PagesController < ApplicationController
     if @page.save
       redirect_to [:admin, @page], :notice => "Странца успешно создана"
     else
-      render :action => 'new'
+      render :layout => 'application'
     end
   end
 
   def edit
     @page = Page.find(params[:id])
-		render :layout => 'admin'
+		render :layout => 'application'
   end
 
   def update
@@ -35,7 +37,7 @@ class Admin::PagesController < ApplicationController
     if @page.update_attributes(params[:page])
       redirect_to [:admin, @page], :notice  => "Странца успешно обновлена"
     else
-      render :action => 'edit'
+      render :layout => 'application'
     end
   end
 

@@ -1,5 +1,7 @@
 Erevan::Application.routes.draw do
 
+  devise_for :users, :controllers => { :sessions => "admin/sessions" }, :path => "/admin"
+
   resources :feedbacks
 
 	# resources :pages

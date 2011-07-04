@@ -51,6 +51,8 @@ div.red{color:red;font-size:30px;margin:30px 0 35px;}
 #main-navigation ul li a:link,#main-navigation ul li a:visited,#main-navigation ul li a:hover,#main-navigation ul li a:active,
 .secondary-navigation ul li a:link,.secondary-navigation ul li a:visited,.secondary-navigation ul li a:hover,.secondary-navigation ul li a:active,
 #user-navigation ul li a:link,#user-navigation ul li a:visited,#user-navigation ul li a:hover,#user-navigation ul li a:active{text-decoration:none;}
+#user-navigation ul li b{color:#fff}
+#user-navigation ul li b a{color:#87ceeb !important;}
 #main-navigation ul li a{font-size:14px;line-height:14px;display:block;padding:8px 15px;}
 .secondary-navigation{font-size:13px;border-bottom-width:10px;border-bottom-style:solid;}
 .secondary-navigation ul li a{display:block;padding:10px 15px;}

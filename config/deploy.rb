@@ -30,8 +30,8 @@ task :copy_database_config, roles => :app do
 end
 
 set :unicorn_rails, "/var/lib/gems/1.8/bin/unicorn_rails"
-set :unicorn_conf, "/etc/unicorn/erevan.maxstbn.rb"
-set :unicorn_pid, "/var/run/unicorn/erevan.maxstbn.pid"
+set :unicorn_conf, "/etc/unicorn/erevan/hosting_maxstbn.rb"
+set :unicorn_pid, "/var/run/unicorn/erevan/hosting_maxstbn.pid"
 
 # - for unicorn - #
 namespace :deploy do

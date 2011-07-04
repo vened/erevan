@@ -1,0 +1,1095 @@
+
+
+Started GET "/admin" for 127.0.0.1 at 2011-07-03 18:06:14 +0400
+  Processing by Admin::PagesController#index as HTML
+Completed 500 Internal Server Error in 109ms
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: pages: SELECT "pages".* FROM "pages"):
+  app/controllers/admin/pages_controller.rb:5:in `index'
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (14.5ms)
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.5ms)
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.8ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2011-07-03 18:06:14 +0400
+
+ActionController::RoutingError (No route matches "/favicon.ico"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2011-07-03 18:06:15 +0400
+
+ActionController::RoutingError (No route matches "/favicon.ico"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.5ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2011-07-03 18:07:45 +0400
+  Processing by Admin::PagesController#index as HTML
+Completed 500 Internal Server Error in 107ms
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: pages: SELECT "pages".* FROM "pages"):
+  app/controllers/admin/pages_controller.rb:5:in `index'
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.3ms)
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.2ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2011-07-03 18:08:23 +0400
+  Processing by Admin::PagesController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: pages: SELECT "pages".* FROM "pages"):
+  app/controllers/admin/pages_controller.rb:5:in `index'
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.8ms)
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.9ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2011-07-03 18:08:24 +0400
+  Processing by Admin::PagesController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: pages: SELECT "pages".* FROM "pages"):
+  app/controllers/admin/pages_controller.rb:5:in `index'
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.0ms)
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.7ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2011-07-03 18:08:49 +0400
+  Processing by Admin::PagesController#index as HTML
+Rendered admin/pages/index.html.haml within layouts/admin (81.8ms)
+Completed 200 OK in 191ms (Views: 84.3ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/stylesheets/admin.css?1309701765" for 127.0.0.1 at 2011-07-03 18:08:49 +0400
+
+ActionController::RoutingError (No route matches "/stylesheets/admin.css"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/javascripts/ckeditor/ckeditor.js?1309350726" for 127.0.0.1 at 2011-07-03 18:08:49 +0400
+
+ActionController::RoutingError (No route matches "/javascripts/ckeditor/ckeditor.js"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/javascripts/rails.js?1309322437" for 127.0.0.1 at 2011-07-03 18:08:49 +0400
+
+ActionController::RoutingError (No route matches "/javascripts/rails.js"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/javascripts/admin.js?1309699543" for 127.0.0.1 at 2011-07-03 18:08:49 +0400
+
+ActionController::RoutingError (No route matches "/javascripts/admin.js"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/javascripts/jquery.min.js?1309322435" for 127.0.0.1 at 2011-07-03 18:08:49 +0400
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.min.js"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.9ms)
+
+
+Started GET "/uploads/image/image/43/thumb_bnn_rest.jpg?1309700673" for 127.0.0.1 at 2011-07-03 18:08:49 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/43/thumb_bnn_rest.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/uploads/image/image/45/thumb_bnn_shash.jpg?1309700688" for 127.0.0.1 at 2011-07-03 18:08:49 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/45/thumb_bnn_shash.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/uploads/image/image/44/thumb_bnn_shash.jpg?1309700679" for 127.0.0.1 at 2011-07-03 18:08:49 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/44/thumb_bnn_shash.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/uploads/image/image/46/thumb_bnn_rest.jpg?1309701787" for 127.0.0.1 at 2011-07-03 18:08:49 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/46/thumb_bnn_rest.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/uploads/image/image/47/thumb_bnn_main.jpg?1309701798" for 127.0.0.1 at 2011-07-03 18:08:49 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/47/thumb_bnn_main.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.6ms)
+
+
+Started GET "/javascripts/rails.js?1309322437" for 127.0.0.1 at 2011-07-03 18:08:49 +0400
+
+ActionController::RoutingError (No route matches "/javascripts/rails.js"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/javascripts/admin.js?1309699543" for 127.0.0.1 at 2011-07-03 18:08:49 +0400
+
+ActionController::RoutingError (No route matches "/javascripts/admin.js"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/javascripts/ckeditor/ckeditor.js?1309350726" for 127.0.0.1 at 2011-07-03 18:08:49 +0400
+
+ActionController::RoutingError (No route matches "/javascripts/ckeditor/ckeditor.js"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/uploads/image/image/43/thumb_bnn_rest.jpg?1309700673" for 127.0.0.1 at 2011-07-03 18:08:49 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/43/thumb_bnn_rest.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/uploads/image/image/45/thumb_bnn_shash.jpg?1309700688" for 127.0.0.1 at 2011-07-03 18:08:49 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/45/thumb_bnn_shash.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/uploads/image/image/44/thumb_bnn_shash.jpg?1309700679" for 127.0.0.1 at 2011-07-03 18:08:49 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/44/thumb_bnn_shash.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/uploads/image/image/46/thumb_bnn_rest.jpg?1309701787" for 127.0.0.1 at 2011-07-03 18:08:49 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/46/thumb_bnn_rest.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.3ms)
+
+
+Started GET "/uploads/image/image/47/thumb_bnn_main.jpg?1309701798" for 127.0.0.1 at 2011-07-03 18:08:50 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/47/thumb_bnn_main.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2011-07-03 18:08:51 +0400
+  Processing by Admin::PagesController#index as HTML
+Rendered admin/pages/index.html.haml within layouts/admin (71.2ms)
+Completed 200 OK in 81ms (Views: 78.3ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/stylesheets/admin.css?1309701765" for 127.0.0.1 at 2011-07-03 18:08:51 +0400
+
+ActionController::RoutingError (No route matches "/stylesheets/admin.css"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/javascripts/jquery.min.js?1309322435" for 127.0.0.1 at 2011-07-03 18:08:51 +0400
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.min.js"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/javascripts/admin.js?1309699543" for 127.0.0.1 at 2011-07-03 18:08:51 +0400
+
+ActionController::RoutingError (No route matches "/javascripts/admin.js"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/javascripts/rails.js?1309322437" for 127.0.0.1 at 2011-07-03 18:08:51 +0400
+
+ActionController::RoutingError (No route matches "/javascripts/rails.js"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/uploads/image/image/43/thumb_bnn_rest.jpg?1309700673" for 127.0.0.1 at 2011-07-03 18:08:51 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/43/thumb_bnn_rest.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/javascripts/ckeditor/ckeditor.js?1309350726" for 127.0.0.1 at 2011-07-03 18:08:51 +0400
+
+ActionController::RoutingError (No route matches "/javascripts/ckeditor/ckeditor.js"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/uploads/image/image/44/thumb_bnn_shash.jpg?1309700679" for 127.0.0.1 at 2011-07-03 18:08:51 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/44/thumb_bnn_shash.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/uploads/image/image/45/thumb_bnn_shash.jpg?1309700688" for 127.0.0.1 at 2011-07-03 18:08:51 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/45/thumb_bnn_shash.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/uploads/image/image/46/thumb_bnn_rest.jpg?1309701787" for 127.0.0.1 at 2011-07-03 18:08:51 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/46/thumb_bnn_rest.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/uploads/image/image/47/thumb_bnn_main.jpg?1309701798" for 127.0.0.1 at 2011-07-03 18:08:51 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/47/thumb_bnn_main.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/javascripts/admin.js?1309699543" for 127.0.0.1 at 2011-07-03 18:08:51 +0400
+
+ActionController::RoutingError (No route matches "/javascripts/admin.js"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.9ms)
+
+
+Started GET "/javascripts/ckeditor/ckeditor.js?1309350726" for 127.0.0.1 at 2011-07-03 18:08:52 +0400
+
+ActionController::RoutingError (No route matches "/javascripts/ckeditor/ckeditor.js"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/uploads/image/image/44/thumb_bnn_shash.jpg?1309700679" for 127.0.0.1 at 2011-07-03 18:08:52 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/44/thumb_bnn_shash.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/uploads/image/image/43/thumb_bnn_rest.jpg?1309700673" for 127.0.0.1 at 2011-07-03 18:08:52 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/43/thumb_bnn_rest.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/uploads/image/image/45/thumb_bnn_shash.jpg?1309700688" for 127.0.0.1 at 2011-07-03 18:08:52 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/45/thumb_bnn_shash.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/uploads/image/image/46/thumb_bnn_rest.jpg?1309701787" for 127.0.0.1 at 2011-07-03 18:08:52 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/46/thumb_bnn_rest.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/uploads/image/image/47/thumb_bnn_main.jpg?1309701798" for 127.0.0.1 at 2011-07-03 18:08:52 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/47/thumb_bnn_main.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.9ms)
+
+
+Started GET "/admin/1/images" for 127.0.0.1 at 2011-07-03 18:08:57 +0400
+  Processing by Admin::ImagesController#index as HTML
+  Parameters: {"page_id"=>"1"}
+Rendered admin/images/_images.haml (17.3ms)
+Rendered admin/images/_new.haml (12.0ms)
+Rendered admin/images/index.haml within layouts/admin (37.1ms)
+Completed 200 OK in 43ms (Views: 39.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/stylesheets/admin.css?1309701765" for 127.0.0.1 at 2011-07-03 18:08:58 +0400
+
+ActionController::RoutingError (No route matches "/stylesheets/admin.css"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.9ms)
+
+
+Started GET "/javascripts/admin.js?1309699543" for 127.0.0.1 at 2011-07-03 18:08:58 +0400
+
+ActionController::RoutingError (No route matches "/javascripts/admin.js"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/javascripts/jquery.min.js?1309322435" for 127.0.0.1 at 2011-07-03 18:08:58 +0400
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.min.js"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/javascripts/ckeditor/ckeditor.js?1309350726" for 127.0.0.1 at 2011-07-03 18:08:58 +0400
+
+ActionController::RoutingError (No route matches "/javascripts/ckeditor/ckeditor.js"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/javascripts/rails.js?1309322437" for 127.0.0.1 at 2011-07-03 18:08:58 +0400
+
+ActionController::RoutingError (No route matches "/javascripts/rails.js"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/uploads/image/image/43/pic_head_bnn_rest.jpg?1309700673" for 127.0.0.1 at 2011-07-03 18:08:58 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/43/pic_head_bnn_rest.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (4.6ms)
+
+
+Started GET "/uploads/image/image/44/pic_head_bnn_shash.jpg?1309700679" for 127.0.0.1 at 2011-07-03 18:08:58 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/44/pic_head_bnn_shash.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.6ms)
+
+
+Started GET "/uploads/image/image/45/pic_head_bnn_shash.jpg?1309700688" for 127.0.0.1 at 2011-07-03 18:08:58 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/45/pic_head_bnn_shash.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/javascripts/admin.js?1309699543" for 127.0.0.1 at 2011-07-03 18:08:58 +0400
+
+ActionController::RoutingError (No route matches "/javascripts/admin.js"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/javascripts/ckeditor/ckeditor.js?1309350726" for 127.0.0.1 at 2011-07-03 18:08:58 +0400
+
+ActionController::RoutingError (No route matches "/javascripts/ckeditor/ckeditor.js"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.9ms)
+
+
+Started GET "/uploads/image/image/43/pic_head_bnn_rest.jpg?1309700673" for 127.0.0.1 at 2011-07-03 18:08:58 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/43/pic_head_bnn_rest.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.9ms)
+
+
+Started GET "/uploads/image/image/44/pic_head_bnn_shash.jpg?1309700679" for 127.0.0.1 at 2011-07-03 18:08:58 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/44/pic_head_bnn_shash.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/uploads/image/image/45/pic_head_bnn_shash.jpg?1309700688" for 127.0.0.1 at 2011-07-03 18:08:58 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/45/pic_head_bnn_shash.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (12.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-03 18:09:08 +0400
+  Processing by PagesController#home as HTML
+Rendered pages/_cont.haml (2.0ms)
+Rendered pages/home.haml within layouts/application (27.5ms)
+Completed 200 OK in 43ms (Views: 32.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/stylesheets/application.css?1309352130" for 127.0.0.1 at 2011-07-03 18:09:08 +0400
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/javascripts/jquery.selectbox-0.6.1.js?1309322623" for 127.0.0.1 at 2011-07-03 18:09:08 +0400
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.selectbox-0.6.1.js"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/javascripts/jquery.min.js?1309322435" for 127.0.0.1 at 2011-07-03 18:09:08 +0400
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.min.js"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/javascripts/audio.js?1309322614" for 127.0.0.1 at 2011-07-03 18:09:08 +0400
+
+ActionController::RoutingError (No route matches "/javascripts/audio.js"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/img/logo.png" for 127.0.0.1 at 2011-07-03 18:09:08 +0400
+
+ActionController::RoutingError (No route matches "/img/logo.png"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/img/bnn_main.jpg" for 127.0.0.1 at 2011-07-03 18:09:08 +0400
+
+ActionController::RoutingError (No route matches "/img/bnn_main.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.6ms)
+
+
+Started GET "/uploads/image/image/43/pic_head_bnn_rest.jpg?1309700673" for 127.0.0.1 at 2011-07-03 18:09:08 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/43/pic_head_bnn_rest.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (17.7ms)
+
+
+Started GET "/uploads/image/image/44/pic_head_bnn_shash.jpg?1309700679" for 127.0.0.1 at 2011-07-03 18:09:08 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/44/pic_head_bnn_shash.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/uploads/image/image/45/pic_head_bnn_shash.jpg?1309700688" for 127.0.0.1 at 2011-07-03 18:09:08 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/45/pic_head_bnn_shash.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/img/status.png" for 127.0.0.1 at 2011-07-03 18:09:08 +0400
+
+ActionController::RoutingError (No route matches "/img/status.png"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/javascripts/audio.js?1309322614" for 127.0.0.1 at 2011-07-03 18:09:08 +0400
+
+ActionController::RoutingError (No route matches "/javascripts/audio.js"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/img/logo.png" for 127.0.0.1 at 2011-07-03 18:09:08 +0400
+
+ActionController::RoutingError (No route matches "/img/logo.png"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/img/bnn_main.jpg" for 127.0.0.1 at 2011-07-03 18:09:08 +0400
+
+ActionController::RoutingError (No route matches "/img/bnn_main.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.8ms)
+
+
+Started GET "/uploads/image/image/43/pic_head_bnn_rest.jpg?1309700673" for 127.0.0.1 at 2011-07-03 18:09:08 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/43/pic_head_bnn_rest.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (8.5ms)
+
+
+Started GET "/uploads/image/image/44/pic_head_bnn_shash.jpg?1309700679" for 127.0.0.1 at 2011-07-03 18:09:08 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/44/pic_head_bnn_shash.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/uploads/image/image/45/pic_head_bnn_shash.jpg?1309700688" for 127.0.0.1 at 2011-07-03 18:09:08 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/45/pic_head_bnn_shash.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/img/status.png" for 127.0.0.1 at 2011-07-03 18:09:08 +0400
+
+ActionController::RoutingError (No route matches "/img/status.png"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2011-07-03 18:09:24 +0400
+  Processing by Admin::PagesController#index as HTML
+Rendered admin/pages/index.html.haml within layouts/admin (18.6ms)
+Completed 200 OK in 21ms (Views: 18.7ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/stylesheets/admin.css?1309701765" for 127.0.0.1 at 2011-07-03 18:09:24 +0400
+
+ActionController::RoutingError (No route matches "/stylesheets/admin.css"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (68.4ms)
+
+
+Started GET "/javascripts/admin.js?1309699543" for 127.0.0.1 at 2011-07-03 18:09:24 +0400
+
+ActionController::RoutingError (No route matches "/javascripts/admin.js"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/uploads/image/image/43/thumb_bnn_rest.jpg?1309700673" for 127.0.0.1 at 2011-07-03 18:09:24 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/43/thumb_bnn_rest.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/javascripts/jquery.min.js?1309322435" for 127.0.0.1 at 2011-07-03 18:09:24 +0400
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.min.js"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/javascripts/ckeditor/ckeditor.js?1309350726" for 127.0.0.1 at 2011-07-03 18:09:24 +0400
+
+ActionController::RoutingError (No route matches "/javascripts/ckeditor/ckeditor.js"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/javascripts/rails.js?1309322437" for 127.0.0.1 at 2011-07-03 18:09:24 +0400
+
+ActionController::RoutingError (No route matches "/javascripts/rails.js"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/uploads/image/image/44/thumb_bnn_shash.jpg?1309700679" for 127.0.0.1 at 2011-07-03 18:09:24 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/44/thumb_bnn_shash.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/uploads/image/image/45/thumb_bnn_shash.jpg?1309700688" for 127.0.0.1 at 2011-07-03 18:09:24 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/45/thumb_bnn_shash.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.9ms)
+
+
+Started GET "/uploads/image/image/46/thumb_bnn_rest.jpg?1309701787" for 127.0.0.1 at 2011-07-03 18:09:24 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/46/thumb_bnn_rest.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.8ms)
+
+
+Started GET "/uploads/image/image/47/thumb_bnn_main.jpg?1309701798" for 127.0.0.1 at 2011-07-03 18:09:24 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/47/thumb_bnn_main.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.3ms)
+
+
+Started GET "/javascripts/admin.js?1309699543" for 127.0.0.1 at 2011-07-03 18:09:24 +0400
+
+ActionController::RoutingError (No route matches "/javascripts/admin.js"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.7ms)
+
+
+Started GET "/javascripts/ckeditor/ckeditor.js?1309350726" for 127.0.0.1 at 2011-07-03 18:09:24 +0400
+
+ActionController::RoutingError (No route matches "/javascripts/ckeditor/ckeditor.js"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/uploads/image/image/43/thumb_bnn_rest.jpg?1309700673" for 127.0.0.1 at 2011-07-03 18:09:24 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/43/thumb_bnn_rest.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/uploads/image/image/44/thumb_bnn_shash.jpg?1309700679" for 127.0.0.1 at 2011-07-03 18:09:24 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/44/thumb_bnn_shash.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/uploads/image/image/46/thumb_bnn_rest.jpg?1309701787" for 127.0.0.1 at 2011-07-03 18:09:24 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/46/thumb_bnn_rest.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/uploads/image/image/47/thumb_bnn_main.jpg?1309701798" for 127.0.0.1 at 2011-07-03 18:09:25 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/47/thumb_bnn_main.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/uploads/image/image/45/thumb_bnn_shash.jpg?1309700688" for 127.0.0.1 at 2011-07-03 18:09:25 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/45/thumb_bnn_shash.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2011-07-03 18:12:41 +0400
+  Processing by Admin::PagesController#index as HTML
+Rendered admin/pages/index.html.haml within layouts/admin (327.3ms)
+Completed 200 OK in 489ms (Views: 329.6ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/stylesheets/admin.css?1309701765" for 127.0.0.1 at 2011-07-03 18:12:42 +0400
+
+ActionController::RoutingError (No route matches "/stylesheets/admin.css"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/uploads/image/image/44/thumb_bnn_shash.jpg?1309700679" for 127.0.0.1 at 2011-07-03 18:12:43 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/44/thumb_bnn_shash.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/javascripts/rails.js?1309322437" for 127.0.0.1 at 2011-07-03 18:12:43 +0400
+
+ActionController::RoutingError (No route matches "/javascripts/rails.js"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/javascripts/jquery.min.js?1309322435" for 127.0.0.1 at 2011-07-03 18:12:43 +0400
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.min.js"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/javascripts/ckeditor/ckeditor.js?1309350726" for 127.0.0.1 at 2011-07-03 18:12:43 +0400
+
+ActionController::RoutingError (No route matches "/javascripts/ckeditor/ckeditor.js"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/javascripts/admin.js?1309699543" for 127.0.0.1 at 2011-07-03 18:12:43 +0400
+
+ActionController::RoutingError (No route matches "/javascripts/admin.js"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.9ms)
+
+
+Started GET "/uploads/image/image/43/thumb_bnn_rest.jpg?1309700673" for 127.0.0.1 at 2011-07-03 18:12:43 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/43/thumb_bnn_rest.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.7ms)
+
+
+Started GET "/uploads/image/image/45/thumb_bnn_shash.jpg?1309700688" for 127.0.0.1 at 2011-07-03 18:12:43 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/45/thumb_bnn_shash.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.0ms)
+
+
+Started GET "/uploads/image/image/47/thumb_bnn_main.jpg?1309701798" for 127.0.0.1 at 2011-07-03 18:12:43 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/47/thumb_bnn_main.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/uploads/image/image/46/thumb_bnn_rest.jpg?1309701787" for 127.0.0.1 at 2011-07-03 18:12:43 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/46/thumb_bnn_rest.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.2ms)
+
+
+Started GET "/javascripts/rails.js?1309322437" for 127.0.0.1 at 2011-07-03 18:12:43 +0400
+
+ActionController::RoutingError (No route matches "/javascripts/rails.js"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.3ms)
+
+
+Started GET "/javascripts/admin.js?1309699543" for 127.0.0.1 at 2011-07-03 18:12:43 +0400
+
+ActionController::RoutingError (No route matches "/javascripts/admin.js"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/javascripts/ckeditor/ckeditor.js?1309350726" for 127.0.0.1 at 2011-07-03 18:12:43 +0400
+
+ActionController::RoutingError (No route matches "/javascripts/ckeditor/ckeditor.js"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/uploads/image/image/43/thumb_bnn_rest.jpg?1309700673" for 127.0.0.1 at 2011-07-03 18:12:43 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/43/thumb_bnn_rest.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/uploads/image/image/44/thumb_bnn_shash.jpg?1309700679" for 127.0.0.1 at 2011-07-03 18:12:43 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/44/thumb_bnn_shash.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/uploads/image/image/45/thumb_bnn_shash.jpg?1309700688" for 127.0.0.1 at 2011-07-03 18:12:43 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/45/thumb_bnn_shash.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/uploads/image/image/46/thumb_bnn_rest.jpg?1309701787" for 127.0.0.1 at 2011-07-03 18:12:43 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/46/thumb_bnn_rest.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (5.8ms)
+
+
+Started GET "/uploads/image/image/47/thumb_bnn_main.jpg?1309701798" for 127.0.0.1 at 2011-07-03 18:12:43 +0400
+
+ActionController::RoutingError (No route matches "/uploads/image/image/47/thumb_bnn_main.jpg"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (4.2ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2011-07-03 18:13:11 +0400
+  Processing by Admin::PagesController#index as HTML
+Rendered admin/pages/index.html.haml within layouts/admin (88.5ms)
+Completed 200 OK in 214ms (Views: 91.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/admin/1/images" for 127.0.0.1 at 2011-07-03 18:13:15 +0400
+  Processing by Admin::ImagesController#index as HTML
+  Parameters: {"page_id"=>"1"}
+Rendered admin/images/_images.haml (17.0ms)
+Rendered admin/images/_new.haml (9.5ms)
+Rendered admin/images/index.haml within layouts/admin (33.2ms)
+Completed 200 OK in 39ms (Views: 35.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-03 18:13:25 +0400
+  Processing by PagesController#home as HTML
+Rendered pages/_cont.haml (2.0ms)
+Rendered pages/home.haml within layouts/application (30.1ms)
+Completed 200 OK in 46ms (Views: 35.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/restaurant" for 127.0.0.1 at 2011-07-03 18:13:28 +0400
+  Processing by PagesController#restaurant as HTML
+Rendered pages/_cont.haml (0.2ms)
+Rendered pages/restaurant.haml within layouts/application (3.7ms)
+Completed 200 OK in 24ms (Views: 22.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/shashlyk" for 127.0.0.1 at 2011-07-03 18:13:30 +0400
+  Processing by PagesController#shashlyk as HTML
+Rendered pages/_cont.haml (0.3ms)
+Rendered pages/shashlyk.haml within layouts/application (4.7ms)
+Completed 200 OK in 16ms (Views: 14.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2011-07-03 18:13:31 +0400
+
+ActionController::RoutingError (No route matches "/1"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.3ms)
+
+
+Started GET "/1" for 127.0.0.1 at 2011-07-03 18:13:39 +0400
+
+ActionController::RoutingError (No route matches "/1"):
+  
+
+Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/shashlyk" for 127.0.0.1 at 2011-07-03 18:13:46 +0400
+  Processing by PagesController#shashlyk as HTML
+Rendered pages/_cont.haml (0.2ms)
+Rendered pages/shashlyk.haml within layouts/application (2.3ms)
+Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/restaurant" for 127.0.0.1 at 2011-07-03 18:13:47 +0400
+  Processing by PagesController#restaurant as HTML
+Rendered pages/_cont.haml (0.3ms)
+Rendered pages/restaurant.haml within layouts/application (2.4ms)
+Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-03 18:13:49 +0400
+  Processing by PagesController#home as HTML
+Rendered pages/_cont.haml (0.2ms)
+Rendered pages/home.haml within layouts/application (8.5ms)
+Completed 200 OK in 12ms (Views: 9.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/restaurant" for 127.0.0.1 at 2011-07-03 18:13:50 +0400
+  Processing by PagesController#restaurant as HTML
+Rendered pages/_cont.haml (0.2ms)
+Rendered pages/restaurant.haml within layouts/application (2.4ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/shashlyk" for 127.0.0.1 at 2011-07-03 18:13:52 +0400
+  Processing by PagesController#shashlyk as HTML
+Rendered pages/_cont.haml (0.3ms)
+Rendered pages/shashlyk.haml within layouts/application (2.2ms)
+Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-03 18:13:53 +0400
+  Processing by PagesController#home as HTML
+Rendered pages/_cont.haml (0.3ms)
+Rendered pages/home.haml within layouts/application (9.9ms)
+Completed 200 OK in 13ms (Views: 10.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-07-03 18:13:58 +0400
+  Processing by PagesController#home as HTML
+Rendered pages/_cont.haml (0.3ms)
+Rendered pages/home.haml within layouts/application (9.4ms)
+Completed 200 OK in 12ms (Views: 9.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2011-07-03 18:14:01 +0400
+  Processing by Admin::PagesController#index as HTML
+Rendered admin/pages/index.html.haml within layouts/admin (18.2ms)
+Completed 200 OK in 21ms (Views: 18.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/admin/1/edit" for 127.0.0.1 at 2011-07-03 18:14:04 +0400
+  Processing by Admin::PagesController#edit as HTML
+  Parameters: {"id"=>"1"}
+Rendered admin/pages/_form.html.haml (11.0ms)
+Rendered admin/pages/edit.html.haml within layouts/admin (16.7ms)
+Completed 200 OK in 21ms (Views: 18.6ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/admin/1" for 127.0.0.1 at 2011-07-03 18:14:07 +0400
+  Processing by Admin::PagesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"naxoX/yaPE+kU5BycRzSS9qFWtxq8BCwHDa0kYZs8mg=", "page"=>{"title"=>"О ресторане", "desc"=>"<p>\r\n\tГостеприимный Ереван распахивает Вам свои объятия. Живая музыка, знаменитая армянская кухня, зажигательные танцы прекрасных девушек. 5 уютных и комфортабельных залов. Безупречный сервис непередаваемая атмосфера древней, но всегда юной Армении. Это ресторан Ереван. Армянская кухня (все ингридиенты привезены из Армении) - одна из самых древних в мире. Именно поэтому ресторан &quot;Ереван&quot; пользуется заслуженной популярностью у саратовцев и гостей города.</p>\r\n<p>\r\n\tРесторан расположен на нескольких этажах. Уютный интерьер, оформленный в светлых тонах, добротная деревянная мебель, создают у гостей радостное и благодушное настроение. В стильном интерьере причудливо переплелись европейское изящество и сочный южный колорит. Традиционная армянская кухня и блюда авторской кухни способны порадовать самого искушенного гурмана.</p>\r\n<p>\r\n\tВ Ереване можно провести официальное мероприятие, посидеть дружной компанией или провести романтическое свидание. В ресторане создана обширная кухня, но предпочтения отдаются армянским блюдам. Здесь по вашему выбору приготовят более 25 видов шашлыка и можно отведать лучшие блюда кавказской кухни, приготовленные по древним рецептам. В распоряжении посетителей обширная карта вин и армянских коньяков.</p>\r\n", "meta_key"=>"О ресторане", "meta_desc"=>"О ресторане"}, "commit"=>"Сохранить", "id"=>"1"}
+Redirected to http://localhost:3000/admin/1
+Completed 302 Found in 7ms
+
+
+Started GET "/admin/1" for 127.0.0.1 at 2011-07-03 18:14:07 +0400
+  Processing by Admin::PagesController#show as HTML
+  Parameters: {"id"=>"1"}
+Rendered admin/pages/show.html.haml within layouts/admin (6.2ms)
+Completed 200 OK in 11ms (Views: 8.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2011-07-03 18:14:09 +0400
+  Processing by Admin::PagesController#index as HTML
+Rendered admin/pages/index.html.haml within layouts/admin (22.4ms)
+Completed 200 OK in 25ms (Views: 22.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/admin/2/edit" for 127.0.0.1 at 2011-07-03 18:14:13 +0400
+  Processing by Admin::PagesController#edit as HTML
+  Parameters: {"id"=>"2"}
+Rendered admin/pages/_form.html.haml (12.1ms)
+Rendered admin/pages/edit.html.haml within layouts/admin (16.3ms)
+Completed 200 OK in 19ms (Views: 17.3ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/admin/2" for 127.0.0.1 at 2011-07-03 18:14:15 +0400
+  Processing by Admin::PagesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"naxoX/yaPE+kU5BycRzSS9qFWtxq8BCwHDa0kYZs8mg=", "page"=>{"title"=>"Ресторан", "desc"=>"<p>\r\n\tГостеприимный Ереван распахивает Вам свои объятия. Живая музыка, знаменитая армянская кухня, зажигательные танцы прекрасных девушек. 5 уютных и комфортабельных залов. Безупречный сервис непередаваемая атмосфера древней, но всегда юной Армении. Это ресторан Ереван.</p>\r\n", "meta_key"=>"Ресторан", "meta_desc"=>"Ресторан"}, "commit"=>"Сохранить", "id"=>"2"}
+Redirected to http://localhost:3000/admin/2
+Completed 302 Found in 5ms
+
+
+Started GET "/admin/2" for 127.0.0.1 at 2011-07-03 18:14:15 +0400
+  Processing by Admin::PagesController#show as HTML
+  Parameters: {"id"=>"2"}
+Rendered admin/pages/show.html.haml within layouts/admin (3.5ms)
+Completed 200 OK in 7ms (Views: 4.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2011-07-03 18:14:19 +0400
+  Processing by Admin::PagesController#index as HTML
+Rendered admin/pages/index.html.haml within layouts/admin (15.8ms)
+Completed 200 OK in 18ms (Views: 15.9ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/admin/3/edit" for 127.0.0.1 at 2011-07-03 18:14:21 +0400
+  Processing by Admin::PagesController#edit as HTML
+  Parameters: {"id"=>"3"}
+Rendered admin/pages/_form.html.haml (6.4ms)
+Rendered admin/pages/edit.html.haml within layouts/admin (9.5ms)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/admin/3" for 127.0.0.1 at 2011-07-03 18:14:23 +0400
+  Processing by Admin::PagesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"naxoX/yaPE+kU5BycRzSS9qFWtxq8BCwHDa0kYZs8mg=", "page"=>{"title"=>"Шашлычная", "desc"=>"<p>\r\n\tГостеприимный Ереван распахивает Вам свои объятия. Живая музыка, знаменитая армянская кухня, зажигательные танцы прекрасных девушек. 5 уютных и комфортабельных залов. Безупречный сервис непередаваемая атмосфера древней, но всегда юной Армении. Это ресторан Ереван.</p>\r\n", "meta_key"=>"Ресторан", "meta_desc"=>"Ресторан"}, "commit"=>"Сохранить", "id"=>"3"}
+Redirected to http://localhost:3000/admin/3
+Completed 302 Found in 4ms
+
+
+Started GET "/admin/3" for 127.0.0.1 at 2011-07-03 18:14:23 +0400
+  Processing by Admin::PagesController#show as HTML
+  Parameters: {"id"=>"3"}
+Rendered admin/pages/show.html.haml within layouts/admin (3.8ms)
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2011-07-03 18:14:24 +0400
+  Processing by Admin::PagesController#index as HTML
+Rendered admin/pages/index.html.haml within layouts/admin (19.2ms)
+Completed 200 OK in 21ms (Views: 18.7ms | ActiveRecord: 1.8ms)

@@ -1093,3 +1093,32 @@ Started GET "/admin" for 127.0.0.1 at 2011-07-03 18:14:24 +0400
   Processing by Admin::PagesController#index as HTML
 Rendered admin/pages/index.html.haml within layouts/admin (19.2ms)
 Completed 200 OK in 21ms (Views: 18.7ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/admin/sign_in" for 127.0.0.1 at 2011-07-04 12:35:18 +0400
+  Processing by Admin::SessionsController#new as HTML
+Rendered admin/sessions/new.haml within layouts/application (98.9ms)
+Completed 200 OK in 136ms (Views: 108.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/sign_in" for 127.0.0.1 at 2011-07-04 12:35:20 +0400
+  Processing by Admin::SessionsController#new as HTML
+Rendered admin/sessions/new.haml within layouts/application (19.7ms)
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2011-07-04 12:35:21 +0400
+  Processing by Admin::PagesController#index as HTML
+Completed   in 1ms
+
+
+Started GET "/admin/sign_in" for 127.0.0.1 at 2011-07-04 12:35:21 +0400
+  Processing by Admin::SessionsController#new as HTML
+Rendered admin/sessions/new.haml within layouts/application (11.7ms)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/sign_in" for 127.0.0.1 at 2011-07-04 12:38:08 +0400
+  Processing by Admin::SessionsController#new as HTML
+Rendered admin/sessions/new.haml within layouts/application (5.6ms)
+Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 0.0ms)

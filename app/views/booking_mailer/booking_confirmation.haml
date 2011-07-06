@@ -1,0 +1,31 @@
+%h2 Новая заявка на бронирование столика
+
+%table
+  %tr
+    %td{:style=>"padding:5px 10px;"} Фамилия
+    %td{:style=>"padding:5px 10px;"}
+      %b= @booking.surname
+  %tr
+    %td{:style=>"padding:5px 10px;"} Имя
+    %td{:style=>"padding:5px 10px;"}
+      %b= @booking.name
+  %tr
+    %td{:style=>"padding:5px 10px;"} Отчество
+    %td{:style=>"padding:5px 10px;"}
+      %b= @booking.patronymic
+  %tr
+    %td{:style=>"padding:5px 10px;"} Телефон
+    %td{:style=>"padding:5px 10px;"}
+      %b= @booking.phone
+  %tr
+    %td{:style=>"padding:5px 10px;"} Столик
+    %td{:style=>"padding:5px 10px;"}
+      %b= @booking.table
+  %tr
+    %td{:style=>"padding:5px 10px;"} Дата
+    %td{:style=>"padding:5px 10px;"}
+      %b= @booking.date
+  %tr
+    %td{:style=>"padding:5px 10px;"} Время
+    %td{:style=>"padding:5px 10px;"}
+      %b= @booking.time

@@ -18,10 +18,4 @@ class FeedbacksController < ApplicationController
     end
   end
 
-  def destroy
-    @feedback = Feedback.find(params[:id])
-    @feedback.destroy
-    redirect_to feedbacks_url
-  end
-
 end

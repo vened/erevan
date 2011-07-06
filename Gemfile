@@ -11,6 +11,7 @@ gem "paperclip", "~> 2.3"
 gem "rmagick"
 gem 'carrierwave'
 gem 'devise'
+gem "mail"
 
 
 group :development do
@@ -19,7 +20,7 @@ group :development do
 end
 
 # Use unicorn as the web server
-gem 'unicorn'
+#gem 'unicorn'
 
 # Deploy with Capistrano
 gem 'capistrano'

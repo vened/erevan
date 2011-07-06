@@ -113,6 +113,7 @@ DEPENDENCIES
   devise
   haml
   jquery-rails
+  mail
   nifty-generators
   paperclip (~> 2.3)
   rails (= 3.0.8)

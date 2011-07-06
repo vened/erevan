@@ -16,10 +16,10 @@ Erevan::Application.routes.draw do
 
   namespace :admin do
     resources :feedbacks
-    resources :bookings
-    resources :pages, :path => "/" do
+    resources :pages, :path => "pages" do
       resources :images
     end
+    resources :bookings, :path => "/"
   end
 
 

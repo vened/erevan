@@ -2,25 +2,25 @@
 
 %table
   %tr
+    %th ФИО
     %th Столик
-    %th Дата
-    %th Время
-    %th Фамилия
-    %th Имя
-    %th Отчество
+    %th Дата / Время
     %th Телефон
     %th
 
   -@bookings.each do |b|
     %tr
+      %td
+        = b.surname
+        = b.name
+        = b.patronymic
       %td= b.table
-      %td= b.date
-      %td= b.time
-      %td= b.surname
-      %td= b.name
-      %td= b.patronymic
-      %td= b.phone
+      %td
+        = b.date
+        \/
+        = b.time
 
+      %td= b.phone
       %td= link_to 'Удалить', [:admin, b], :confirm => 'Точно удалить?', :method => :delete
 
 = will_paginate @feedbacks, :previous_label => "«", :next_label => "»"

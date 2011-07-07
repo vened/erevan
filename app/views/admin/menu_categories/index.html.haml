@@ -1,0 +1,12 @@
+%table
+  %tr
+    %th Категория
+    %th
+  - for menu_category in @menu_categories
+    %tr
+      %td= menu_category.name
+      %td
+        = link_to 'Редактировать', edit_admin_menu_category_path(menu_category)
+        = link_to 'Удалить', [:admin, menu_category], :confirm => 'Точно удалить?', :method => :delete
+
+%p= link_to "Добавить новую категорию блюд", new_admin_menu_category_path

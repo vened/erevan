@@ -1,6 +1,7 @@
 Erevan::Application.routes.draw do
 
   resources :menus
+  resources :menu_categories
 
   devise_for :users, :controllers => {:sessions => "admin/sessions"}, :path => "/admin"
 
@@ -19,6 +20,7 @@ Erevan::Application.routes.draw do
 
   namespace :admin do
     resources :feedbacks
+    resources :menu_categories
     resources :menus
     resources :pages, :path => "pages" do
       resources :images

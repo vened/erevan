@@ -1,0 +1,9 @@
+%h1 Добавить новую категорию блюд
+= form_for [:admin, @menu_category] do |f|
+  = f.error_messages
+  %p
+    = f.label :name, "Название категория"
+    %br
+    = f.text_field :name
+  %p
+    = f.submit "Сохранить"

@@ -4,11 +4,13 @@ class Admin::MenusController < ApplicationController
   before_filter :authenticate_user!
 
   def index
+    #@menus = Menu.all
     @menus = Menu.paginate :page => params[:page], :order => 'created_at DESC'
   end
 
   def new
     @menu = Menu.new
+    @menu_categories = MenuCategory.all
   end
 
   def create
@@ -22,6 +24,7 @@ class Admin::MenusController < ApplicationController
 
   def edit
     @menu = Menu.find(params[:id])
+    @menu_categories = MenuCategory.all
   end
 
   def update

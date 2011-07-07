@@ -5,6 +5,7 @@ class CreateMenus < ActiveRecord::Migration
       t.string :title
       t.text :desc
       t.string :price
+      t.references :menu_category
       t.timestamps
     end
   end

@@ -18,6 +18,14 @@ class ImageUploader < CarrierWave::Uploader::Base
     process :resize_to_limit => [698, 247]
   end
 
+  version :menu do
+    process :resize_to_limit => [210, 210]
+  end
+
+  version :menu_thumb do
+    process :resize_to_limit => [140, 140]
+  end
+
   # Choose what kind of storage to use for this uploader:
 #  storage :file
   # storage :fog

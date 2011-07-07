@@ -4,4 +4,8 @@ jQuery(document).ready(function() {
         $("#SeoBlock").toggle()
     });
 
+    $("#flash_notice #close").click(function() {
+        $("#flash_notice").hide('1000')
+    });
+
 });

@@ -1,0 +1,27 @@
+<h2>Меню</h2>
+<ul class="dishes">
+  <li><a href="#">Все блюда</a></li>
+  <li><a href="#">Горячее</a></li>
+  <li><a href="#">Закуски</a></li>
+  <li><a href="#">Салаты</a></li>
+  <li><a href="#">Напитки</a></li>
+</ul>
+<div class="dish_list">
+  <% for menu in @menus %>
+      <form class="dish" action="#">
+        <%= image_tag menu.image_url(:menu) %>
+        <h4>
+          <%= menu.title %>
+        </h4>
+
+        <div class="desc">
+          <%= menu.desc %>
+        </div>
+        <span class="cost">
+          <%= menu.price %>
+          <span class="rub">р<span>уб.</span></span>
+        </span>
+        <input type="submit" value="В корзину"/>
+      </form>
+  <% end %>
+</div>

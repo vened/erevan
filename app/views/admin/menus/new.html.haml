@@ -1,0 +1,22 @@
+%h1 Добавление нового блюда
+= form_for [:admin, @menu], :html => {:multipart => true} do |f|
+  = f.error_messages
+  %p
+    %div Выберите изображение блюда
+    = f.file_field :image
+  %p
+    = f.label :title, "Название блюда"
+    %br
+    = f.text_field :title
+  %p
+    = f.label :desc, "Описание блюда"
+    %br
+    = f.text_area :desc, :rows=>10, :cols=>60
+  %p
+    = f.label :price, "Цена"
+    %br
+    = f.text_field :price
+    %br
+    впишите просто цифры, например 120,50
+  %p
+    = f.submit :value => :Сохранить

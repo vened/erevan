@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110706130646) do
+ActiveRecord::Schema.define(:version => 20110707042621) do
 
   create_table "bookings", :force => true do |t|
     t.string   "surname"
@@ -52,6 +52,15 @@ ActiveRecord::Schema.define(:version => 20110706130646) do
   create_table "images", :force => true do |t|
     t.string   "image"
     t.integer  "page_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "menus", :force => true do |t|
+    t.string   "image"
+    t.string   "title"
+    t.text     "desc"
+    t.string   "price"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

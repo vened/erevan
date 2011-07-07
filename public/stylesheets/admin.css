@@ -31,6 +31,12 @@ body{font-size:12px;font-family:sans-serif;}
 #sidebar ul.navigation li a:link,#sidebar ul.navigation li a:visited{display:block;padding:10px 15px;}
 #sidebar .block .sidebar-block,#sidebar .notice{padding:10px;}
 
+/*flash_notice*/
+#flash_notice{position:fixed;top:25%;left:50%;width:770px;margin:0 0 0 -405px;padding:25px 20px 20px;border:1px solid #FF8F35;}
+#flash_notice b{position:absolute;top:0;left:0;width:100%;height:100%;background-color:#FFCF88;opacity:0.9}
+#flash_notice #desc{position:relative;z-index:10}
+#close{position:absolute;top:0;right:5px;color:#dc143c;border-bottom:1px dotted;z-index:10;cursor:pointer}
+
 div.red{color:red;font-size:30px;margin:30px 0 35px;}
 
 #SideMenu{padding:20px 0 10px 0;}
@@ -70,6 +76,15 @@ div.red{color:red;font-size:30px;margin:30px 0 35px;}
 .table .checkbox{margin-left:10px;}
 .table td{padding:10px;}
 .table td.last{text-align:center;}
+table {border-spacing:0;border-collapse: collapse;}
+.content table{width:100%;}
+.content table th{padding:5px 10px;border-right:1px solid #fff;background:yellowgreen;color:#fff;font-size:12px;font-weight:normal}
+.content table th.col-1{width:150px}
+.content table th.col-4, .content table th.col-5{white-space:nowrap;}
+.content table td{padding:10px;border-right:1px solid #ccc;border-bottom:1px solid #ccc}
+.content table td:first-child{border-left:1px solid #ccc}
+.center{text-align:center;}
+
 /* forms */
 input.check_box{margin:0;padding:0;}
 .form .group{margin-bottom:15px;}
@@ -164,13 +179,6 @@ hr {
     padding: 10px 20px 40px;
 }
 
-table {border-spacing:0;border-collapse: collapse;}
-.content table{width:100%;}
-.content table th{padding:5px 10px;border-right:1px solid #fff;background:yellowgreen;color:#fff;font-size:12px;font-weight:normal}
-.content table th.col-1{width:150px}
-.content table th.col-4, .content table th.col-5{white-space:nowrap;}
-.content table td{padding:10px;border-right:1px solid #ccc;border-bottom:1px solid #ccc}
-.content table td:first-child{border-left:1px solid #ccc}
 
 #main .block .content h2 {
     margin:10px 0 20px;

@@ -15,6 +15,11 @@
     = csrf_meta_tag
 
   %body
+    - flash.each do |name, msg|
+      #flash_notice
+        = content_tag :b
+        = content_tag :div, "закрыть", :id => "close"
+        = content_tag :div, msg, :id => "desc"
     #container
       #header
         %h1
@@ -44,8 +49,10 @@
             .content
               %ul#SideMenu
                 %li
+                  %a{:href => "/admin"} Бронирование столов
+                %li
                   %a{:href => "/admin/pages"} Статические страницы
                 %li
                   %a{:href => "/admin/feedbacks"} Отзывы
                 %li
-                  %a{:href => "/admin"} Бронирование столов
+                  %a{:href => "/admin/menus"} Меню

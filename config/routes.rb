@@ -1,10 +1,13 @@
 Erevan::Application.routes.draw do
 
+  resources :menus
+
   devise_for :users, :controllers => {:sessions => "admin/sessions"}, :path => "/admin"
 
   resources :feedbacks
 
   resources :bookings, :controllers => :bookings, :path => "/booking"
+  #resources :menus, :path => "/menu"
 
   # resources :pages
 
@@ -16,6 +19,7 @@ Erevan::Application.routes.draw do
 
   namespace :admin do
     resources :feedbacks
+    resources :menus
     resources :pages, :path => "pages" do
       resources :images
     end

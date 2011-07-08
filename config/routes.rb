@@ -1,7 +1,7 @@
 Erevan::Application.routes.draw do
 
-  resources :menus
-  resources :menu_categories
+  resources :menus, :path => "/restaurant/menu"
+  resources :menu_categories, :path => "/restaurant/menu/category"
 
   devise_for :users, :controllers => {:sessions => "admin/sessions"}, :path => "/admin"
 

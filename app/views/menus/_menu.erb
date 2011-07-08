@@ -1,0 +1,28 @@
+<h2>Меню</h2>
+<ul class="dishes">
+  <li><a href="/restaurant/menu">Все блюда</a></li>
+  <% for menu in @menu_categories %>
+      <li>
+        <%= link_to menu.name, menu %>
+      </li>
+  <% end %>
+</ul>
+<div class="dish_list">
+  <% for menu in @menus %>
+      <form class="dish" action="#">
+        <%= image_tag menu.image_url(:menu) %>
+        <h4>
+          <%= menu.title %>
+        </h4>
+
+        <div class="desc">
+          <%= menu.desc %>
+        </div>
+        <span class="cost">
+          <%= menu.price %>
+          <span class="rub">р<span>уб.</span></span>
+        </span>
+        <input type="submit" value="В корзину"/>
+      </form>
+  <% end %>
+</div>

@@ -16,5 +16,5 @@ class Booking < ActiveRecord::Base
   validates_numericality_of :table, :only_integer => true, :message => "6 и не более 12 цифр"
   validates_length_of :date, :in => 2..25, :message => "Неправильно указанна дата"
   cattr_reader :per_page
-  @@per_page = 2
+  @@per_page = 10
 end

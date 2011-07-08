@@ -34,7 +34,13 @@
             #section
               = yield
               .clear
-            
+
+        - flash.each do |name, msg|
+          #flash_notice
+            = content_tag :b
+            = content_tag :div, "закрыть", :id => "close"
+            = content_tag :h4, msg, :id => "desc"
+
       .fc
         %br
 

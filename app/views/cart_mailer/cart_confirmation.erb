@@ -1,0 +1,59 @@
+<h2>Онлайн заказ</h2>
+
+<table>
+  <tr>
+    <td>
+      Заказчик:
+    </td>
+    <td width="10"></td>
+    <td>
+      <b><%= @name.name %></b>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Телефон:
+    </td>
+    <td width="10"></td>
+    <td>
+      <b><%= @name.phone %></b>
+    </td>
+  </tr>
+</table>
+<br/>
+<br/>
+
+<h3>Заказанно:</h3>
+
+<table>
+  <tr>
+    <td>Название</td>
+    <td width="10"></td>
+    <td>Количество</td>
+  </tr>
+  <td colspan="2" height="10"></td>
+  <% for cart_item in @cart %>
+      <% @menu = cart_item.menu %>
+      <tr>
+        <td>
+          <%= @menu.title %>
+        </td>
+        <td width="10"></td>
+        <td align="center">
+          <%= cart_item.quantity %>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" height="10"></td>
+      </tr>
+  <% end %>
+  <tr>
+    <td align="right">
+      Сумма заказа:
+    </td>
+    <td width="10"></td>
+    <td class="cost">
+      <b><%= @total_price %> руб.</b>
+    </td>
+  </tr>
+</table>

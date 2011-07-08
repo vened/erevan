@@ -5,6 +5,8 @@ Erevan::Application.routes.draw do
   resources :carts
   #map.current_cart 'cart', :controller => 'carts', :action => 'show'
   match '/cart', :to => 'carts#show'
+  match '/cart/profile', :to => 'carts#profile'
+  match '/cart/send', :to => 'carts#send_email'
 
   resources :menus, :path => "/restaurant/menu"
   resources :menu_categories, :path => "/restaurant/menu/category"

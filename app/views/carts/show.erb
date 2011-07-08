@@ -8,7 +8,9 @@
           <td><%= @menu.title %></td>
           <td><%= cart_item.quantity %></td>
           <td><%= (cart_item.unit_price) %></td>
-          <td><a href="#" class="del">Убрать из заказа</a></td>
+          <td>
+            <%= link_to 'Убрать из заказа', cart_item %>
+          </td>
         </tr>
     <% end %>
     <tfoot>
@@ -25,7 +27,7 @@
     <tr>
       <td colspan="2">&nbsp;</td>
       <td colspan="2" class="Checkout">
-        <%= link_to "Checkout" %>
+        <%= link_to "Оформить заказ", cart_profile_path %>
       </td>
     </tr>
     </tfoot>

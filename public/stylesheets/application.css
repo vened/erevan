@@ -141,6 +141,24 @@ ul { list-style:none;}
 #reserv input[type="submit"], #order input[type="submit"], #order .Checkout a{ background:url("../img/btn.png") no-repeat 50% 50%; height:30px; width:123px; text-align:center; font:italic 12px Georgia; color:#000; border:none; text-shadow:1px 1px 1px #fff; cursor:pointer; text-decoration:underline; padding-bottom:1px; margin-top:-36px; float:right;}
 #reserv select { background:url("../img/btn.png") no-repeat 100% 50%; height:30px; width:113px; text-align:center; font:15px Arial; color:#86000d; border:none;}
 
+#cart #reserv { width:550px; padding-bottom:30px;}
+#cart #reserv label { font:14px/1.2 Arial; float:left; width:170px; padding-top:8px;}
+#cart #reserv input[type="submit"], #order input[type="submit"], #order .Checkout a {
+    background: url("../img/btn.png") no-repeat scroll 50% 50% transparent;
+    border: medium none;
+    color: #000000;
+    cursor: pointer;
+    float: right;
+    font: italic 12px Georgia;
+    height: 30px;
+    margin-top: 0;
+    padding-bottom: 1px;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px #FFFFFF;
+    width: 123px;
+}
+
 #order { font:15px/1.2 Arial; color:#9c2815; margin:-8px 0 0;}
 #order a { color:#9c2815;}
 .order {width:100%;}
@@ -204,7 +222,7 @@ span.rub span:before { content: '\2013'; }
 form .error .jquery-selectbox { color: #d00; }
 
 /*flash_notice*/
-#flash_notice{position:fixed;top:40%;left:50%;width:770px;margin:0 0 0 -405px;padding:25px 20px 20px;border:1px solid #FF8F35;}
+#flash_notice{position:fixed;z-index:2000;top:40%;left:50%;width:770px;margin:0 0 0 -405px;padding:25px 20px 20px;border:1px solid #FF8F35;}
 #flash_notice b{position:absolute;top:0;left:0;width:100%;height:100%;background-color:#FFCF88;opacity:0.9}
 #flash_notice #desc{position:relative;z-index:10}
 #close{position:absolute;top:0;right:5px;color:#dc143c;border-bottom:1px dotted;z-index:10;cursor:pointer}

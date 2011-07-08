@@ -33,7 +33,9 @@ ActiveRecord::Schema.define(:version => 20110708051326) do
   end
 
   create_table "carts", :force => true do |t|
-    t.string   "token"
+    t.string   "authenticity_token"
+    t.string   "name"
+    t.integer  "phone"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

@@ -1,5 +1,11 @@
 Erevan::Application.routes.draw do
 
+  resources :cart_items
+
+  resources :carts
+  #map.current_cart 'cart', :controller => 'carts', :action => 'show'
+  match '/cart', :to => 'carts#show'
+
   resources :menus, :path => "/restaurant/menu"
   resources :menu_categories, :path => "/restaurant/menu/category"
 

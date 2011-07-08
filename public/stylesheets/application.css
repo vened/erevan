@@ -138,7 +138,7 @@ ul { list-style:none;}
 #reserv .inp { float:left; width:368px; background:url("../img/frm_line.png") no-repeat 0 0; padding-left:10px;}
 #reserv .sel { background:url("../img/frm_line.png") no-repeat 0 0; padding-left:10px; float:left;}
 #reserv .sel input {width:140px; background:url("../img/frm_line.png") no-repeat right bottom; padding-left:10px; float:left;}
-#reserv input[type="submit"], #order input[type="submit"] { background:url("../img/btn.png") no-repeat 50% 50%; height:30px; width:123px; text-align:center; font:italic 12px Georgia; color:#000; border:none; text-shadow:1px 1px 1px #fff; cursor:pointer; text-decoration:underline; padding-bottom:1px; margin-top:-36px; float:right;}
+#reserv input[type="submit"], #order input[type="submit"], #order .Checkout a{ background:url("../img/btn.png") no-repeat 50% 50%; height:30px; width:123px; text-align:center; font:italic 12px Georgia; color:#000; border:none; text-shadow:1px 1px 1px #fff; cursor:pointer; text-decoration:underline; padding-bottom:1px; margin-top:-36px; float:right;}
 #reserv select { background:url("../img/btn.png") no-repeat 100% 50%; height:30px; width:113px; text-align:center; font:15px Arial; color:#86000d; border:none;}
 
 #order { font:15px/1.2 Arial; color:#9c2815; margin:-8px 0 0;}
@@ -148,7 +148,7 @@ ul { list-style:none;}
 #order tbody td { border-bottom:1px solid #cabea5;}
 #order tbody td:first-child { text-align:left; width:68%;}
 #order input[type="text"] { background:url("../img/order_inp.png") no-repeat 50% 50%; height:18px; width:66px; text-align:center; font:15px Arial; color:#9c2815; border:none; margin-top:1px; padding:4px 0 5px;}
-#order input[type="submit"] { margin-top:4px; float:right;}
+#order .Checkout a{ margin-top:4px; float:right;line-height:30px;}
 #order .del { display:block; overflow:hidden; width:20px; height:20px; background:url("../img/ico_del.gif") no-repeat 50% 50%; text-indent:-999px; margin-top:2px;}
 #order .cost { font-weight:bold; font-size:18px;}
 #order tbody .cost { margin:0 25px 0 30px;}

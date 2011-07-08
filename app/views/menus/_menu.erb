@@ -9,7 +9,7 @@
 </ul>
 <div class="dish_list">
   <% for menu in @menus %>
-      <form class="dish" action="#">
+      <div class="dish" action="#">
         <%= image_tag menu.image_url(:menu) %>
         <h4>
           <%= menu.title %>
@@ -22,7 +22,11 @@
           <%= menu.price %>
           <span class="rub">р<span>уб.</span></span>
         </span>
-        <input type="submit" value="В корзину"/>
-      </form>
+        <% @cart_items = menu.cart_items %>
+        <%= form_for @cart_items.build do |f| %>
+            <%= f.hidden_field :menu_id %>
+            <%= f.submit "В корзину" %>
+        <% end %>
+      </div>
   <% end %>
 </div>

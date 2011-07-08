@@ -1,3 +1,4 @@
+# encoding: utf-8
 class Cart < ActiveRecord::Base
   attr_accessible :authenticity_token, :name, :phone
 

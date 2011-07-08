@@ -9,7 +9,7 @@ class CartMailer < ActionMailer::Base
     @cart = cart
     @total_price = total_price
     @name = name
-    mail(:to => "maxstbn@gmail.com", :subject => "Заказ")
+    mail(:to => "maxstbn@gmail.com", :subject => "Новый заказ")
   end
 
 end

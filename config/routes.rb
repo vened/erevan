@@ -7,6 +7,7 @@ Erevan::Application.routes.draw do
   match '/cart', :to => 'carts#show'
   match '/cart/profile', :to => 'carts#profile'
   match '/cart/send', :to => 'carts#send_email'
+  match '/cart/destroy', :to => 'carts#destroy'
 
   resources :menus, :path => "/restaurant/menu"
   resources :menu_categories, :path => "/restaurant/menu/category"

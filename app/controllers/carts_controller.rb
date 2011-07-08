@@ -5,14 +5,8 @@ class CartsController < ApplicationController
     #@cart = Cart.find(params[:id])
     @cart = current_cart.cart_items
     @menu = current_cart.menus
-    @total_price = @menu.sum("price")
     render :layout => 'application_m'
   end
-
-#  def edit
-#    @page = Page.find(params[:id])
-#		render :layout => 'application'
-#  end
 
   def profile
     @cart = current_cart
@@ -32,7 +26,18 @@ class CartsController < ApplicationController
     @total_price = @menu.sum("price")
     @name = current_cart
     CartMailer.cart_confirmation(@cart, @total_price, @name).deliver
-    redirect_to :back, :notice => "Ваша заказ успешно оформлен, в ближайшее время с вами свяжется наш менеджер!"
+    #@cart.destroy
+    redirect_to cart_destroy_url, :notice => "Ваша заказ успешно оформлен, в ближайшее время с вами свяжется наш менеджер!"
+  end
+
+  def destroy
+    @item = current_cart.cart_items
+    for item in @item
+      item.destroy
+    end
+    @cart = current_cart
+    @cart.destroy
+    redirect_to root_url
   end
 
 end

@@ -53,7 +53,10 @@
     </td>
     <td width="10"></td>
     <td class="cost">
-      <b><%= @total_price %> руб.</b>
+      <b>
+        <% @pr = @cart.map { |i| i.full_price } %>
+        <%= @pr.inject(0) { |result, elem| result + elem } %>
+        руб.</b>
     </td>
   </tr>
 </table>

@@ -1,12 +1,12 @@
 class CartItem < ActiveRecord::Base
-  attr_accessible :menu_id, :cart_id, :quantity, :authenticity_token
+  attr_accessible :menu_id, :cart_id, :quantity
   belongs_to :menu
   belongs_to :cart
 
   before_create :default_quantity_to_one
 
   def unit_price
-    menu.price
+    menu.price.to_i
   end
 
   def full_price

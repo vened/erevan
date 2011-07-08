@@ -1,11 +1,4 @@
 # encoding: utf-8
-#      t.string :surname
-#      t.string :name
-#      t.string :patronymic
-#      t.string :phone
-#      t.string :table
-#      t.string :date
-#      t.string :time
 class Booking < ActiveRecord::Base
   attr_accessible :surname, :name, :patronymic, :phone, :table, :date, :time
   validates_length_of :surname, :in => 2..25, :message => "Фамилия должно быть длинной не менее 2-х и не более 25 символов"

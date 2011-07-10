@@ -12,7 +12,7 @@ $(document).ready(function() {
         $("#flash_notice").hide('1000')
     });
 
-    $(".dish_list .dish:nth-child(3)").after("<div class='cb'></div>");
+    $(".dish_list .dish:nth-child(3n)").after("<div class='cb'></div>");
 
     $("#feed_form .error_messages").parent().show()
 

@@ -1,0 +1,34 @@
+%h1 Редактирование букета
+= form_for [:admin, @menu], :html => {:multipart => true} do |f|
+  = f.error_messages
+  %input{:name => "menu[url]", :value => "flowers", :type => "hidden"}
+  -if @menu.image?
+    %p= image_tag @menu.image_url(:menu_thumb)
+    %p
+      %div
+        Выберите изображение букета
+        %br
+        (при загрузке нового изображения, старое удалится)
+      = f.file_field :image
+  -else
+    %p
+      %div Выберите изображение букета
+      = f.file_field :image
+  %p
+    = f.label :title, "Название букета"
+    %br
+    = f.text_field :title
+  %p
+    = f.label :desc, "Описание букета"
+    %br
+    = f.text_area :desc, :rows=>10, :cols=>60
+  %p
+    = f.label :price, "Цена"
+    %br
+    = f.text_field :price
+    %br
+    впишите просто цифры, например 120,50
+
+
+  %p
+    = f.submit "Сохранить"

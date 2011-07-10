@@ -1,4 +1,4 @@
-%h1 Список блюд
+%h1 Меню ресторана
 %table
   %tr
     %th Изображение
@@ -27,4 +27,4 @@
 
 %p= link_to "Добавить новое блюдо", new_admin_menu_path
 
-= will_paginate @feedbacks, :previous_label => "«", :next_label => "»"
+-#= will_paginate @menus, :previous_label => "«", :next_label => "»"

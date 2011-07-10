@@ -1,13 +1,18 @@
 %h1 Редактирование Блюда
 = form_for [:admin, @menu], :html => {:multipart => true} do |f|
   = f.error_messages
-  %p= image_tag @menu.image_url(:menu_thumb)
-  %p
-    %div
-      Выберите новое изображение блюда
-      %br
-      (при загрузке нового изображения, старое удалится)
-    = f.file_field :image
+  -if @menu.image?
+    %p= image_tag @menu.image_url(:menu_thumb)
+    %p
+      %div
+        Выберите новое изображение блюда
+        %br
+        (при загрузке нового изображения, старое удалится)
+      = f.file_field :image
+  -else
+    %p
+      %div Выберите новое изображение блюда
+      = f.file_field :image
   %p
     = f.label :title, "Название блюда"
     %br
@@ -24,6 +29,13 @@
     впишите просто цифры, например 120,50
 
   %p
+    %div Блюдо из меню ресторана или меню шашлычного дворика(выберите в списке)
+    %select{:name => "menu[url]"}
+      %option{:value => "restaurant_menu"} Меню ресторана
+      %option{:value => "shashlyk_menu"} Меню шашлычного дворика
+
+  %p
+    %div Категория блюда
     %select{:name => "menu[menu_category_id]"}
       - for menu_cat in @menu_categories
         %option{:value => menu_cat.id}

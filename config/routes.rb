@@ -9,8 +9,12 @@ Erevan::Application.routes.draw do
   match '/cart/send', :to => 'carts#send_email'
   match '/cart/destroy', :to => 'carts#destroy'
 
+  match 'restaurant/menu', :to => 'menus#restaurant_menu'
+  match 'flowers', :to => 'menus#flowers'
+  match '/shashlyk/menu', :to => 'menus#shashlyk_menu'
+
   resources :menus, :path => "/restaurant/menu"
-  resources :menu_categories, :path => "/restaurant/menu/category"
+  resources :menu_categories, :path => "/menu/category"
 
   devise_for :users, :controllers => {:sessions => "admin/sessions"}, :path => "/admin"
 
@@ -30,6 +34,11 @@ Erevan::Application.routes.draw do
   namespace :admin do
     resources :feedbacks
     resources :menu_categories
+    match '/restaurant_menu', :to => 'menus#restaurant_menu'
+    match '/shashlyk_menu', :to => 'menus#shashlyk_menu'
+    match '/flowers', :to => 'menus#flowers'
+    match '/flowers_new', :to => 'menus#flowers_new'
+    match '/flowers_edit/:id', :to => 'menus#flowers_edit'
     resources :menus
     resources :pages, :path => "pages" do
       resources :images

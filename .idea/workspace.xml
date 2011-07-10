@@ -2,17 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63b80dfe-778c-4db0-adeb-3a8e5378e907" name="Default" comment="сделал страницу виртуального тура, контакты и отзывы">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/menus/flowers.haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/menus/flowers_edit.haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/menus/flowers_new.haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/menus/restaurant_menu.haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/menus/shashlyk_menu.haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/menus/flowers.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/menus/restaurant_menu.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/menus/restaurant_menu.haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/menus/shashlyk_menu.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/menus/shashlyk_menu.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/cart_items_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/cart_items_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/carts_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/carts_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/mailers/cart_mailer.rb" afterPath="$PROJECT_DIR$/app/mailers/cart_mailer.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/booking.rb" afterPath="$PROJECT_DIR$/app/models/booking.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/cart.rb" afterPath="$PROJECT_DIR$/app/models/cart.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/cart_item.rb" afterPath="$PROJECT_DIR$/app/models/cart_item.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/cart_mailer/cart_confirmation.erb" afterPath="$PROJECT_DIR$/app/views/cart_mailer/cart_confirmation.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/carts/show.erb" afterPath="$PROJECT_DIR$/app/views/carts/show.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/admin/menus_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/admin/menus_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/menus_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/menus_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/menu.rb" afterPath="$PROJECT_DIR$/app/models/menu.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/menus/edit.html.haml" afterPath="$PROJECT_DIR$/app/views/admin/menus/edit.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/menus/index.html.haml" afterPath="$PROJECT_DIR$/app/views/admin/menus/index.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/menus/new.html.haml" afterPath="$PROJECT_DIR$/app/views/admin/menus/new.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.haml" afterPath="$PROJECT_DIR$/app/views/layouts/application.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/menus/_menu.erb" afterPath="$PROJECT_DIR$/app/views/menus/_menu.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_restaurant.haml" afterPath="$PROJECT_DIR$/app/views/shared/_restaurant.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_shashlyk.haml" afterPath="$PROJECT_DIR$/app/views/shared/_shashlyk.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20110707042621_create_menus.rb" afterPath="$PROJECT_DIR$/db/migrate/20110707042621_create_menus.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/main.js" afterPath="$PROJECT_DIR$/public/javascripts/main.js" />
     </list>
     <ignored path="erevan.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,13 +47,13 @@
   <component name="DisabledGemRequirementsHolder">
     <module name="erevan">
       <requirement>
-        <dependency name="activerecord" version="2.3.0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+        <dependency name="activesupport" version="3.0" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
       </requirement>
       <requirement>
         <dependency name="activesupport" version="2.3.2" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
       </requirement>
       <requirement>
-        <dependency name="activesupport" version="3.0" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+        <dependency name="activerecord" version="2.3.0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
       </requirement>
     </module>
   </component>
@@ -65,22 +78,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/carts/profile.haml" />
-        <option value="$PROJECT_DIR$/app/views/shared/xml.xml" />
-        <option value="$PROJECT_DIR$/db/migrate/20110708050257_create_carts.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/menus/_menu.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/cart_items_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/carts/_count.erb" />
-        <option value="$PROJECT_DIR$/app/views/carts/show.js.erb" />
-        <option value="$PROJECT_DIR$/app/mailers/cart_mailer.rb" />
-        <option value="$PROJECT_DIR$/app/views/cart_mailer/cart_confirmation.erb" />
+        <option value="$PROJECT_DIR$/app/models/menu.rb" />
+        <option value="$PROJECT_DIR$/app/views/admin/menus/restaurant_menu.haml" />
+        <option value="$PROJECT_DIR$/app/views/admin/menus/shashlyk_menu.haml" />
+        <option value="$PROJECT_DIR$/public/javascripts/main.js" />
+        <option value="$PROJECT_DIR$/app/views/menus/restaurant_menu.haml" />
+        <option value="$PROJECT_DIR$/app/views/menus/shashlyk_menu.haml" />
+        <option value="$PROJECT_DIR$/app/views/shared/_restaurant.haml" />
+        <option value="$PROJECT_DIR$/app/views/menus/flowers.haml" />
+        <option value="$PROJECT_DIR$/app/views/menus/flowers.erb" />
+        <option value="$PROJECT_DIR$/app/views/shared/_shashlyk.haml" />
+        <option value="$PROJECT_DIR$/app/views/admin/menus/edit.html.haml" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/carts_controller.rb" />
-        <option value="$PROJECT_DIR$/app/models/cart_item.rb" />
-        <option value="$PROJECT_DIR$/app/views/carts/show.erb" />
-        <option value="$PROJECT_DIR$/app/models/booking.rb" />
-        <option value="$PROJECT_DIR$/app/models/cart.rb" />
+        <option value="$PROJECT_DIR$/app/views/menus/_menu.erb" />
+        <option value="$PROJECT_DIR$/app/views/menus/restaurant_menu.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/menus_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/menus/shashlyk_menu.erb" />
       </list>
     </option>
   </component>
@@ -133,9 +146,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
-      <pane id="Favorites" />
       <pane id="Scope" />
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -144,50 +156,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="erevan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="erevan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="erevan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="erevan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="erevan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="erevan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -436,7 +407,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32837406" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20633246" sideWeight="0.32583067" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20021357" sideWeight="0.5749203" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2055526" sideWeight="0.5749203" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4250797" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -486,114 +457,114 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/admin/images/_images.haml">
+    <entry file="file://$PROJECT_DIR$/public/javascripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="14" column="36" selection-start="320" selection-end="320" vertical-scroll-proportion="0.27571115">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Erevan/menu.html">
+    <entry file="file://$PROJECT_DIR$/app/views/menus/index.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="137" selection-start="1362" selection-end="1362" vertical-scroll-proportion="0.30337077">
+        <state line="0" column="0" selection-start="0" selection-end="26" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Erevan/order.html">
+    <entry file="file://$PROJECT_DIR$/app/views/menus/restaurant_menu.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="130" selection-start="1869" selection-end="1918" vertical-scroll-proportion="0.33751425">
+        <state line="0" column="21" selection-start="0" selection-end="21" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Erevan/flowers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="139" selection-start="562" selection-end="562" vertical-scroll-proportion="-6.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/menus/flowers.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="21" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/menus/shashlyk_menu.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="21" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_restaurant.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="24" selection-start="666" selection-end="671" vertical-scroll-proportion="0.41356674">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_shashlyk.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="33" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/menus/edit.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="6" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/admin/menus_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="5" selection-start="193" selection-end="333" vertical-scroll-proportion="0.29540482">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/menus/_menu.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="42" selection-start="629" selection-end="629" vertical-scroll-proportion="0.48539326">
+        <state line="4" column="39" selection-start="0" selection-end="911" vertical-scroll-proportion="0.08089887">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/mailers/cart_mailer.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/menu.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="57" selection-start="319" selection-end="319" vertical-scroll-proportion="0.21663019">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/cart_items_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="60" selection-start="538" selection-end="538" vertical-scroll-proportion="0.29540482">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/cart_mailer/cart_confirmation.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="8" selection-start="1021" selection-end="1021" vertical-scroll-proportion="-32.583332">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/admin/bookings_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="5" selection-start="254" selection-end="355" vertical-scroll-proportion="0.27571115">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/image.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="43" selection-start="123" selection-end="145" vertical-scroll-proportion="0.059080962">
+        <state line="1" column="66" selection-start="82" selection-end="98" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="25" selection-start="2807" selection-end="2807" vertical-scroll-proportion="0.86652076">
+        <state line="29" column="43" selection-start="948" selection-end="956" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/page.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/menus_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="10" column="39" selection-start="285" selection-end="285" vertical-scroll-proportion="0.19693655">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/carts_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/menus/restaurant_menu.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="7" selection-start="951" selection-end="951" vertical-scroll-proportion="0.74835885">
+        <state line="7" column="12" selection-start="88" selection-end="196" vertical-scroll-proportion="0.14157303">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/cart_item.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/menus/shashlyk_menu.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="5" selection-start="207" selection-end="207" vertical-scroll-proportion="0.17724289">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/cart.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="103" selection-end="103" vertical-scroll-proportion="0.059080962">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/carts/show.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="20" selection-start="43" selection-end="43" vertical-scroll-proportion="0.040449437">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/booking.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
+        <state line="7" column="11" selection-start="194" selection-end="194" vertical-scroll-proportion="0.13785557">
           <folding />
         </state>
       </provider>

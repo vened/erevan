@@ -1,12 +1,4 @@
-<h2>Меню</h2>
-<ul class="dishes">
-  <li><a href="/restaurant/menu">Все блюда</a></li>
-  <% for menu in @menu_categories %>
-      <li>
-        <%= link_to menu.name, menu %>
-      </li>
-  <% end %>
-</ul>
+<h2>Заказ цветов</h2>
 <div class="dish_list">
   <% for menu in @menus %>
       <% if menu.image? %>

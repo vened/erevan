@@ -3,8 +3,27 @@ class Admin::MenusController < ApplicationController
 
   before_filter :authenticate_user!
 
+  def restaurant_menu
+    @menus = Menu.find_all_by_url('restaurant_menu')
+  end
+
+  def shashlyk_menu
+    @menus = Menu.find_all_by_url('shashlyk_menu')
+  end
+
+  def flowers
+    @menus = Menu.find_all_by_url('flowers')
+  end
+
+  def flowers_new
+    @menu = Menu.new
+  end
+
+  def flowers_edit
+    @menu = Menu.find(params[:id])
+  end
+
   def index
-    #@menus = Menu.all
     @menus = Menu.paginate :page => params[:page], :order => 'created_at DESC'
   end
 
@@ -16,7 +35,7 @@ class Admin::MenusController < ApplicationController
   def create
     @menu = Menu.new(params[:menu])
     if @menu.save
-      redirect_to admin_menus_url, :notice  => "Новое блюдо успешно созданно"
+      redirect_to :back, :notice  => "Успешно сохранено, создать ещё?"
     else
       render :action => 'new'
     end
@@ -30,7 +49,7 @@ class Admin::MenusController < ApplicationController
   def update
     @menu = Menu.find(params[:id])
     if @menu.update_attributes(params[:menu])
-      redirect_to admin_menus_url, :notice  => "Блюдо успешно обновлено"
+      redirect_to :back, :notice  => "Успешно обновлено"
     else
       render :action => 'edit'
     end
@@ -39,6 +58,6 @@ class Admin::MenusController < ApplicationController
   def destroy
     @menu = Menu.find(params[:id])
     @menu.destroy
-    redirect_to admin_menus_url, :notice => "Блюдо успешно удалено."
+    redirect_to :back, :notice => "Успешно удалено."
   end
 end

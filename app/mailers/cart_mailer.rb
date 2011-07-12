@@ -3,7 +3,7 @@ class CartMailer < ActionMailer::Base
 
   default_url_options[:host] = "localhost:3000"
 
-  default :from => "ryan@railscasts.com"
+  default :from => "admin@erevan.ru"
 
   def cart_confirmation(cart, total_price, name)
     @cart = cart

@@ -203,8 +203,8 @@ ul { list-style:none;}
 /* AUDIO */
 .audiojs { position:absolute; right:48px; top:13px; color:#8e1507; background:none;}
 .audiojs .scrubber, .audiojs .time { display:none;}
-#header .audiojs .play { background:url("../js/player-graphics.gif") no-repeat scroll -11px -6px transparent;}
-#header .audiojs .pause { background:url("../js/player-graphics.gif") no-repeat scroll -11px -96px transparent;}
+#header .audiojs .play { background:url("../img/player-graphics.gif") no-repeat scroll -11px -6px transparent;}
+#header .audiojs .pause { background:url("../img/player-graphics.gif") no-repeat scroll -11px -96px transparent;}
 
 /* RUR */
 span.rub { text-transform: uppercase; margin-left:3px; font-family:"Times New Roman"; font-size:20px;}

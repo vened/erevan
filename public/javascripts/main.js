@@ -1,5 +1,11 @@
 $(document).ready(function() {
 
+
+    audiojs.events.ready(function() {
+        var as = audiojs.createAll();
+    });
+
+
     $('#slider div').cycle({
         fx: 'fade'
     });

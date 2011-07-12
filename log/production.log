@@ -1,1124 +1,1079 @@
 
 
-Started GET "/admin" for 127.0.0.1 at 2011-07-03 18:06:14 +0400
-  Processing by Admin::PagesController#index as HTML
-Completed 500 Internal Server Error in 109ms
-
-ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: pages: SELECT "pages".* FROM "pages"):
-  app/controllers/admin/pages_controller.rb:5:in `index'
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (14.5ms)
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.5ms)
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.8ms)
-
-
-Started GET "/favicon.ico" for 127.0.0.1 at 2011-07-03 18:06:14 +0400
-
-ActionController::RoutingError (No route matches "/favicon.ico"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
-
-
-Started GET "/favicon.ico" for 127.0.0.1 at 2011-07-03 18:06:15 +0400
-
-ActionController::RoutingError (No route matches "/favicon.ico"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.5ms)
-
-
-Started GET "/admin" for 127.0.0.1 at 2011-07-03 18:07:45 +0400
-  Processing by Admin::PagesController#index as HTML
-Completed 500 Internal Server Error in 107ms
-
-ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: pages: SELECT "pages".* FROM "pages"):
-  app/controllers/admin/pages_controller.rb:5:in `index'
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.3ms)
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.2ms)
-
-
-Started GET "/admin" for 127.0.0.1 at 2011-07-03 18:08:23 +0400
-  Processing by Admin::PagesController#index as HTML
-Completed 500 Internal Server Error in 1ms
-
-ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: pages: SELECT "pages".* FROM "pages"):
-  app/controllers/admin/pages_controller.rb:5:in `index'
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.8ms)
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.9ms)
-
-
-Started GET "/admin" for 127.0.0.1 at 2011-07-03 18:08:24 +0400
-  Processing by Admin::PagesController#index as HTML
-Completed 500 Internal Server Error in 1ms
-
-ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: pages: SELECT "pages".* FROM "pages"):
-  app/controllers/admin/pages_controller.rb:5:in `index'
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.0ms)
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.7ms)
-
-
-Started GET "/admin" for 127.0.0.1 at 2011-07-03 18:08:49 +0400
-  Processing by Admin::PagesController#index as HTML
-Rendered admin/pages/index.html.haml within layouts/admin (81.8ms)
-Completed 200 OK in 191ms (Views: 84.3ms | ActiveRecord: 1.9ms)
-
-
-Started GET "/stylesheets/admin.css?1309701765" for 127.0.0.1 at 2011-07-03 18:08:49 +0400
-
-ActionController::RoutingError (No route matches "/stylesheets/admin.css"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
-
-
-Started GET "/javascripts/ckeditor/ckeditor.js?1309350726" for 127.0.0.1 at 2011-07-03 18:08:49 +0400
-
-ActionController::RoutingError (No route matches "/javascripts/ckeditor/ckeditor.js"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
-
-
-Started GET "/javascripts/rails.js?1309322437" for 127.0.0.1 at 2011-07-03 18:08:49 +0400
-
-ActionController::RoutingError (No route matches "/javascripts/rails.js"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
-
-
-Started GET "/javascripts/admin.js?1309699543" for 127.0.0.1 at 2011-07-03 18:08:49 +0400
-
-ActionController::RoutingError (No route matches "/javascripts/admin.js"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
-
-
-Started GET "/javascripts/jquery.min.js?1309322435" for 127.0.0.1 at 2011-07-03 18:08:49 +0400
-
-ActionController::RoutingError (No route matches "/javascripts/jquery.min.js"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.9ms)
-
-
-Started GET "/uploads/image/image/43/thumb_bnn_rest.jpg?1309700673" for 127.0.0.1 at 2011-07-03 18:08:49 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/43/thumb_bnn_rest.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
-
-
-Started GET "/uploads/image/image/45/thumb_bnn_shash.jpg?1309700688" for 127.0.0.1 at 2011-07-03 18:08:49 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/45/thumb_bnn_shash.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
-
-
-Started GET "/uploads/image/image/44/thumb_bnn_shash.jpg?1309700679" for 127.0.0.1 at 2011-07-03 18:08:49 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/44/thumb_bnn_shash.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
-
-
-Started GET "/uploads/image/image/46/thumb_bnn_rest.jpg?1309701787" for 127.0.0.1 at 2011-07-03 18:08:49 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/46/thumb_bnn_rest.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
-
-
-Started GET "/uploads/image/image/47/thumb_bnn_main.jpg?1309701798" for 127.0.0.1 at 2011-07-03 18:08:49 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/47/thumb_bnn_main.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.6ms)
-
-
-Started GET "/javascripts/rails.js?1309322437" for 127.0.0.1 at 2011-07-03 18:08:49 +0400
-
-ActionController::RoutingError (No route matches "/javascripts/rails.js"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
-
-
-Started GET "/javascripts/admin.js?1309699543" for 127.0.0.1 at 2011-07-03 18:08:49 +0400
-
-ActionController::RoutingError (No route matches "/javascripts/admin.js"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
-
-
-Started GET "/javascripts/ckeditor/ckeditor.js?1309350726" for 127.0.0.1 at 2011-07-03 18:08:49 +0400
-
-ActionController::RoutingError (No route matches "/javascripts/ckeditor/ckeditor.js"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
-
-
-Started GET "/uploads/image/image/43/thumb_bnn_rest.jpg?1309700673" for 127.0.0.1 at 2011-07-03 18:08:49 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/43/thumb_bnn_rest.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
-
-
-Started GET "/uploads/image/image/45/thumb_bnn_shash.jpg?1309700688" for 127.0.0.1 at 2011-07-03 18:08:49 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/45/thumb_bnn_shash.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
-
-
-Started GET "/uploads/image/image/44/thumb_bnn_shash.jpg?1309700679" for 127.0.0.1 at 2011-07-03 18:08:49 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/44/thumb_bnn_shash.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
-
-
-Started GET "/uploads/image/image/46/thumb_bnn_rest.jpg?1309701787" for 127.0.0.1 at 2011-07-03 18:08:49 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/46/thumb_bnn_rest.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.3ms)
-
-
-Started GET "/uploads/image/image/47/thumb_bnn_main.jpg?1309701798" for 127.0.0.1 at 2011-07-03 18:08:50 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/47/thumb_bnn_main.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
-
-
-Started GET "/admin" for 127.0.0.1 at 2011-07-03 18:08:51 +0400
-  Processing by Admin::PagesController#index as HTML
-Rendered admin/pages/index.html.haml within layouts/admin (71.2ms)
-Completed 200 OK in 81ms (Views: 78.3ms | ActiveRecord: 1.4ms)
-
-
-Started GET "/stylesheets/admin.css?1309701765" for 127.0.0.1 at 2011-07-03 18:08:51 +0400
-
-ActionController::RoutingError (No route matches "/stylesheets/admin.css"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
-
-
-Started GET "/javascripts/jquery.min.js?1309322435" for 127.0.0.1 at 2011-07-03 18:08:51 +0400
-
-ActionController::RoutingError (No route matches "/javascripts/jquery.min.js"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
-
-
-Started GET "/javascripts/admin.js?1309699543" for 127.0.0.1 at 2011-07-03 18:08:51 +0400
-
-ActionController::RoutingError (No route matches "/javascripts/admin.js"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
-
-
-Started GET "/javascripts/rails.js?1309322437" for 127.0.0.1 at 2011-07-03 18:08:51 +0400
-
-ActionController::RoutingError (No route matches "/javascripts/rails.js"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
-
-
-Started GET "/uploads/image/image/43/thumb_bnn_rest.jpg?1309700673" for 127.0.0.1 at 2011-07-03 18:08:51 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/43/thumb_bnn_rest.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
-
-
-Started GET "/javascripts/ckeditor/ckeditor.js?1309350726" for 127.0.0.1 at 2011-07-03 18:08:51 +0400
-
-ActionController::RoutingError (No route matches "/javascripts/ckeditor/ckeditor.js"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
-
-
-Started GET "/uploads/image/image/44/thumb_bnn_shash.jpg?1309700679" for 127.0.0.1 at 2011-07-03 18:08:51 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/44/thumb_bnn_shash.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
-
-
-Started GET "/uploads/image/image/45/thumb_bnn_shash.jpg?1309700688" for 127.0.0.1 at 2011-07-03 18:08:51 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/45/thumb_bnn_shash.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
-
-
-Started GET "/uploads/image/image/46/thumb_bnn_rest.jpg?1309701787" for 127.0.0.1 at 2011-07-03 18:08:51 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/46/thumb_bnn_rest.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
-
-
-Started GET "/uploads/image/image/47/thumb_bnn_main.jpg?1309701798" for 127.0.0.1 at 2011-07-03 18:08:51 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/47/thumb_bnn_main.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
-
-
-Started GET "/javascripts/admin.js?1309699543" for 127.0.0.1 at 2011-07-03 18:08:51 +0400
-
-ActionController::RoutingError (No route matches "/javascripts/admin.js"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.9ms)
-
-
-Started GET "/javascripts/ckeditor/ckeditor.js?1309350726" for 127.0.0.1 at 2011-07-03 18:08:52 +0400
-
-ActionController::RoutingError (No route matches "/javascripts/ckeditor/ckeditor.js"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
-
-
-Started GET "/uploads/image/image/44/thumb_bnn_shash.jpg?1309700679" for 127.0.0.1 at 2011-07-03 18:08:52 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/44/thumb_bnn_shash.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
-
-
-Started GET "/uploads/image/image/43/thumb_bnn_rest.jpg?1309700673" for 127.0.0.1 at 2011-07-03 18:08:52 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/43/thumb_bnn_rest.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
-
-
-Started GET "/uploads/image/image/45/thumb_bnn_shash.jpg?1309700688" for 127.0.0.1 at 2011-07-03 18:08:52 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/45/thumb_bnn_shash.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
-
-
-Started GET "/uploads/image/image/46/thumb_bnn_rest.jpg?1309701787" for 127.0.0.1 at 2011-07-03 18:08:52 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/46/thumb_bnn_rest.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
-
-
-Started GET "/uploads/image/image/47/thumb_bnn_main.jpg?1309701798" for 127.0.0.1 at 2011-07-03 18:08:52 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/47/thumb_bnn_main.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.9ms)
-
-
-Started GET "/admin/1/images" for 127.0.0.1 at 2011-07-03 18:08:57 +0400
-  Processing by Admin::ImagesController#index as HTML
-  Parameters: {"page_id"=>"1"}
-Rendered admin/images/_images.haml (17.3ms)
-Rendered admin/images/_new.haml (12.0ms)
-Rendered admin/images/index.haml within layouts/admin (37.1ms)
-Completed 200 OK in 43ms (Views: 39.2ms | ActiveRecord: 1.0ms)
-
-
-Started GET "/stylesheets/admin.css?1309701765" for 127.0.0.1 at 2011-07-03 18:08:58 +0400
-
-ActionController::RoutingError (No route matches "/stylesheets/admin.css"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.9ms)
-
-
-Started GET "/javascripts/admin.js?1309699543" for 127.0.0.1 at 2011-07-03 18:08:58 +0400
-
-ActionController::RoutingError (No route matches "/javascripts/admin.js"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
-
-
-Started GET "/javascripts/jquery.min.js?1309322435" for 127.0.0.1 at 2011-07-03 18:08:58 +0400
-
-ActionController::RoutingError (No route matches "/javascripts/jquery.min.js"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
-
-
-Started GET "/javascripts/ckeditor/ckeditor.js?1309350726" for 127.0.0.1 at 2011-07-03 18:08:58 +0400
-
-ActionController::RoutingError (No route matches "/javascripts/ckeditor/ckeditor.js"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
-
-
-Started GET "/javascripts/rails.js?1309322437" for 127.0.0.1 at 2011-07-03 18:08:58 +0400
-
-ActionController::RoutingError (No route matches "/javascripts/rails.js"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
-
-
-Started GET "/uploads/image/image/43/pic_head_bnn_rest.jpg?1309700673" for 127.0.0.1 at 2011-07-03 18:08:58 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/43/pic_head_bnn_rest.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (4.6ms)
-
-
-Started GET "/uploads/image/image/44/pic_head_bnn_shash.jpg?1309700679" for 127.0.0.1 at 2011-07-03 18:08:58 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/44/pic_head_bnn_shash.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.6ms)
-
-
-Started GET "/uploads/image/image/45/pic_head_bnn_shash.jpg?1309700688" for 127.0.0.1 at 2011-07-03 18:08:58 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/45/pic_head_bnn_shash.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
-
-
-Started GET "/javascripts/admin.js?1309699543" for 127.0.0.1 at 2011-07-03 18:08:58 +0400
-
-ActionController::RoutingError (No route matches "/javascripts/admin.js"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
-
-
-Started GET "/javascripts/ckeditor/ckeditor.js?1309350726" for 127.0.0.1 at 2011-07-03 18:08:58 +0400
-
-ActionController::RoutingError (No route matches "/javascripts/ckeditor/ckeditor.js"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.9ms)
-
-
-Started GET "/uploads/image/image/43/pic_head_bnn_rest.jpg?1309700673" for 127.0.0.1 at 2011-07-03 18:08:58 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/43/pic_head_bnn_rest.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.9ms)
-
-
-Started GET "/uploads/image/image/44/pic_head_bnn_shash.jpg?1309700679" for 127.0.0.1 at 2011-07-03 18:08:58 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/44/pic_head_bnn_shash.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
-
-
-Started GET "/uploads/image/image/45/pic_head_bnn_shash.jpg?1309700688" for 127.0.0.1 at 2011-07-03 18:08:58 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/45/pic_head_bnn_shash.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (12.3ms)
-
-
-Started GET "/" for 127.0.0.1 at 2011-07-03 18:09:08 +0400
+Started GET "/" for 109.194.129.39 at Пнд Июл 11 14:53:52 +0400 2011
   Processing by PagesController#home as HTML
-Rendered pages/_cont.haml (2.0ms)
-Rendered pages/home.haml within layouts/application (27.5ms)
-Completed 200 OK in 43ms (Views: 32.8ms | ActiveRecord: 0.9ms)
+Rendered pages/_cont.haml (1.1ms)
+Rendered shared/_menu.haml (7.8ms)
+Rendered shared/_slider.haml (8.2ms)
+Rendered pages/home.haml within layouts/application_h (30.0ms)
+Completed 200 OK in 43ms (Views: 32.0ms | ActiveRecord: 0.6ms)
 
 
-Started GET "/stylesheets/application.css?1309352130" for 127.0.0.1 at 2011-07-03 18:09:08 +0400
-
-ActionController::RoutingError (No route matches "/stylesheets/application.css"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
-
-
-Started GET "/javascripts/jquery.selectbox-0.6.1.js?1309322623" for 127.0.0.1 at 2011-07-03 18:09:08 +0400
-
-ActionController::RoutingError (No route matches "/javascripts/jquery.selectbox-0.6.1.js"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
-
-
-Started GET "/javascripts/jquery.min.js?1309322435" for 127.0.0.1 at 2011-07-03 18:09:08 +0400
-
-ActionController::RoutingError (No route matches "/javascripts/jquery.min.js"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
-
-
-Started GET "/javascripts/audio.js?1309322614" for 127.0.0.1 at 2011-07-03 18:09:08 +0400
-
-ActionController::RoutingError (No route matches "/javascripts/audio.js"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
-
-
-Started GET "/img/logo.png" for 127.0.0.1 at 2011-07-03 18:09:08 +0400
-
-ActionController::RoutingError (No route matches "/img/logo.png"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
-
-
-Started GET "/img/bnn_main.jpg" for 127.0.0.1 at 2011-07-03 18:09:08 +0400
-
-ActionController::RoutingError (No route matches "/img/bnn_main.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.6ms)
-
-
-Started GET "/uploads/image/image/43/pic_head_bnn_rest.jpg?1309700673" for 127.0.0.1 at 2011-07-03 18:09:08 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/43/pic_head_bnn_rest.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (17.7ms)
-
-
-Started GET "/uploads/image/image/44/pic_head_bnn_shash.jpg?1309700679" for 127.0.0.1 at 2011-07-03 18:09:08 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/44/pic_head_bnn_shash.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
-
-
-Started GET "/uploads/image/image/45/pic_head_bnn_shash.jpg?1309700688" for 127.0.0.1 at 2011-07-03 18:09:08 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/45/pic_head_bnn_shash.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
-
-
-Started GET "/img/status.png" for 127.0.0.1 at 2011-07-03 18:09:08 +0400
-
-ActionController::RoutingError (No route matches "/img/status.png"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
-
-
-Started GET "/javascripts/audio.js?1309322614" for 127.0.0.1 at 2011-07-03 18:09:08 +0400
-
-ActionController::RoutingError (No route matches "/javascripts/audio.js"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
-
-
-Started GET "/img/logo.png" for 127.0.0.1 at 2011-07-03 18:09:08 +0400
-
-ActionController::RoutingError (No route matches "/img/logo.png"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
-
-
-Started GET "/img/bnn_main.jpg" for 127.0.0.1 at 2011-07-03 18:09:08 +0400
-
-ActionController::RoutingError (No route matches "/img/bnn_main.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.8ms)
-
-
-Started GET "/uploads/image/image/43/pic_head_bnn_rest.jpg?1309700673" for 127.0.0.1 at 2011-07-03 18:09:08 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/43/pic_head_bnn_rest.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (8.5ms)
-
-
-Started GET "/uploads/image/image/44/pic_head_bnn_shash.jpg?1309700679" for 127.0.0.1 at 2011-07-03 18:09:08 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/44/pic_head_bnn_shash.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
-
-
-Started GET "/uploads/image/image/45/pic_head_bnn_shash.jpg?1309700688" for 127.0.0.1 at 2011-07-03 18:09:08 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/45/pic_head_bnn_shash.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
-
-
-Started GET "/img/status.png" for 127.0.0.1 at 2011-07-03 18:09:08 +0400
-
-ActionController::RoutingError (No route matches "/img/status.png"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.0ms)
-
-
-Started GET "/admin" for 127.0.0.1 at 2011-07-03 18:09:24 +0400
-  Processing by Admin::PagesController#index as HTML
-Rendered admin/pages/index.html.haml within layouts/admin (18.6ms)
-Completed 200 OK in 21ms (Views: 18.7ms | ActiveRecord: 1.3ms)
-
-
-Started GET "/stylesheets/admin.css?1309701765" for 127.0.0.1 at 2011-07-03 18:09:24 +0400
-
-ActionController::RoutingError (No route matches "/stylesheets/admin.css"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (68.4ms)
-
-
-Started GET "/javascripts/admin.js?1309699543" for 127.0.0.1 at 2011-07-03 18:09:24 +0400
-
-ActionController::RoutingError (No route matches "/javascripts/admin.js"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
-
-
-Started GET "/uploads/image/image/43/thumb_bnn_rest.jpg?1309700673" for 127.0.0.1 at 2011-07-03 18:09:24 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/43/thumb_bnn_rest.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
-
-
-Started GET "/javascripts/jquery.min.js?1309322435" for 127.0.0.1 at 2011-07-03 18:09:24 +0400
-
-ActionController::RoutingError (No route matches "/javascripts/jquery.min.js"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
-
-
-Started GET "/javascripts/ckeditor/ckeditor.js?1309350726" for 127.0.0.1 at 2011-07-03 18:09:24 +0400
-
-ActionController::RoutingError (No route matches "/javascripts/ckeditor/ckeditor.js"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
-
-
-Started GET "/javascripts/rails.js?1309322437" for 127.0.0.1 at 2011-07-03 18:09:24 +0400
-
-ActionController::RoutingError (No route matches "/javascripts/rails.js"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
-
-
-Started GET "/uploads/image/image/44/thumb_bnn_shash.jpg?1309700679" for 127.0.0.1 at 2011-07-03 18:09:24 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/44/thumb_bnn_shash.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
-
-
-Started GET "/uploads/image/image/45/thumb_bnn_shash.jpg?1309700688" for 127.0.0.1 at 2011-07-03 18:09:24 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/45/thumb_bnn_shash.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.9ms)
-
-
-Started GET "/uploads/image/image/46/thumb_bnn_rest.jpg?1309701787" for 127.0.0.1 at 2011-07-03 18:09:24 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/46/thumb_bnn_rest.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.8ms)
-
-
-Started GET "/uploads/image/image/47/thumb_bnn_main.jpg?1309701798" for 127.0.0.1 at 2011-07-03 18:09:24 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/47/thumb_bnn_main.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.3ms)
-
-
-Started GET "/javascripts/admin.js?1309699543" for 127.0.0.1 at 2011-07-03 18:09:24 +0400
-
-ActionController::RoutingError (No route matches "/javascripts/admin.js"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.7ms)
-
-
-Started GET "/javascripts/ckeditor/ckeditor.js?1309350726" for 127.0.0.1 at 2011-07-03 18:09:24 +0400
-
-ActionController::RoutingError (No route matches "/javascripts/ckeditor/ckeditor.js"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
-
-
-Started GET "/uploads/image/image/43/thumb_bnn_rest.jpg?1309700673" for 127.0.0.1 at 2011-07-03 18:09:24 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/43/thumb_bnn_rest.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
-
-
-Started GET "/uploads/image/image/44/thumb_bnn_shash.jpg?1309700679" for 127.0.0.1 at 2011-07-03 18:09:24 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/44/thumb_bnn_shash.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
-
-
-Started GET "/uploads/image/image/46/thumb_bnn_rest.jpg?1309701787" for 127.0.0.1 at 2011-07-03 18:09:24 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/46/thumb_bnn_rest.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
-
-
-Started GET "/uploads/image/image/47/thumb_bnn_main.jpg?1309701798" for 127.0.0.1 at 2011-07-03 18:09:25 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/47/thumb_bnn_main.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
-
-
-Started GET "/uploads/image/image/45/thumb_bnn_shash.jpg?1309700688" for 127.0.0.1 at 2011-07-03 18:09:25 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/45/thumb_bnn_shash.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
-
-
-Started GET "/admin" for 127.0.0.1 at 2011-07-03 18:12:41 +0400
-  Processing by Admin::PagesController#index as HTML
-Rendered admin/pages/index.html.haml within layouts/admin (327.3ms)
-Completed 200 OK in 489ms (Views: 329.6ms | ActiveRecord: 2.1ms)
-
-
-Started GET "/stylesheets/admin.css?1309701765" for 127.0.0.1 at 2011-07-03 18:12:42 +0400
-
-ActionController::RoutingError (No route matches "/stylesheets/admin.css"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
-
-
-Started GET "/uploads/image/image/44/thumb_bnn_shash.jpg?1309700679" for 127.0.0.1 at 2011-07-03 18:12:43 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/44/thumb_bnn_shash.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
-
-
-Started GET "/javascripts/rails.js?1309322437" for 127.0.0.1 at 2011-07-03 18:12:43 +0400
-
-ActionController::RoutingError (No route matches "/javascripts/rails.js"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
-
-
-Started GET "/javascripts/jquery.min.js?1309322435" for 127.0.0.1 at 2011-07-03 18:12:43 +0400
-
-ActionController::RoutingError (No route matches "/javascripts/jquery.min.js"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
-
-
-Started GET "/javascripts/ckeditor/ckeditor.js?1309350726" for 127.0.0.1 at 2011-07-03 18:12:43 +0400
-
-ActionController::RoutingError (No route matches "/javascripts/ckeditor/ckeditor.js"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
-
-
-Started GET "/javascripts/admin.js?1309699543" for 127.0.0.1 at 2011-07-03 18:12:43 +0400
-
-ActionController::RoutingError (No route matches "/javascripts/admin.js"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.9ms)
-
-
-Started GET "/uploads/image/image/43/thumb_bnn_rest.jpg?1309700673" for 127.0.0.1 at 2011-07-03 18:12:43 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/43/thumb_bnn_rest.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.7ms)
-
-
-Started GET "/uploads/image/image/45/thumb_bnn_shash.jpg?1309700688" for 127.0.0.1 at 2011-07-03 18:12:43 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/45/thumb_bnn_shash.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.0ms)
-
-
-Started GET "/uploads/image/image/47/thumb_bnn_main.jpg?1309701798" for 127.0.0.1 at 2011-07-03 18:12:43 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/47/thumb_bnn_main.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
-
-
-Started GET "/uploads/image/image/46/thumb_bnn_rest.jpg?1309701787" for 127.0.0.1 at 2011-07-03 18:12:43 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/46/thumb_bnn_rest.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.2ms)
-
-
-Started GET "/javascripts/rails.js?1309322437" for 127.0.0.1 at 2011-07-03 18:12:43 +0400
-
-ActionController::RoutingError (No route matches "/javascripts/rails.js"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.3ms)
-
-
-Started GET "/javascripts/admin.js?1309699543" for 127.0.0.1 at 2011-07-03 18:12:43 +0400
-
-ActionController::RoutingError (No route matches "/javascripts/admin.js"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
-
-
-Started GET "/javascripts/ckeditor/ckeditor.js?1309350726" for 127.0.0.1 at 2011-07-03 18:12:43 +0400
-
-ActionController::RoutingError (No route matches "/javascripts/ckeditor/ckeditor.js"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
-
-
-Started GET "/uploads/image/image/43/thumb_bnn_rest.jpg?1309700673" for 127.0.0.1 at 2011-07-03 18:12:43 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/43/thumb_bnn_rest.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
-
-
-Started GET "/uploads/image/image/44/thumb_bnn_shash.jpg?1309700679" for 127.0.0.1 at 2011-07-03 18:12:43 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/44/thumb_bnn_shash.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
-
-
-Started GET "/uploads/image/image/45/thumb_bnn_shash.jpg?1309700688" for 127.0.0.1 at 2011-07-03 18:12:43 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/45/thumb_bnn_shash.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
-
-
-Started GET "/uploads/image/image/46/thumb_bnn_rest.jpg?1309701787" for 127.0.0.1 at 2011-07-03 18:12:43 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/46/thumb_bnn_rest.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (5.8ms)
-
-
-Started GET "/uploads/image/image/47/thumb_bnn_main.jpg?1309701798" for 127.0.0.1 at 2011-07-03 18:12:43 +0400
-
-ActionController::RoutingError (No route matches "/uploads/image/image/47/thumb_bnn_main.jpg"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (4.2ms)
-
-
-Started GET "/admin" for 127.0.0.1 at 2011-07-03 18:13:11 +0400
-  Processing by Admin::PagesController#index as HTML
-Rendered admin/pages/index.html.haml within layouts/admin (88.5ms)
-Completed 200 OK in 214ms (Views: 91.2ms | ActiveRecord: 2.0ms)
-
-
-Started GET "/admin/1/images" for 127.0.0.1 at 2011-07-03 18:13:15 +0400
-  Processing by Admin::ImagesController#index as HTML
-  Parameters: {"page_id"=>"1"}
-Rendered admin/images/_images.haml (17.0ms)
-Rendered admin/images/_new.haml (9.5ms)
-Rendered admin/images/index.haml within layouts/admin (33.2ms)
-Completed 200 OK in 39ms (Views: 35.0ms | ActiveRecord: 1.0ms)
-
-
-Started GET "/" for 127.0.0.1 at 2011-07-03 18:13:25 +0400
-  Processing by PagesController#home as HTML
-Rendered pages/_cont.haml (2.0ms)
-Rendered pages/home.haml within layouts/application (30.1ms)
-Completed 200 OK in 46ms (Views: 35.7ms | ActiveRecord: 0.9ms)
-
-
-Started GET "/restaurant" for 127.0.0.1 at 2011-07-03 18:13:28 +0400
+Started GET "/restaurant" for 109.194.129.39 at Пнд Июл 11 14:53:57 +0400 2011
   Processing by PagesController#restaurant as HTML
-Rendered pages/_cont.haml (0.2ms)
-Rendered pages/restaurant.haml within layouts/application (3.7ms)
-Completed 200 OK in 24ms (Views: 22.1ms | ActiveRecord: 0.3ms)
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_restaurant.haml (4.9ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (2.3ms)
+Rendered pages/restaurant.haml within layouts/application_r (64.8ms)
+Completed 200 OK in 68ms (Views: 66.4ms | ActiveRecord: 0.4ms)
 
 
-Started GET "/shashlyk" for 127.0.0.1 at 2011-07-03 18:13:30 +0400
-  Processing by PagesController#shashlyk as HTML
-Rendered pages/_cont.haml (0.3ms)
-Rendered pages/shashlyk.haml within layouts/application (4.7ms)
-Completed 200 OK in 16ms (Views: 14.2ms | ActiveRecord: 0.3ms)
+Started GET "/restaurant/menu" for 109.194.129.39 at Пнд Июл 11 14:54:00 +0400 2011
+  Processing by MenusController#restaurant_menu as HTML
+Rendered menus/_menu.erb (20.9ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered menus/restaurant_menu.haml within layouts/application_m (32.0ms)
+Completed 200 OK in 37ms (Views: 34.5ms | ActiveRecord: 0.4ms)
 
 
-Started GET "/1" for 127.0.0.1 at 2011-07-03 18:13:31 +0400
-
-ActionController::RoutingError (No route matches "/1"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.3ms)
-
-
-Started GET "/1" for 127.0.0.1 at 2011-07-03 18:13:39 +0400
-
-ActionController::RoutingError (No route matches "/1"):
-  
-
-Rendered /usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+Started POST "/cart_items" for 109.194.129.39 at Пнд Июл 11 14:54:07 +0400 2011
+  Processing by CartItemsController#create as HTML
+  Parameters: {"commit"=>"В корзину", "authenticity_token"=>"aCHUrCQ+3BLP9A8H/AWIb7RaEXyHFNme65/BTSjXV5k=", "utf8"=>"✓", "cart_item"=>{"menu_id"=>"3"}}
+Redirected to http://restaurant.maxstbn.locum.ru/restaurant/menu
+Completed 302 Found in 61ms
 
 
-Started GET "/shashlyk" for 127.0.0.1 at 2011-07-03 18:13:46 +0400
-  Processing by PagesController#shashlyk as HTML
-Rendered pages/_cont.haml (0.2ms)
-Rendered pages/shashlyk.haml within layouts/application (2.3ms)
-Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 0.4ms)
+Started GET "/restaurant/menu" for 109.194.129.39 at Пнд Июл 11 14:54:07 +0400 2011
+  Processing by MenusController#restaurant_menu as HTML
+Rendered menus/_menu.erb (9.6ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered menus/restaurant_menu.haml within layouts/application_m (11.4ms)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 1.3ms)
 
 
-Started GET "/restaurant" for 127.0.0.1 at 2011-07-03 18:13:47 +0400
+Started POST "/cart_items" for 109.194.129.39 at Пнд Июл 11 14:54:09 +0400 2011
+  Processing by CartItemsController#create as HTML
+  Parameters: {"commit"=>"В корзину", "authenticity_token"=>"aCHUrCQ+3BLP9A8H/AWIb7RaEXyHFNme65/BTSjXV5k=", "utf8"=>"✓", "cart_item"=>{"menu_id"=>"2"}}
+Redirected to http://restaurant.maxstbn.locum.ru/restaurant/menu
+Completed 302 Found in 669ms
+
+
+Started GET "/restaurant/menu" for 109.194.129.39 at Пнд Июл 11 14:54:10 +0400 2011
+  Processing by MenusController#restaurant_menu as HTML
+Rendered menus/_menu.erb (57.6ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered menus/restaurant_menu.haml within layouts/application_m (59.7ms)
+Completed 200 OK in 61ms (Views: 60.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/restaurant" for 109.194.129.39 at Пнд Июл 11 14:54:13 +0400 2011
   Processing by PagesController#restaurant as HTML
-Rendered pages/_cont.haml (0.3ms)
-Rendered pages/restaurant.haml within layouts/application (2.4ms)
-Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 0.3ms)
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_restaurant.haml (0.1ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (2.0ms)
+Rendered pages/restaurant.haml within layouts/application_r (4.3ms)
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.3ms)
 
 
-Started GET "/" for 127.0.0.1 at 2011-07-03 18:13:49 +0400
-  Processing by PagesController#home as HTML
-Rendered pages/_cont.haml (0.2ms)
-Rendered pages/home.haml within layouts/application (8.5ms)
-Completed 200 OK in 12ms (Views: 9.4ms | ActiveRecord: 0.7ms)
+Started GET "/cart" for 109.194.129.39 at Пнд Июл 11 14:54:17 +0400 2011
+  Processing by CartsController#show as HTML
+Rendered shared/_menu.haml (0.1ms)
+Rendered carts/show.erb within layouts/application_m (9.7ms)
+Completed 200 OK in 12ms (Views: 10.3ms | ActiveRecord: 1.0ms)
 
 
-Started GET "/restaurant" for 127.0.0.1 at 2011-07-03 18:13:50 +0400
+Started GET "/restaurant" for 109.194.129.39 at Пнд Июл 11 14:54:22 +0400 2011
   Processing by PagesController#restaurant as HTML
-Rendered pages/_cont.haml (0.2ms)
-Rendered pages/restaurant.haml within layouts/application (2.4ms)
-Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.3ms)
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_restaurant.haml (0.1ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (1.9ms)
+Rendered pages/restaurant.haml within layouts/application_r (4.2ms)
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 0.4ms)
 
 
-Started GET "/shashlyk" for 127.0.0.1 at 2011-07-03 18:13:52 +0400
+Started GET "/flowers" for 109.194.129.39 at Пнд Июл 11 14:54:25 +0400 2011
+  Processing by MenusController#flowers as HTML
+Rendered shared/_menu.haml (0.1ms)
+Rendered menus/flowers.erb within layouts/application_m (12.3ms)
+Completed 200 OK in 397ms (Views: 395.1ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/cart_items" for 109.194.129.39 at Пнд Июл 11 14:54:31 +0400 2011
+  Processing by CartItemsController#create as HTML
+  Parameters: {"commit"=>"В корзину", "authenticity_token"=>"aCHUrCQ+3BLP9A8H/AWIb7RaEXyHFNme65/BTSjXV5k=", "utf8"=>"✓", "cart_item"=>{"menu_id"=>"17"}}
+Redirected to http://restaurant.maxstbn.locum.ru/flowers
+Completed 302 Found in 6ms
+
+
+Started GET "/flowers" for 109.194.129.39 at Пнд Июл 11 14:54:31 +0400 2011
+  Processing by MenusController#flowers as HTML
+Rendered shared/_menu.haml (0.1ms)
+Rendered menus/flowers.erb within layouts/application_m (56.8ms)
+Completed 200 OK in 59ms (Views: 57.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/restaurant" for 109.194.129.39 at Пнд Июл 11 14:54:33 +0400 2011
+  Processing by PagesController#restaurant as HTML
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_restaurant.haml (0.1ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (2.5ms)
+Rendered pages/restaurant.haml within layouts/application_r (5.1ms)
+Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/shashlyk" for 109.194.129.39 at Пнд Июл 11 14:54:34 +0400 2011
   Processing by PagesController#shashlyk as HTML
-Rendered pages/_cont.haml (0.3ms)
-Rendered pages/shashlyk.haml within layouts/application (2.2ms)
-Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 0.3ms)
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_shashlyk.haml (5.9ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (2.1ms)
+Rendered pages/shashlyk.haml within layouts/application_s (18.8ms)
+Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.4ms)
 
 
-Started GET "/" for 127.0.0.1 at 2011-07-03 18:13:53 +0400
-  Processing by PagesController#home as HTML
-Rendered pages/_cont.haml (0.3ms)
-Rendered pages/home.haml within layouts/application (9.9ms)
-Completed 200 OK in 13ms (Views: 10.6ms | ActiveRecord: 0.8ms)
+Started GET "/shashlyk/menu" for 109.194.129.39 at Пнд Июл 11 14:54:39 +0400 2011
+  Processing by MenusController#shashlyk_menu as HTML
+Rendered menus/_menu.erb (8.4ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered menus/shashlyk_menu.haml within layouts/application_m (11.3ms)
+Completed 200 OK in 15ms (Views: 13.3ms | ActiveRecord: 0.5ms)
 
 
-Started GET "/" for 127.0.0.1 at 2011-07-03 18:13:58 +0400
-  Processing by PagesController#home as HTML
-Rendered pages/_cont.haml (0.3ms)
-Rendered pages/home.haml within layouts/application (9.4ms)
-Completed 200 OK in 12ms (Views: 9.9ms | ActiveRecord: 0.7ms)
+Started POST "/cart_items" for 109.194.129.39 at Пнд Июл 11 14:54:42 +0400 2011
+  Processing by CartItemsController#create as HTML
+  Parameters: {"commit"=>"В корзину", "authenticity_token"=>"aCHUrCQ+3BLP9A8H/AWIb7RaEXyHFNme65/BTSjXV5k=", "utf8"=>"✓", "cart_item"=>{"menu_id"=>"1"}}
+Redirected to http://restaurant.maxstbn.locum.ru/shashlyk/menu
+Completed 302 Found in 6ms
 
 
-Started GET "/admin" for 127.0.0.1 at 2011-07-03 18:14:01 +0400
-  Processing by Admin::PagesController#index as HTML
-Rendered admin/pages/index.html.haml within layouts/admin (18.2ms)
-Completed 200 OK in 21ms (Views: 18.2ms | ActiveRecord: 1.4ms)
+Started GET "/shashlyk/menu" for 109.194.129.39 at Пнд Июл 11 14:54:42 +0400 2011
+  Processing by MenusController#shashlyk_menu as HTML
+Rendered menus/_menu.erb (8.9ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered menus/shashlyk_menu.haml within layouts/application_m (12.0ms)
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 1.0ms)
 
 
-Started GET "/admin/1/edit" for 127.0.0.1 at 2011-07-03 18:14:04 +0400
-  Processing by Admin::PagesController#edit as HTML
-  Parameters: {"id"=>"1"}
-Rendered admin/pages/_form.html.haml (11.0ms)
-Rendered admin/pages/edit.html.haml within layouts/admin (16.7ms)
-Completed 200 OK in 21ms (Views: 18.6ms | ActiveRecord: 0.7ms)
-
-
-Started POST "/admin/1" for 127.0.0.1 at 2011-07-03 18:14:07 +0400
-  Processing by Admin::PagesController#update as HTML
-  Parameters: {"utf8"=>"✓", "authenticity_token"=>"naxoX/yaPE+kU5BycRzSS9qFWtxq8BCwHDa0kYZs8mg=", "page"=>{"title"=>"О ресторане", "desc"=>"<p>\r\n\tГостеприимный Ереван распахивает Вам свои объятия. Живая музыка, знаменитая армянская кухня, зажигательные танцы прекрасных девушек. 5 уютных и комфортабельных залов. Безупречный сервис непередаваемая атмосфера древней, но всегда юной Армении. Это ресторан Ереван. Армянская кухня (все ингридиенты привезены из Армении) - одна из самых древних в мире. Именно поэтому ресторан &quot;Ереван&quot; пользуется заслуженной популярностью у саратовцев и гостей города.</p>\r\n<p>\r\n\tРесторан расположен на нескольких этажах. Уютный интерьер, оформленный в светлых тонах, добротная деревянная мебель, создают у гостей радостное и благодушное настроение. В стильном интерьере причудливо переплелись европейское изящество и сочный южный колорит. Традиционная армянская кухня и блюда авторской кухни способны порадовать самого искушенного гурмана.</p>\r\n<p>\r\n\tВ Ереване можно провести официальное мероприятие, посидеть дружной компанией или провести романтическое свидание. В ресторане создана обширная кухня, но предпочтения отдаются армянским блюдам. Здесь по вашему выбору приготовят более 25 видов шашлыка и можно отведать лучшие блюда кавказской кухни, приготовленные по древним рецептам. В распоряжении посетителей обширная карта вин и армянских коньяков.</p>\r\n", "meta_key"=>"О ресторане", "meta_desc"=>"О ресторане"}, "commit"=>"Сохранить", "id"=>"1"}
-Redirected to http://localhost:3000/admin/1
+Started POST "/cart_items" for 109.194.129.39 at Пнд Июл 11 14:54:43 +0400 2011
+  Processing by CartItemsController#create as HTML
+  Parameters: {"commit"=>"В корзину", "authenticity_token"=>"aCHUrCQ+3BLP9A8H/AWIb7RaEXyHFNme65/BTSjXV5k=", "utf8"=>"✓", "cart_item"=>{"menu_id"=>"22"}}
+Redirected to http://restaurant.maxstbn.locum.ru/shashlyk/menu
 Completed 302 Found in 7ms
 
 
-Started GET "/admin/1" for 127.0.0.1 at 2011-07-03 18:14:07 +0400
-  Processing by Admin::PagesController#show as HTML
-  Parameters: {"id"=>"1"}
-Rendered admin/pages/show.html.haml within layouts/admin (6.2ms)
-Completed 200 OK in 11ms (Views: 8.5ms | ActiveRecord: 0.4ms)
+Started GET "/shashlyk/menu" for 109.194.129.39 at Пнд Июл 11 14:54:43 +0400 2011
+  Processing by MenusController#shashlyk_menu as HTML
+Rendered menus/_menu.erb (5.3ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered menus/shashlyk_menu.haml within layouts/application_m (7.3ms)
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 1.0ms)
 
 
-Started GET "/admin" for 127.0.0.1 at 2011-07-03 18:14:09 +0400
-  Processing by Admin::PagesController#index as HTML
-Rendered admin/pages/index.html.haml within layouts/admin (22.4ms)
-Completed 200 OK in 25ms (Views: 22.5ms | ActiveRecord: 1.3ms)
+Started GET "/shashlyk" for 109.194.129.39 at Пнд Июл 11 14:54:46 +0400 2011
+  Processing by PagesController#shashlyk as HTML
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_shashlyk.haml (0.1ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (2.0ms)
+Rendered pages/shashlyk.haml within layouts/application_s (48.2ms)
+Completed 200 OK in 50ms (Views: 48.5ms | ActiveRecord: 0.4ms)
 
 
-Started GET "/admin/2/edit" for 127.0.0.1 at 2011-07-03 18:14:13 +0400
-  Processing by Admin::PagesController#edit as HTML
-  Parameters: {"id"=>"2"}
-Rendered admin/pages/_form.html.haml (12.1ms)
-Rendered admin/pages/edit.html.haml within layouts/admin (16.3ms)
-Completed 200 OK in 19ms (Views: 17.3ms | ActiveRecord: 0.4ms)
+Started GET "/cart" for 109.194.129.39 at Пнд Июл 11 14:54:49 +0400 2011
+  Processing by CartsController#show as HTML
+Rendered shared/_menu.haml (0.1ms)
+Rendered carts/show.erb within layouts/application_m (10.3ms)
+Completed 200 OK in 12ms (Views: 9.7ms | ActiveRecord: 1.4ms)
 
 
-Started POST "/admin/2" for 127.0.0.1 at 2011-07-03 18:14:15 +0400
-  Processing by Admin::PagesController#update as HTML
-  Parameters: {"utf8"=>"✓", "authenticity_token"=>"naxoX/yaPE+kU5BycRzSS9qFWtxq8BCwHDa0kYZs8mg=", "page"=>{"title"=>"Ресторан", "desc"=>"<p>\r\n\tГостеприимный Ереван распахивает Вам свои объятия. Живая музыка, знаменитая армянская кухня, зажигательные танцы прекрасных девушек. 5 уютных и комфортабельных залов. Безупречный сервис непередаваемая атмосфера древней, но всегда юной Армении. Это ресторан Ереван.</p>\r\n", "meta_key"=>"Ресторан", "meta_desc"=>"Ресторан"}, "commit"=>"Сохранить", "id"=>"2"}
-Redirected to http://localhost:3000/admin/2
-Completed 302 Found in 5ms
+Started GET "/shashlyk" for 109.194.129.39 at Пнд Июл 11 14:54:55 +0400 2011
+  Processing by PagesController#shashlyk as HTML
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_shashlyk.haml (0.1ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (2.3ms)
+Rendered pages/shashlyk.haml within layouts/application_s (4.8ms)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.4ms)
 
 
-Started GET "/admin/2" for 127.0.0.1 at 2011-07-03 18:14:15 +0400
-  Processing by Admin::PagesController#show as HTML
-  Parameters: {"id"=>"2"}
-Rendered admin/pages/show.html.haml within layouts/admin (3.5ms)
-Completed 200 OK in 7ms (Views: 4.6ms | ActiveRecord: 0.3ms)
+Started GET "/flowers" for 109.194.129.39 at Пнд Июл 11 14:55:02 +0400 2011
+  Processing by MenusController#flowers as HTML
+Rendered shared/_menu.haml (0.1ms)
+Rendered menus/flowers.erb within layouts/application_m (12.0ms)
+Completed 200 OK in 14ms (Views: 12.5ms | ActiveRecord: 0.4ms)
 
 
-Started GET "/admin" for 127.0.0.1 at 2011-07-03 18:14:19 +0400
-  Processing by Admin::PagesController#index as HTML
-Rendered admin/pages/index.html.haml within layouts/admin (15.8ms)
-Completed 200 OK in 18ms (Views: 15.9ms | ActiveRecord: 1.2ms)
+Started POST "/cart_items" for 109.194.129.39 at Пнд Июл 11 14:55:04 +0400 2011
+  Processing by CartItemsController#create as HTML
+  Parameters: {"commit"=>"В корзину", "authenticity_token"=>"aCHUrCQ+3BLP9A8H/AWIb7RaEXyHFNme65/BTSjXV5k=", "utf8"=>"✓", "cart_item"=>{"menu_id"=>"14"}}
+Redirected to http://restaurant.maxstbn.locum.ru/flowers
+Completed 302 Found in 7ms
 
 
-Started GET "/admin/3/edit" for 127.0.0.1 at 2011-07-03 18:14:21 +0400
-  Processing by Admin::PagesController#edit as HTML
-  Parameters: {"id"=>"3"}
-Rendered admin/pages/_form.html.haml (6.4ms)
-Rendered admin/pages/edit.html.haml within layouts/admin (9.5ms)
-Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.3ms)
+Started GET "/flowers" for 109.194.129.39 at Пнд Июл 11 14:55:04 +0400 2011
+  Processing by MenusController#flowers as HTML
+Rendered shared/_menu.haml (0.1ms)
+Rendered menus/flowers.erb within layouts/application_m (11.8ms)
+Completed 200 OK in 14ms (Views: 12.3ms | ActiveRecord: 1.3ms)
 
 
-Started POST "/admin/3" for 127.0.0.1 at 2011-07-03 18:14:23 +0400
-  Processing by Admin::PagesController#update as HTML
-  Parameters: {"utf8"=>"✓", "authenticity_token"=>"naxoX/yaPE+kU5BycRzSS9qFWtxq8BCwHDa0kYZs8mg=", "page"=>{"title"=>"Шашлычная", "desc"=>"<p>\r\n\tГостеприимный Ереван распахивает Вам свои объятия. Живая музыка, знаменитая армянская кухня, зажигательные танцы прекрасных девушек. 5 уютных и комфортабельных залов. Безупречный сервис непередаваемая атмосфера древней, но всегда юной Армении. Это ресторан Ереван.</p>\r\n", "meta_key"=>"Ресторан", "meta_desc"=>"Ресторан"}, "commit"=>"Сохранить", "id"=>"3"}
-Redirected to http://localhost:3000/admin/3
+Started POST "/cart_items" for 109.194.129.39 at Пнд Июл 11 14:55:05 +0400 2011
+  Processing by CartItemsController#create as HTML
+  Parameters: {"commit"=>"В корзину", "authenticity_token"=>"aCHUrCQ+3BLP9A8H/AWIb7RaEXyHFNme65/BTSjXV5k=", "utf8"=>"✓", "cart_item"=>{"menu_id"=>"14"}}
+Redirected to http://restaurant.maxstbn.locum.ru/flowers
+Completed 302 Found in 12ms
+
+
+Started GET "/flowers" for 109.194.129.39 at Пнд Июл 11 14:55:05 +0400 2011
+  Processing by MenusController#flowers as HTML
+Rendered shared/_menu.haml (0.1ms)
+Rendered menus/flowers.erb within layouts/application_m (12.0ms)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/cart_items" for 109.194.129.39 at Пнд Июл 11 14:55:06 +0400 2011
+  Processing by CartItemsController#create as HTML
+  Parameters: {"commit"=>"В корзину", "authenticity_token"=>"aCHUrCQ+3BLP9A8H/AWIb7RaEXyHFNme65/BTSjXV5k=", "utf8"=>"✓", "cart_item"=>{"menu_id"=>"14"}}
+Redirected to http://restaurant.maxstbn.locum.ru/flowers
+Completed 302 Found in 51ms
+
+
+Started GET "/flowers" for 109.194.129.39 at Пнд Июл 11 14:55:06 +0400 2011
+  Processing by MenusController#flowers as HTML
+Rendered shared/_menu.haml (0.1ms)
+Rendered menus/flowers.erb within layouts/application_m (14.8ms)
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/cart_items" for 109.194.129.39 at Пнд Июл 11 14:55:07 +0400 2011
+  Processing by CartItemsController#create as HTML
+  Parameters: {"commit"=>"В корзину", "authenticity_token"=>"aCHUrCQ+3BLP9A8H/AWIb7RaEXyHFNme65/BTSjXV5k=", "utf8"=>"✓", "cart_item"=>{"menu_id"=>"14"}}
+Redirected to http://restaurant.maxstbn.locum.ru/flowers
+Completed 302 Found in 15ms
+
+
+Started GET "/flowers" for 109.194.129.39 at Пнд Июл 11 14:55:07 +0400 2011
+  Processing by MenusController#flowers as HTML
+Rendered shared/_menu.haml (0.1ms)
+Rendered menus/flowers.erb within layouts/application_m (13.3ms)
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/shashlyk" for 109.194.129.39 at Пнд Июл 11 14:55:09 +0400 2011
+  Processing by PagesController#shashlyk as HTML
+Rendered pages/_cont.haml (0.2ms)
+Rendered shared/_shashlyk.haml (0.1ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (2.1ms)
+Rendered pages/shashlyk.haml within layouts/application_s (4.6ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/cart" for 109.194.129.39 at Пнд Июл 11 14:55:11 +0400 2011
+  Processing by CartsController#show as HTML
+Rendered shared/_menu.haml (0.1ms)
+Rendered carts/show.erb within layouts/application_m (10.4ms)
+Completed 200 OK in 12ms (Views: 9.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/cart/profile" for 109.194.129.39 at Пнд Июл 11 14:55:16 +0400 2011
+  Processing by CartsController#profile as HTML
+Rendered shared/_menu.haml (0.1ms)
+Rendered carts/profile.haml within layouts/application_m (6.7ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/carts/1" for 109.194.129.39 at Пнд Июл 11 14:55:21 +0400 2011
+  Processing by CartsController#update as HTML
+  Parameters: {"cart"=>{"name"=>"Столбухин Максим Анатольевич", "phone"=>"234567"}, "commit"=>"Заказать", "authenticity_token"=>"aCHUrCQ+3BLP9A8H/AWIb7RaEXyHFNme65/BTSjXV5k=", "utf8"=>"✓", "id"=>"1"}
+Redirected to http://restaurant.maxstbn.locum.ru/cart/send
+Completed 302 Found in 10ms
+
+
+Started GET "/cart/send" for 109.194.129.39 at Пнд Июл 11 14:55:21 +0400 2011
+  Processing by CartsController#send_email as HTML
+Rendered cart_mailer/cart_confirmation.erb (13.7ms)
+
+Sent mail to maxstbn@gmail.com (58ms)
+Redirected to http://restaurant.maxstbn.locum.ru/cart/destroy
+Completed 302 Found in 227ms
+
+
+Started GET "/cart/destroy" for 109.194.129.39 at Пнд Июл 11 14:55:21 +0400 2011
+  Processing by CartsController#destroy as HTML
+Redirected to http://restaurant.maxstbn.locum.ru/
+Completed 302 Found in 46ms
+
+
+Started GET "/" for 109.194.129.39 at Пнд Июл 11 14:55:21 +0400 2011
+  Processing by PagesController#home as HTML
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (3.8ms)
+Rendered pages/home.haml within layouts/application_h (6.3ms)
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 16.1ms)
+
+
+Started GET "/shashlyk" for 109.194.129.39 at Пнд Июл 11 14:56:54 +0400 2011
+  Processing by PagesController#shashlyk as HTML
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_shashlyk.haml (0.1ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (1.9ms)
+Rendered pages/shashlyk.haml within layouts/application_s (4.3ms)
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/booking" for 109.194.129.39 at Пнд Июл 11 14:56:58 +0400 2011
+  Processing by BookingsController#index as HTML
+  Parameters: {"controllers"=>:bookings}
+Rendered shared/_menu.haml (0.1ms)
+Rendered bookings/index.haml within layouts/application_b (23.7ms)
+Completed 200 OK in 28ms (Views: 26.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/booking" for 109.194.129.39 at Пнд Июл 11 14:58:10 +0400 2011
+  Processing by BookingsController#index as HTML
+  Parameters: {"controllers"=>:bookings}
+Rendered shared/_menu.haml (0.1ms)
+Rendered bookings/index.haml within layouts/application_b (4.4ms)
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tour" for 109.194.129.39 at Пнд Июл 11 14:58:17 +0400 2011
+  Processing by PagesController#tour as HTML
+Rendered shared/_menu.haml (0.1ms)
+Rendered pages/tour.haml within layouts/application_t (56.1ms)
+Completed 200 OK in 59ms (Views: 58.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/shashlyk" for 109.194.129.39 at Пнд Июл 11 14:58:20 +0400 2011
+  Processing by PagesController#shashlyk as HTML
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_shashlyk.haml (0.1ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (2.1ms)
+Rendered pages/shashlyk.haml within layouts/application_s (4.5ms)
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/contacts" for 109.194.129.39 at Пнд Июл 11 14:58:22 +0400 2011
+  Processing by PagesController#contacts as HTML
+Rendered shared/_menu.haml (0.1ms)
+Rendered pages/contacts.haml within layouts/application_с (11.7ms)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/feedbacks" for 109.194.129.39 at Пнд Июл 11 14:58:25 +0400 2011
+  Processing by FeedbacksController#index as HTML
+Rendered shared/_menu.haml (0.1ms)
+Rendered feedbacks/index.haml within layouts/application_f (15.7ms)
+Completed 200 OK in 20ms (Views: 18.0ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/feedbacks" for 109.194.129.39 at Пнд Июл 11 14:58:34 +0400 2011
+  Processing by FeedbacksController#create as HTML
+  Parameters: {"commit"=>"Отправить", "authenticity_token"=>"aCHUrCQ+3BLP9A8H/AWIb7RaEXyHFNme65/BTSjXV5k=", "utf8"=>"✓", "feedback"=>{"desc"=>"", "user"=>""}}
+Rendered shared/_menu.haml (0.1ms)
+Rendered feedbacks/index.haml within layouts/application_f (5.0ms)
+Completed 200 OK in 52ms (Views: 5.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/contacts" for 109.194.129.39 at Пнд Июл 11 14:58:37 +0400 2011
+  Processing by PagesController#contacts as HTML
+Rendered shared/_menu.haml (0.1ms)
+Rendered pages/contacts.haml within layouts/application_с (1.7ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tour" for 109.194.129.39 at Пнд Июл 11 14:58:38 +0400 2011
+  Processing by PagesController#tour as HTML
+Rendered shared/_menu.haml (0.1ms)
+Rendered pages/tour.haml within layouts/application_t (1.8ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/shashlyk" for 109.194.129.39 at Пнд Июл 11 14:58:39 +0400 2011
+  Processing by PagesController#shashlyk as HTML
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_shashlyk.haml (0.1ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (50.4ms)
+Rendered pages/shashlyk.haml within layouts/application_s (52.7ms)
+Completed 200 OK in 54ms (Views: 52.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/restaurant" for 109.194.129.39 at Пнд Июл 11 14:58:40 +0400 2011
+  Processing by PagesController#restaurant as HTML
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_restaurant.haml (0.1ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (2.6ms)
+Rendered pages/restaurant.haml within layouts/application_r (5.2ms)
+Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 109.194.129.39 at Пнд Июл 11 14:58:41 +0400 2011
+  Processing by PagesController#home as HTML
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (3.2ms)
+Rendered pages/home.haml within layouts/application_h (5.5ms)
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/restaurant" for 109.194.129.39 at Пнд Июл 11 14:58:45 +0400 2011
+  Processing by PagesController#restaurant as HTML
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_restaurant.haml (0.1ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (2.0ms)
+Rendered pages/restaurant.haml within layouts/application_r (4.5ms)
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/restaurant/menu" for 109.194.129.39 at Пнд Июл 11 14:58:48 +0400 2011
+  Processing by MenusController#restaurant_menu as HTML
+Rendered menus/_menu.erb (10.8ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered menus/restaurant_menu.haml within layouts/application_m (12.8ms)
+Completed 200 OK in 15ms (Views: 13.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/contacts" for 109.194.129.39 at Пнд Июл 11 15:02:02 +0400 2011
+  Processing by PagesController#contacts as HTML
+Rendered shared/_menu.haml (0.1ms)
+Rendered pages/contacts.haml within layouts/application_с (1.8ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tour" for 109.194.129.39 at Пнд Июл 11 15:02:04 +0400 2011
+  Processing by PagesController#tour as HTML
+Rendered shared/_menu.haml (0.1ms)
+Rendered pages/tour.haml within layouts/application_t (2.1ms)
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/feedbacks" for 109.194.129.39 at Пнд Июл 11 15:02:05 +0400 2011
+  Processing by FeedbacksController#index as HTML
+Rendered shared/_menu.haml (0.1ms)
+Rendered feedbacks/index.haml within layouts/application_f (3.5ms)
+Completed 200 OK in 6ms (Views: 3.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/shashlyk" for 109.194.129.39 at Пнд Июл 11 15:02:06 +0400 2011
+  Processing by PagesController#shashlyk as HTML
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_shashlyk.haml (0.1ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (2.0ms)
+Rendered pages/shashlyk.haml within layouts/application_s (4.5ms)
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tour" for 109.194.129.39 at Пнд Июл 11 15:02:09 +0400 2011
+  Processing by PagesController#tour as HTML
+Rendered shared/_menu.haml (0.1ms)
+Rendered pages/tour.haml within layouts/application_t (1.8ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/shashlyk" for 109.194.129.39 at Пнд Июл 11 15:02:13 +0400 2011
+  Processing by PagesController#shashlyk as HTML
+Rendered pages/_cont.haml (1.1ms)
+Rendered shared/_shashlyk.haml (5.7ms)
+Rendered shared/_menu.haml (7.4ms)
+Rendered shared/_slider.haml (6.9ms)
+Rendered pages/shashlyk.haml within layouts/application_s (33.6ms)
+Completed 200 OK in 57ms (Views: 35.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/booking" for 109.194.129.39 at Пнд Июл 11 15:02:15 +0400 2011
+  Processing by BookingsController#index as HTML
+  Parameters: {"controllers"=>:bookings}
+Rendered shared/_menu.haml (0.1ms)
+Rendered bookings/index.haml within layouts/application_b (70.1ms)
+Completed 200 OK in 74ms (Views: 72.3ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/booking" for 109.194.129.39 at Пнд Июл 11 15:02:26 +0400 2011
+  Processing by BookingsController#create as HTML
+  Parameters: {"commit"=>"Забронировать", "controllers"=>:bookings, "authenticity_token"=>"aCHUrCQ+3BLP9A8H/AWIb7RaEXyHFNme65/BTSjXV5k=", "utf8"=>"✓", "booking"=>{"name"=>"Максим", "time"=>"8:00", "table"=>"1", "date"=>"20 сентября", "phone"=>"788956", "surname"=>"Столбухин", "patronymic"=>"Анатольевич"}}
+Rendered booking_mailer/booking_confirmation.haml (5.7ms)
+
+Sent mail to maxstbn@gmail.com (58ms)
+Redirected to http://restaurant.maxstbn.locum.ru/booking
+Completed 302 Found in 106ms
+
+
+Started GET "/booking" for 109.194.129.39 at Пнд Июл 11 15:02:26 +0400 2011
+  Processing by BookingsController#index as HTML
+  Parameters: {"controllers"=>:bookings}
+Rendered shared/_menu.haml (0.1ms)
+Rendered bookings/index.haml within layouts/application_b (4.8ms)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/booking" for 109.194.129.39 at Пнд Июл 11 15:04:57 +0400 2011
+  Processing by BookingsController#index as HTML
+  Parameters: {"controllers"=>:bookings}
+Rendered shared/_menu.haml (0.1ms)
+Rendered bookings/index.haml within layouts/application_b (4.6ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/booking" for 109.194.129.39 at Пнд Июл 11 15:05:02 +0400 2011
+  Processing by BookingsController#create as HTML
+  Parameters: {"commit"=>"Забронировать", "controllers"=>:bookings, "authenticity_token"=>"aCHUrCQ+3BLP9A8H/AWIb7RaEXyHFNme65/BTSjXV5k=", "utf8"=>"✓", "booking"=>{"name"=>"", "time"=>"8:00", "table"=>"1", "date"=>"", "phone"=>"", "surname"=>"Столбухин", "patronymic"=>""}}
+Completed 500 Internal Server Error in 17ms
+
+ActionView::MissingTemplate (Missing template bookings/create with {:formats=>[:html], :handlers=>[:rjs, :rhtml, :rxml, :haml, :builder, :erb], :locale=>[:en, :en]} in view paths "/var/www/home/hosting_maxstbn/projects/restaurant/releases/initial_release/app/views", "/var/www/home/hosting_maxstbn/.gem/ruby/1.8/gems/devise-1.3.3/app/views", "/var/www/home/hosting_maxstbn/.gem/ruby/1.8/gems/ckeditor-3.5.0/app/views"):
+  app/controllers/bookings_controller.rb:17:in `create'
+
+
+
+Started POST "/booking" for 109.194.129.39 at Пнд Июл 11 15:05:12 +0400 2011
+  Processing by BookingsController#create as HTML
+  Parameters: {"commit"=>"Забронировать", "controllers"=>:bookings, "authenticity_token"=>"aCHUrCQ+3BLP9A8H/AWIb7RaEXyHFNme65/BTSjXV5k=", "utf8"=>"✓", "booking"=>{"name"=>"Максим", "time"=>"8:00", "table"=>"1", "date"=>"20 сентября", "phone"=>"968956", "surname"=>"Столбухин", "patronymic"=>"Анатольевич"}}
+Rendered booking_mailer/booking_confirmation.haml (0.3ms)
+
+Sent mail to maxstbn@gmail.com (301ms)
+Redirected to http://restaurant.maxstbn.locum.ru/booking
+Completed 302 Found in 312ms
+
+
+Started GET "/booking" for 109.194.129.39 at Пнд Июл 11 15:05:13 +0400 2011
+  Processing by BookingsController#index as HTML
+  Parameters: {"controllers"=>:bookings}
+Rendered shared/_menu.haml (0.1ms)
+Rendered bookings/index.haml within layouts/application_b (5.3ms)
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/shashlyk" for 109.194.129.39 at Пнд Июл 11 15:05:34 +0400 2011
+  Processing by PagesController#shashlyk as HTML
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_shashlyk.haml (0.1ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (2.1ms)
+Rendered pages/shashlyk.haml within layouts/application_s (4.5ms)
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/shashlyk/menu" for 109.194.129.39 at Пнд Июл 11 15:05:36 +0400 2011
+  Processing by MenusController#shashlyk_menu as HTML
+Rendered menus/_menu.erb (36.6ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered menus/shashlyk_menu.haml within layouts/application_m (197.0ms)
+Completed 200 OK in 204ms (Views: 200.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/shashlyk/menu" for 109.194.129.39 at Пнд Июл 11 15:10:07 +0400 2011
+  Processing by MenusController#shashlyk_menu as HTML
+Rendered menus/_menu.erb (5.6ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered menus/shashlyk_menu.haml within layouts/application_m (7.4ms)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menu/category/6" for 109.194.129.39 at Пнд Июл 11 15:10:17 +0400 2011
+  Processing by MenuCategoriesController#show as HTML
+  Parameters: {"id"=>"6"}
+Rendered menus/_menu.erb (2.5ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered menu_categories/show.erb within layouts/application_m (6.0ms)
+Completed 200 OK in 19ms (Views: 14.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/menu/category/5" for 109.194.129.39 at Пнд Июл 11 15:10:19 +0400 2011
+  Processing by MenuCategoriesController#show as HTML
+  Parameters: {"id"=>"5"}
+Rendered menus/_menu.erb (73.2ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered menu_categories/show.erb within layouts/application_m (75.2ms)
+Completed 200 OK in 77ms (Views: 74.4ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/restaurant/menu" for 109.194.129.39 at Пнд Июл 11 15:10:22 +0400 2011
+  Processing by MenusController#restaurant_menu as HTML
+Rendered menus/_menu.erb (10.7ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered menus/restaurant_menu.haml within layouts/application_m (13.4ms)
+Completed 200 OK in 34ms (Views: 32.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 109.194.129.39 at Пнд Июл 11 15:10:23 +0400 2011
+  Processing by PagesController#home as HTML
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (2.8ms)
+Rendered pages/home.haml within layouts/application_h (13.2ms)
+Completed 200 OK in 29ms (Views: 19.3ms | ActiveRecord: 8.8ms)
+
+
+Started GET "/restaurant" for 109.194.129.39 at Пнд Июл 11 15:10:31 +0400 2011
+  Processing by PagesController#restaurant as HTML
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_restaurant.haml (5.0ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (2.2ms)
+Rendered pages/restaurant.haml within layouts/application_r (63.6ms)
+Completed 200 OK in 77ms (Views: 75.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/restaurant/menu" for 109.194.129.39 at Пнд Июл 11 15:10:34 +0400 2011
+  Processing by MenusController#restaurant_menu as HTML
+Rendered menus/_menu.erb (14.7ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered menus/restaurant_menu.haml within layouts/application_m (16.8ms)
+Completed 200 OK in 19ms (Views: 17.4ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/cart_items" for 109.194.129.39 at Пнд Июл 11 15:10:36 +0400 2011
+  Processing by CartItemsController#create as HTML
+  Parameters: {"commit"=>"В корзину", "authenticity_token"=>"aCHUrCQ+3BLP9A8H/AWIb7RaEXyHFNme65/BTSjXV5k=", "utf8"=>"✓", "cart_item"=>{"menu_id"=>"3"}}
+Redirected to http://restaurant.maxstbn.locum.ru/restaurant/menu
+Completed 302 Found in 19ms
+
+
+Started GET "/restaurant/menu" for 109.194.129.39 at Пнд Июл 11 15:10:36 +0400 2011
+  Processing by MenusController#restaurant_menu as HTML
+Rendered menus/_menu.erb (9.9ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered menus/restaurant_menu.haml within layouts/application_m (11.9ms)
+Completed 200 OK in 14ms (Views: 12.3ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/cart_items" for 109.194.129.39 at Пнд Июл 11 15:10:38 +0400 2011
+  Processing by CartItemsController#create as HTML
+  Parameters: {"commit"=>"В корзину", "authenticity_token"=>"aCHUrCQ+3BLP9A8H/AWIb7RaEXyHFNme65/BTSjXV5k=", "utf8"=>"✓", "cart_item"=>{"menu_id"=>"11"}}
+Redirected to http://restaurant.maxstbn.locum.ru/restaurant/menu
+Completed 302 Found in 21ms
+
+
+Started GET "/restaurant/menu" for 109.194.129.39 at Пнд Июл 11 15:10:38 +0400 2011
+  Processing by MenusController#restaurant_menu as HTML
+Rendered menus/_menu.erb (9.8ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered menus/restaurant_menu.haml within layouts/application_m (11.7ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/cart_items" for 109.194.129.39 at Пнд Июл 11 15:10:40 +0400 2011
+  Processing by CartItemsController#create as HTML
+  Parameters: {"commit"=>"В корзину", "authenticity_token"=>"aCHUrCQ+3BLP9A8H/AWIb7RaEXyHFNme65/BTSjXV5k=", "utf8"=>"✓", "cart_item"=>{"menu_id"=>"2"}}
+Redirected to http://restaurant.maxstbn.locum.ru/restaurant/menu
+Completed 302 Found in 53ms
+
+
+Started GET "/restaurant/menu" for 109.194.129.39 at Пнд Июл 11 15:10:40 +0400 2011
+  Processing by MenusController#restaurant_menu as HTML
+Rendered menus/_menu.erb (11.2ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered menus/restaurant_menu.haml within layouts/application_m (13.2ms)
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 5.9ms)
+
+
+Started POST "/cart_items" for 109.194.129.39 at Пнд Июл 11 15:10:42 +0400 2011
+  Processing by CartItemsController#create as HTML
+  Parameters: {"commit"=>"В корзину", "authenticity_token"=>"aCHUrCQ+3BLP9A8H/AWIb7RaEXyHFNme65/BTSjXV5k=", "utf8"=>"✓", "cart_item"=>{"menu_id"=>"21"}}
+Redirected to http://restaurant.maxstbn.locum.ru/restaurant/menu
+Completed 302 Found in 16ms
+
+
+Started GET "/restaurant/menu" for 109.194.129.39 at Пнд Июл 11 15:10:42 +0400 2011
+  Processing by MenusController#restaurant_menu as HTML
+Rendered menus/_menu.erb (10.5ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered menus/restaurant_menu.haml within layouts/application_m (12.5ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/cart_items" for 109.194.129.39 at Пнд Июл 11 15:10:43 +0400 2011
+  Processing by CartItemsController#create as HTML
+  Parameters: {"commit"=>"В корзину", "authenticity_token"=>"aCHUrCQ+3BLP9A8H/AWIb7RaEXyHFNme65/BTSjXV5k=", "utf8"=>"✓", "cart_item"=>{"menu_id"=>"2"}}
+Redirected to http://restaurant.maxstbn.locum.ru/restaurant/menu
+Completed 302 Found in 56ms
+
+
+Started GET "/restaurant/menu" for 109.194.129.39 at Пнд Июл 11 15:10:44 +0400 2011
+  Processing by MenusController#restaurant_menu as HTML
+Rendered menus/_menu.erb (9.9ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered menus/restaurant_menu.haml within layouts/application_m (11.9ms)
+Completed 200 OK in 14ms (Views: 12.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/restaurant" for 109.194.129.39 at Пнд Июл 11 15:10:45 +0400 2011
+  Processing by PagesController#restaurant as HTML
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_restaurant.haml (0.1ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (1.8ms)
+Rendered pages/restaurant.haml within layouts/application_r (4.0ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/cart" for 109.194.129.39 at Пнд Июл 11 15:10:47 +0400 2011
+  Processing by CartsController#show as HTML
+Rendered shared/_menu.haml (0.1ms)
+Rendered carts/show.erb within layouts/application_m (8.6ms)
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/cart_items/64" for 109.194.129.39 at Пнд Июл 11 15:10:54 +0400 2011
+  Processing by CartItemsController#show as HTML
+  Parameters: {"id"=>"64"}
+Redirected to http://restaurant.maxstbn.locum.ru/cart
+Completed 302 Found in 27ms
+
+
+Started GET "/cart" for 109.194.129.39 at Пнд Июл 11 15:10:54 +0400 2011
+  Processing by CartsController#show as HTML
+Rendered shared/_menu.haml (0.1ms)
+Rendered carts/show.erb within layouts/application_m (6.0ms)
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurant" for 109.194.129.39 at Пнд Июл 11 15:10:56 +0400 2011
+  Processing by PagesController#restaurant as HTML
+Rendered pages/_cont.haml (0.2ms)
+Rendered shared/_restaurant.haml (0.1ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (3.2ms)
+Rendered pages/restaurant.haml within layouts/application_r (6.8ms)
+Completed 200 OK in 9ms (Views: 7.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/booking" for 109.194.129.39 at Пнд Июл 11 15:10:58 +0400 2011
+  Processing by BookingsController#index as HTML
+  Parameters: {"controllers"=>:bookings}
+Rendered shared/_menu.haml (0.1ms)
+Rendered bookings/index.haml within layouts/application_b (5.0ms)
+Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/restaurant" for 109.194.129.39 at Пнд Июл 11 15:11:06 +0400 2011
+  Processing by PagesController#restaurant as HTML
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_restaurant.haml (0.1ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (2.6ms)
+Rendered pages/restaurant.haml within layouts/application_r (5.1ms)
+Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/flowers" for 109.194.129.39 at Пнд Июл 11 15:11:09 +0400 2011
+  Processing by MenusController#flowers as HTML
+Rendered shared/_menu.haml (0.1ms)
+Rendered menus/flowers.erb within layouts/application_m (12.7ms)
+Completed 200 OK in 43ms (Views: 41.6ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/cart_items" for 109.194.129.39 at Пнд Июл 11 15:11:14 +0400 2011
+  Processing by CartItemsController#create as HTML
+  Parameters: {"commit"=>"В корзину", "authenticity_token"=>"aCHUrCQ+3BLP9A8H/AWIb7RaEXyHFNme65/BTSjXV5k=", "utf8"=>"✓", "cart_item"=>{"menu_id"=>"17"}}
+Redirected to http://restaurant.maxstbn.locum.ru/flowers
+Completed 302 Found in 7ms
+
+
+Started GET "/flowers" for 109.194.129.39 at Пнд Июл 11 15:11:14 +0400 2011
+  Processing by MenusController#flowers as HTML
+Rendered shared/_menu.haml (0.1ms)
+Rendered menus/flowers.erb within layouts/application_m (11.9ms)
+Completed 200 OK in 14ms (Views: 12.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/tour" for 109.194.129.39 at Пнд Июл 11 15:11:17 +0400 2011
+  Processing by PagesController#tour as HTML
+Rendered shared/_menu.haml (0.1ms)
+Rendered pages/tour.haml within layouts/application_t (53.1ms)
+Completed 200 OK in 69ms (Views: 67.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/contacts" for 109.194.129.39 at Пнд Июл 11 15:11:21 +0400 2011
+  Processing by PagesController#contacts as HTML
+Rendered shared/_menu.haml (0.1ms)
+Rendered pages/contacts.haml within layouts/application_с (11.0ms)
+Completed 200 OK in 34ms (Views: 32.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/feedbacks" for 109.194.129.39 at Пнд Июл 11 15:11:26 +0400 2011
+  Processing by FeedbacksController#index as HTML
+Rendered shared/_menu.haml (0.1ms)
+Rendered feedbacks/index.haml within layouts/application_f (16.4ms)
+Completed 200 OK in 53ms (Views: 50.4ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/feedbacks" for 109.194.129.39 at Пнд Июл 11 15:11:34 +0400 2011
+  Processing by FeedbacksController#create as HTML
+  Parameters: {"commit"=>"Отправить", "authenticity_token"=>"aCHUrCQ+3BLP9A8H/AWIb7RaEXyHFNme65/BTSjXV5k=", "utf8"=>"✓", "feedback"=>{"desc"=>"Также можно использовать хелпер error_messages_for для отображения сообщений об ошибке от переданной в шаблон вьюхи модели. Это очень похоже на предыдущий пример и приведет к абсолютно тому же результату. Также можно использовать хелпер error_messages_for для отображения сообщений об ошибке от переданной в шаблон вьюхи модели. Это очень похоже на предыдущий пример и приведет к абсолютно тому же", "user"=>"Эта глава"}}
+Redirected to http://restaurant.maxstbn.locum.ru/feedbacks
+Completed 302 Found in 7ms
+
+
+Started GET "/feedbacks" for 109.194.129.39 at Пнд Июл 11 15:11:34 +0400 2011
+  Processing by FeedbacksController#index as HTML
+Rendered shared/_menu.haml (0.1ms)
+Rendered feedbacks/index.haml within layouts/application_f (4.0ms)
+Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 109.194.129.39 at Пнд Июл 11 15:11:40 +0400 2011
+  Processing by PagesController#home as HTML
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (2.7ms)
+Rendered pages/home.haml within layouts/application_h (4.8ms)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 109.194.129.39 at Пнд Июл 11 15:11:41 +0400 2011
+  Processing by PagesController#home as HTML
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (3.0ms)
+Rendered pages/home.haml within layouts/application_h (5.3ms)
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/restaurant" for 109.194.129.39 at Пнд Июл 11 15:11:43 +0400 2011
+  Processing by PagesController#restaurant as HTML
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_restaurant.haml (0.1ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (2.0ms)
+Rendered pages/restaurant.haml within layouts/application_r (4.2ms)
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/shashlyk" for 109.194.129.39 at Пнд Июл 11 15:11:44 +0400 2011
+  Processing by PagesController#shashlyk as HTML
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_shashlyk.haml (0.1ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (50.5ms)
+Rendered pages/shashlyk.haml within layouts/application_s (52.8ms)
+Completed 200 OK in 54ms (Views: 53.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tour" for 109.194.129.39 at Пнд Июл 11 15:11:46 +0400 2011
+  Processing by PagesController#tour as HTML
+Rendered shared/_menu.haml (0.1ms)
+Rendered pages/tour.haml within layouts/application_t (1.9ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/contacts" for 109.194.129.39 at Пнд Июл 11 15:11:47 +0400 2011
+  Processing by PagesController#contacts as HTML
+Rendered shared/_menu.haml (0.1ms)
+Rendered pages/contacts.haml within layouts/application_с (1.9ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 109.194.129.39 at Пнд Июл 11 15:35:16 +0400 2011
+  Processing by PagesController#home as HTML
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (3.5ms)
+Rendered pages/home.haml within layouts/application_h (5.9ms)
+Completed 200 OK in 8ms (Views: 6.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/admin" for 109.194.129.39 at Пнд Июл 11 15:35:22 +0400 2011
+  Processing by Admin::BookingsController#index as HTML
+Completed   in 0ms
+
+
+Started GET "/admin/sign_in" for 109.194.129.39 at Пнд Июл 11 15:35:22 +0400 2011
+  Processing by Admin::SessionsController#new as HTML
+Rendered admin/sessions/new.haml within layouts/application (6.8ms)
+Completed 200 OK in 94ms (Views: 86.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/sign_in" for 109.194.129.39 at Пнд Июл 11 15:35:26 +0400 2011
+  Processing by Admin::SessionsController#new as HTML
+Rendered admin/sessions/new.haml within layouts/application (3.0ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin/sign_in" for 109.194.129.39 at Пнд Июл 11 15:35:35 +0400 2011
+  Processing by Admin::SessionsController#create as HTML
+  Parameters: {"commit"=>"Войти", "authenticity_token"=>"aCHUrCQ+3BLP9A8H/AWIb7RaEXyHFNme65/BTSjXV5k=", "utf8"=>"✓", "user"=>{"remember_me"=>"0", "password"=>"[FILTERED]", "email"=>"maxstbn@gmail.com"}}
+Redirected to http://restaurant.maxstbn.locum.ru/admin
+Completed 302 Found in 130ms
+
+
+Started GET "/admin" for 109.194.129.39 at Пнд Июл 11 15:35:35 +0400 2011
+  Processing by Admin::BookingsController#index as HTML
+Rendered admin/bookings/index.haml within layouts/application (13.5ms)
+Completed 200 OK in 20ms (Views: 17.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/admin" for 109.194.129.39 at Пнд Июл 11 15:35:44 +0400 2011
+  Processing by Admin::BookingsController#index as HTML
+Rendered admin/bookings/index.haml within layouts/application (4.4ms)
+Completed 200 OK in 7ms (Views: 4.9ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/admin/13" for 109.194.129.39 at Пнд Июл 11 15:36:07 +0400 2011
+  Processing by Admin::BookingsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"aCHUrCQ+3BLP9A8H/AWIb7RaEXyHFNme65/BTSjXV5k=", "id"=>"13"}
+Redirected to http://restaurant.maxstbn.locum.ru/admin
 Completed 302 Found in 4ms
 
 
-Started GET "/admin/3" for 127.0.0.1 at 2011-07-03 18:14:23 +0400
-  Processing by Admin::PagesController#show as HTML
-  Parameters: {"id"=>"3"}
-Rendered admin/pages/show.html.haml within layouts/admin (3.8ms)
-Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 1.0ms)
+Started GET "/admin" for 109.194.129.39 at Пнд Июл 11 15:36:07 +0400 2011
+  Processing by Admin::BookingsController#index as HTML
+Rendered admin/bookings/index.haml within layouts/application (3.9ms)
+Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 1.0ms)
 
 
-Started GET "/admin" for 127.0.0.1 at 2011-07-03 18:14:24 +0400
-  Processing by Admin::PagesController#index as HTML
-Rendered admin/pages/index.html.haml within layouts/admin (19.2ms)
-Completed 200 OK in 21ms (Views: 18.7ms | ActiveRecord: 1.8ms)
+Started POST "/admin/12" for 109.194.129.39 at Пнд Июл 11 15:36:09 +0400 2011
+  Processing by Admin::BookingsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"aCHUrCQ+3BLP9A8H/AWIb7RaEXyHFNme65/BTSjXV5k=", "id"=>"12"}
+Redirected to http://restaurant.maxstbn.locum.ru/admin
+Completed 302 Found in 15ms
 
 
-Started GET "/admin/sign_in" for 127.0.0.1 at 2011-07-04 12:35:18 +0400
-  Processing by Admin::SessionsController#new as HTML
-Rendered admin/sessions/new.haml within layouts/application (98.9ms)
-Completed 200 OK in 136ms (Views: 108.5ms | ActiveRecord: 0.0ms)
+Started GET "/admin" for 109.194.129.39 at Пнд Июл 11 15:36:09 +0400 2011
+  Processing by Admin::BookingsController#index as HTML
+Rendered admin/bookings/index.haml within layouts/application (71.3ms)
+Completed 200 OK in 74ms (Views: 71.9ms | ActiveRecord: 1.0ms)
 
 
-Started GET "/admin/sign_in" for 127.0.0.1 at 2011-07-04 12:35:20 +0400
-  Processing by Admin::SessionsController#new as HTML
-Rendered admin/sessions/new.haml within layouts/application (19.7ms)
-Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+Started POST "/admin/9" for 109.194.129.39 at Пнд Июл 11 15:36:12 +0400 2011
+  Processing by Admin::BookingsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"aCHUrCQ+3BLP9A8H/AWIb7RaEXyHFNme65/BTSjXV5k=", "id"=>"9"}
+Redirected to http://restaurant.maxstbn.locum.ru/admin
+Completed 302 Found in 105ms
 
 
-Started GET "/admin" for 127.0.0.1 at 2011-07-04 12:35:21 +0400
-  Processing by Admin::PagesController#index as HTML
-Completed   in 1ms
+Started GET "/admin" for 109.194.129.39 at Пнд Июл 11 15:36:12 +0400 2011
+  Processing by Admin::BookingsController#index as HTML
+Rendered admin/bookings/index.haml within layouts/application (3.9ms)
+Completed 200 OK in 7ms (Views: 4.7ms | ActiveRecord: 1.1ms)
 
 
-Started GET "/admin/sign_in" for 127.0.0.1 at 2011-07-04 12:35:21 +0400
-  Processing by Admin::SessionsController#new as HTML
-Rendered admin/sessions/new.haml within layouts/application (11.7ms)
-Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+Started POST "/admin/8" for 109.194.129.39 at Пнд Июл 11 15:36:34 +0400 2011
+  Processing by Admin::BookingsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"aCHUrCQ+3BLP9A8H/AWIb7RaEXyHFNme65/BTSjXV5k=", "id"=>"8"}
+Redirected to http://restaurant.maxstbn.locum.ru/admin
+Completed 302 Found in 109ms
 
 
-Started GET "/admin/sign_in" for 127.0.0.1 at 2011-07-04 12:38:08 +0400
-  Processing by Admin::SessionsController#new as HTML
-Rendered admin/sessions/new.haml within layouts/application (5.6ms)
-Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+Started GET "/admin" for 109.194.129.39 at Пнд Июл 11 15:36:35 +0400 2011
+  Processing by Admin::BookingsController#index as HTML
+Rendered admin/bookings/index.haml within layouts/application (3.4ms)
+Completed 200 OK in 6ms (Views: 4.0ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/admin/7" for 109.194.129.39 at Пнд Июл 11 15:36:37 +0400 2011
+  Processing by Admin::BookingsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"aCHUrCQ+3BLP9A8H/AWIb7RaEXyHFNme65/BTSjXV5k=", "id"=>"7"}
+Redirected to http://restaurant.maxstbn.locum.ru/admin
+Completed 302 Found in 6ms
+
+
+Started GET "/admin" for 109.194.129.39 at Пнд Июл 11 15:36:38 +0400 2011
+  Processing by Admin::BookingsController#index as HTML
+Rendered admin/bookings/index.haml within layouts/application (4.6ms)
+Completed 200 OK in 9ms (Views: 5.7ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/admin" for 109.194.129.39 at Пнд Июл 11 15:36:45 +0400 2011
+  Processing by Admin::BookingsController#index as HTML
+Rendered admin/bookings/index.haml within layouts/application (3.7ms)
+Completed 200 OK in 9ms (Views: 4.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/admin/shashlyk_menu" for 109.194.129.39 at Пнд Июл 11 15:37:46 +0400 2011
+  Processing by Admin::MenusController#shashlyk_menu as HTML
+Rendered admin/menus/shashlyk_menu.haml within layouts/application (26.6ms)
+Completed 200 OK in 65ms (Views: 62.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/admin" for 109.194.129.39 at Пнд Июл 11 15:37:53 +0400 2011
+  Processing by Admin::BookingsController#index as HTML
+Rendered admin/bookings/index.haml within layouts/application (2.5ms)
+Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 109.194.129.39 at Пнд Июл 11 15:38:04 +0400 2011
+  Processing by PagesController#home as HTML
+Rendered pages/_cont.haml (0.2ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (3.1ms)
+Rendered pages/home.haml within layouts/application_h (5.4ms)
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/shashlyk" for 109.194.129.39 at Пнд Июл 11 15:38:06 +0400 2011
+  Processing by PagesController#shashlyk as HTML
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_shashlyk.haml (0.1ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (2.1ms)
+Rendered pages/shashlyk.haml within layouts/application_s (4.6ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/restaurant" for 109.194.129.39 at Пнд Июл 11 15:38:07 +0400 2011
+  Processing by PagesController#restaurant as HTML
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_restaurant.haml (0.1ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (2.0ms)
+Rendered pages/restaurant.haml within layouts/application_r (4.5ms)
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tour" for 109.194.129.39 at Пнд Июл 11 15:38:07 +0400 2011
+  Processing by PagesController#tour as HTML
+Rendered shared/_menu.haml (0.1ms)
+Rendered pages/tour.haml within layouts/application_t (1.9ms)
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/contacts" for 109.194.129.39 at Пнд Июл 11 15:38:08 +0400 2011
+  Processing by PagesController#contacts as HTML
+Rendered shared/_menu.haml (0.1ms)
+Rendered pages/contacts.haml within layouts/application_с (1.9ms)
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/feedbacks" for 109.194.129.39 at Пнд Июл 11 15:38:09 +0400 2011
+  Processing by FeedbacksController#index as HTML
+Rendered shared/_menu.haml (0.1ms)
+Rendered feedbacks/index.haml within layouts/application_f (4.0ms)
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tour" for 109.194.129.39 at Пнд Июл 11 15:38:10 +0400 2011
+  Processing by PagesController#tour as HTML
+Rendered shared/_menu.haml (0.1ms)
+Rendered pages/tour.haml within layouts/application_t (1.8ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/shashlyk" for 109.194.129.39 at Пнд Июл 11 15:38:10 +0400 2011
+  Processing by PagesController#shashlyk as HTML
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_shashlyk.haml (0.1ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (2.4ms)
+Rendered pages/shashlyk.haml within layouts/application_s (57.0ms)
+Completed 200 OK in 59ms (Views: 57.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/restaurant" for 109.194.129.39 at Пнд Июл 11 15:38:12 +0400 2011
+  Processing by PagesController#restaurant as HTML
+Rendered pages/_cont.haml (0.2ms)
+Rendered shared/_restaurant.haml (0.1ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (2.6ms)
+Rendered pages/restaurant.haml within layouts/application_r (5.5ms)
+Completed 200 OK in 8ms (Views: 6.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 109.194.129.39 at Пнд Июл 11 15:38:13 +0400 2011
+  Processing by PagesController#home as HTML
+Rendered pages/_cont.haml (0.3ms)
+Rendered shared/_menu.haml (0.2ms)
+Rendered shared/_slider.haml (5.8ms)
+Rendered pages/home.haml within layouts/application_h (10.1ms)
+Completed 200 OK in 13ms (Views: 10.6ms | ActiveRecord: 0.7ms)

@@ -5,7 +5,7 @@ class Admin::FeedbacksController < ApplicationController
 
   def index
     @feedbacks = Feedback.paginate :page => params[:page], :order => 'created_at DESC'
-    render :layout => 'application'
+    render :layout => 'admin'
   end
 
   def destroy

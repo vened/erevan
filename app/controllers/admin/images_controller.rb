@@ -7,13 +7,14 @@ class Admin::ImagesController < ApplicationController
     @page = Page.find(params[:page_id])
     @image = Image.new(params[:id])
     @images = @page.images
-		render :layout => 'application'
+		render :layout => 'admin'
   end
 
 	def create
 		@page = Page.find(params[:page_id])
 		@image = @page.images.create(params[:image])
-		render :layout => 'application'
+		#render :layout => 'admin'
+    redirect_to admin_page_images_path
 	end
 
 

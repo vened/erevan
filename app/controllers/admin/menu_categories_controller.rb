@@ -4,10 +4,12 @@ class Admin::MenuCategoriesController < ApplicationController
 
   def index
     @menu_categories = MenuCategory.all
+    render :layout => 'admin'
   end
 
   def new
     @menu_category = MenuCategory.new
+    render :layout => 'admin'
   end
 
   def create
@@ -21,6 +23,7 @@ class Admin::MenuCategoriesController < ApplicationController
 
   def edit
     @menu_category = MenuCategory.find(params[:id])
+    render :layout => 'admin'
   end
 
   def update

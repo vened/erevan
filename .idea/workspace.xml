@@ -18,16 +18,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/menu/image/21/pic_head_dish1.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/menu/image/21/thumb_dish1.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/admin/bookings_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/admin/bookings_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/admin/feedbacks_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/admin/feedbacks_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/admin/images_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/admin/images_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/admin/menu_categories_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/admin/menu_categories_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/admin/menus_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/admin/menus_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/admin/pages_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/admin/pages_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/admin.haml" afterPath="$PROJECT_DIR$/app/views/layouts/admin.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/menus/flowers.erb" afterPath="$PROJECT_DIR$/app/views/menus/flowers.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/menus/restaurant_menu.haml" afterPath="$PROJECT_DIR$/app/views/menus/restaurant_menu.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/menus/shashlyk_menu.haml" afterPath="$PROJECT_DIR$/app/views/menus/shashlyk_menu.haml" />
     </list>
     <ignored path="erevan.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,10 +39,10 @@
   <component name="DisabledGemRequirementsHolder">
     <module name="erevan">
       <requirement>
-        <dependency name="activerecord" version="2.3.0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+        <dependency name="activesupport" version="3.0" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
       </requirement>
       <requirement>
-        <dependency name="activesupport" version="3.0" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+        <dependency name="activerecord" version="2.3.0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
       </requirement>
       <requirement>
         <dependency name="activesupport" version="2.3.2" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
@@ -148,6 +138,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Favorites" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -156,21 +148,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erevan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erevan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="RailsProjectView" />
-      <pane id="Scope" />
-      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.22632311" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -409,9 +409,9 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32837406" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20633246" sideWeight="0.32583067" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21608579" sideWeight="0.57569295" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21876675" sideWeight="0.57569295" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42430705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42430705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943678" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -461,114 +461,82 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/public/javascripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="7" selection-start="32" selection-end="116" vertical-scroll-proportion="0.09879254">
-          <folding />
-        </state>
+        <state line="5" column="7" selection-start="32" selection-end="116" vertical-scroll-proportion="0.09879254" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/admin/bookings_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="29" selection-start="245" selection-end="270" vertical-scroll-proportion="0.17782657">
-          <folding />
-        </state>
+        <state line="9" column="29" selection-start="245" selection-end="270" vertical-scroll-proportion="0.17782657" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/bookings_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="24" selection-start="159" selection-end="159" vertical-scroll-proportion="0.118551046">
-          <folding />
-        </state>
+        <state line="6" column="24" selection-start="159" selection-end="159" vertical-scroll-proportion="0.118551046" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/admin/feedbacks_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="29" selection-start="235" selection-end="235" vertical-scroll-proportion="0.13830955">
-          <folding />
-        </state>
+        <state line="7" column="29" selection-start="235" selection-end="235" vertical-scroll-proportion="0.13830955" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/admin/pages_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="31" selection-start="839" selection-end="839" vertical-scroll-proportion="0.81009877">
-          <folding />
-        </state>
+        <state line="41" column="31" selection-start="839" selection-end="839" vertical-scroll-proportion="0.81009877" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/admin/menus_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="52" selection-start="1462" selection-end="1462" vertical-scroll-proportion="0.84193194">
-          <folding />
-        </state>
+        <state line="68" column="52" selection-start="1462" selection-end="1462" vertical-scroll-proportion="0.84193194" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/admin/menu_categories_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="29" selection-start="795" selection-end="795" vertical-scroll-proportion="0.7113063">
-          <folding />
-        </state>
+        <state line="36" column="29" selection-start="795" selection-end="795" vertical-scroll-proportion="0.7113063" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/carts/show.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="77" selection-start="1246" selection-end="1246" vertical-scroll-proportion="0.77113867">
-          <folding />
-        </state>
+        <state line="38" column="77" selection-start="1246" selection-end="1246" vertical-scroll-proportion="0.77113867" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/menus/flowers.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="2" selection-start="733" selection-end="733" vertical-scroll-proportion="-19.5">
-          <folding />
-        </state>
+        <state line="26" column="2" selection-start="733" selection-end="733" vertical-scroll-proportion="-19.5" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/admin.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="20" selection-start="872" selection-end="872" vertical-scroll-proportion="0.23710209">
-          <folding />
-        </state>
+        <state line="27" column="20" selection-start="872" selection-end="872" vertical-scroll-proportion="0.23710209" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/admin/images_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="43" selection-start="539" selection-end="539" vertical-scroll-proportion="0.84210527">
-          <folding />
-        </state>
+        <state line="24" column="43" selection-start="539" selection-end="539" vertical-scroll-proportion="0.84210527" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shared/_restaurant.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="4" selection-start="99" selection-end="99" vertical-scroll-proportion="0.059275523">
-          <folding />
-        </state>
+        <state line="3" column="4" selection-start="99" selection-end="99" vertical-scroll-proportion="0.059275523" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shared/_menu.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/menus/_menu.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="6" selection-start="14" selection-end="911" vertical-scroll-proportion="0.669673">
-          <folding />
-        </state>
+        <state line="33" column="6" selection-start="14" selection-end="911" vertical-scroll-proportion="0.669673" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/menus/restaurant_menu.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="26" selection-start="53" selection-end="53" vertical-scroll-proportion="0.07903403">
-          <folding />
-        </state>
+        <state line="4" column="26" selection-start="53" selection-end="53" vertical-scroll-proportion="0.07903403" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/menus/shashlyk_menu.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="26" selection-start="53" selection-end="53" vertical-scroll-proportion="0.07903403">
-          <folding />
-        </state>
+        <state line="4" column="26" selection-start="53" selection-end="53" vertical-scroll-proportion="0.07903403" />
       </provider>
     </entry>
   </component>

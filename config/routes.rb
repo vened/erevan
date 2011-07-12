@@ -16,7 +16,7 @@ Erevan::Application.routes.draw do
   resources :menus, :path => "/restaurant/menu"
   resources :menu_categories, :path => "/menu/category"
 
-  devise_for :users, :controllers => {:sessions => "admin/sessions"}, :path => "/admin"
+  devise_for :users, :controllers => {:sessions => "sessions"}, :path => "/user"
 
   resources :feedbacks
 

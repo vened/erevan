@@ -1,7 +1,7 @@
 # encoding: utf-8
 class Admin::FeedbacksController < ApplicationController
 
-  before_filter :authenticate_user!
+  before_filter :authenticate
 
   def index
     @feedbacks = Feedback.paginate :page => params[:page], :order => 'created_at DESC'

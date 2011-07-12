@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110708051326) do
+ActiveRecord::Schema.define(:version => 20110712082448) do
 
   create_table "bookings", :force => true do |t|
     t.string   "surname"
@@ -33,7 +33,7 @@ ActiveRecord::Schema.define(:version => 20110708051326) do
   end
 
   create_table "carts", :force => true do |t|
-    t.string   "authenticity_token"
+    t.string   "session_id"
     t.string   "name"
     t.integer  "phone"
     t.datetime "created_at"
@@ -84,6 +84,7 @@ ActiveRecord::Schema.define(:version => 20110708051326) do
     t.integer  "menu_category_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "url"
   end
 
   create_table "pages", :force => true do |t|
@@ -110,6 +111,10 @@ ActiveRecord::Schema.define(:version => 20110708051326) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "username"
+    t.string   "name"
+    t.string   "surname"
+    t.string   "lastname"
+    t.integer  "phone"
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true

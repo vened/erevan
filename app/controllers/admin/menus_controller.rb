@@ -1,7 +1,7 @@
 # encoding: utf-8
 class Admin::MenusController < ApplicationController
 
-  before_filter :authenticate_user!
+  before_filter :authenticate
 
   def restaurant_menu
     @menus = Menu.find_all_by_url('restaurant_menu')

@@ -8,7 +8,9 @@
             <tr>
               <td><%= @menu.title %></td>
               <td>
-                <%= cart_item.quantity %>
+                <%= form_for cart_item, :remote => true do |f| %>
+                    <%= f.text_field :quantity %>
+                <% end %>
               </td>
               <td><span class="cost"><%= cart_item.full_price %> <span class="rub">р<span>уб.</span></span></span></td>
               <td>

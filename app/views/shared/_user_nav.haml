@@ -1,0 +1,12 @@
+#user-navigation
+  -if user_signed_in?
+    %span Добро пожаловать на сайт
+    %b= current_user.username
+    |
+    = link_to "Изменить", edit_user_registration_path
+    |
+    = link_to "Выйти", destroy_user_session_path
+  -else
+    = link_to "Зарегистрироваться", new_user_registration_path
+    или
+    = link_to "Войти", new_user_session_path

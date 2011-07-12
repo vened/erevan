@@ -1,8 +1,10 @@
 # encoding: utf-8
 class Admin::PagesController < ApplicationController
 
-  before_filter :authenticate_user!
-		
+  #before_filter :authenticate_user!
+
+  before_filter :authenticate
+
 	def index
     @pages = Page.all
 		render :layout => 'application'

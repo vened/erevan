@@ -1,5 +1,7 @@
 class Admin::MenuCategoriesController < ApplicationController
 
+  before_filter :authenticate
+
   def index
     @menu_categories = MenuCategory.all
   end

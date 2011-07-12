@@ -1,7 +1,9 @@
 # encoding: utf-8
 class Admin::BookingsController < ApplicationController
 
-  before_filter :authenticate_user!
+  #before_filter :authenticate_user!
+
+  before_filter :authenticate
 
   def index
     @bookings = Booking.paginate :page => params[:page], :order => 'created_at DESC'

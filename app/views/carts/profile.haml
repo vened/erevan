@@ -1,13 +1,13 @@
 #cart
   #reserv
-    = form_for @cart do |f|
-      = f.error_messages :header_message => "Ошибка!", :message => "Вы допустили ошибку при заполнение формы", :header_tag => :h3
+    %h2 Ваши данные
+    %p
+      Ф.И.О.:
+      %b= @user.surname
+      %b= @user.name
+      %b= @user.lastname
+    %p
+      Телефон:
+      %b= @user.phone
 
-      .field.frm_line
-        = f.label :name, "Фамилия Имя Отчество"
-        .inp= f.text_field :name
-      .field.frm_line
-        = f.label :phone, "Телефон"
-        .inp= f.text_field :phone
-
-      = f.submit "Заказать"
+    = link_to "Оформить", cart_send_url

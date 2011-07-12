@@ -1,6 +1,8 @@
 # encoding: utf-8
 class CartsController < ApplicationController
 
+  before_filter :authenticate_user!
+
   def show
     #@cart = Cart.find(params[:id])
     @cart = current_cart.cart_items
@@ -10,6 +12,7 @@ class CartsController < ApplicationController
 
   def profile
     @cart = current_cart
+    @user = current_user
     #redirect_to update_url
     render :layout => 'application_m'
   end
@@ -24,10 +27,10 @@ class CartsController < ApplicationController
     @cart = current_cart.cart_items
     @menu = current_cart.menus
     @total_price = @menu.sum("price")
-    @name = current_cart
+    @name = current_user
     CartMailer.cart_confirmation(@cart, @total_price, @name).deliver
     #@cart.destroy
-    redirect_to cart_destroy_url, :notice => "Ваша заказ успешно оформлен, в ближайшее время с вами свяжется наш менеджер!"
+    redirect_to cart_destroy_url, :notice => "Ваш заказ успешно оформлен, в ближайшее время с вами свяжется наш менеджер!"
   end
 
   def destroy

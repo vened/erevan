@@ -1,0 +1,37 @@
+<table class="order">
+  <% for cart_item in @cart %>
+      <% @menu = cart_item.menu %>
+      <tr>
+        <td><%= @menu.title %></td>
+        <td>
+          <%= form_for cart_item.relationships, :html => {:method => :update}, :remote => true do |f| %>
+              <%= f.text_field :quantity %>
+          <% end %>
+          <%= cart_item.quantity %>
+        </td>
+        <td><span class="cost"><%= cart_item.full_price %> <span class="rub">р<span>уб.</span></span></span></td>
+        <td>
+          <%= link_to 'Убрать из заказа', cart_item %>
+        </td>
+      </tr>
+  <% end %>
+  <tfoot>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+    <td colspan="2" class="cost">
+      Итого:
+        <span class="cost">
+          <% @pr = @cart.map { |i| i.full_price } %>
+          <%= @pr.inject(0) { |result, elem| result + elem } %>
+          <span class="rub">р<span>уб.</span></span>
+        </span>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+    <td colspan="2" class="Checkout">
+      <%= link_to "Оформить заказ", cart_profile_path %>
+    </td>
+  </tr>
+  </tfoot>
+</table>

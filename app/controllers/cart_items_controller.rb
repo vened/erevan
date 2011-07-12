@@ -1,6 +1,8 @@
 # encoding: utf-8
 class CartItemsController < ApplicationController
 
+  before_filter :authenticate_user!
+
   def create
     #current_cart.cart_items.create!(params[:cart_item])
 
@@ -13,7 +15,18 @@ class CartItemsController < ApplicationController
       current_cart.cart_items.create!(params[:cart_item])
     end
 
-    redirect_to :back, :notice => "Товар добавлен в корзину!"
+    redirect_to :back
+  end
+
+  def update
+    @cart_item = CartItem.find(params[:id])
+    @cart_item.update_attributes(params[:cart_item])
+#    @cart = current_cart
+#    @cart.update_attributes(params[:cart])
+    respond_to do |format|
+      format.html { redirect_to :back }
+      format.js
+    end
   end
 
   def show

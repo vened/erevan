@@ -1,6 +1,6 @@
 class MenusController < ApplicationController
 
-#  def index
+  #  def index
 #    @menus = Menu.all
 #    @menu_categories = MenuCategory.all
 #    render :layout => 'application_m'
@@ -9,6 +9,7 @@ class MenusController < ApplicationController
   def restaurant_menu
     @menus = Menu.find_all_by_url('restaurant_menu')
     @menu_categories = MenuCategory.all
+    @user = current_user
     render :layout => 'application_m'
   end
 

@@ -1,7 +1,7 @@
 # encoding: utf-8
 class Admin::ImagesController < ApplicationController
 
-  before_filter :authenticate_user!
+  before_filter :authenticate
 
 	def index
     @page = Page.find(params[:page_id])

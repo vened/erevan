@@ -14,7 +14,7 @@ class BookingsController < ApplicationController
       BookingMailer.booking_confirmation(@booking).deliver
       redirect_to bookings_url, :notice => "Ваша заявка успешно отправлена!"
     else
-      render :layout => 'application_b'
+      render :action => 'index', :layout => 'application_b'
     end
   end
 end

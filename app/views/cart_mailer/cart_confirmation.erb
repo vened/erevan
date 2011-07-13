@@ -32,33 +32,32 @@
     <td>Название</td>
     <td width="10"></td>
     <td>Количество</td>
+    <td>Цена</td>
   </tr>
   <td colspan="2" height="10"></td>
   <% for cart_item in @cart %>
       <% @menu = cart_item.menu %>
       <tr>
-        <td>
-          <%= @menu.title %>
-        </td>
+        <td><%= @menu.title %></td>
         <td width="10"></td>
-        <td align="center">
-          <%= cart_item.quantity %>
-        </td>
+        <td align="center"><%= cart_item.quantity %></td>
+        <td width="10"></td>
+        <td align="center"><b><%= cart_item.full_price %> Руб.</b></td>
       </tr>
       <tr>
-        <td colspan="2" height="10"></td>
+        <td colspan="5" height="10"></td>
       </tr>
   <% end %>
   <tr>
-    <td align="right">
+    <td colspan="3" align="right">
       Сумма заказа:
     </td>
     <td width="10"></td>
-    <td class="cost">
+    <td>
       <b>
         <% @pr = @cart.map { |i| i.full_price } %>
         <%= @pr.inject(0) { |result, elem| result + elem } %>
-        руб.</b>
+        Руб.</b>
     </td>
   </tr>
 </table>

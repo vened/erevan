@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110712082448) do
+ActiveRecord::Schema.define(:version => 20110713051900) do
 
   create_table "bookings", :force => true do |t|
     t.string   "surname"
@@ -34,10 +34,9 @@ ActiveRecord::Schema.define(:version => 20110712082448) do
 
   create_table "carts", :force => true do |t|
     t.string   "session_id"
-    t.string   "name"
-    t.integer  "phone"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "decorated"
   end
 
   create_table "ckeditor_assets", :force => true do |t|
@@ -57,6 +56,12 @@ ActiveRecord::Schema.define(:version => 20110712082448) do
   add_index "ckeditor_assets", ["assetable_type", "assetable_id"], :name => "fk_assetable"
   add_index "ckeditor_assets", ["assetable_type", "type", "assetable_id"], :name => "idx_assetable_type"
   add_index "ckeditor_assets", ["user_id"], :name => "fk_user"
+
+  create_table "emails", :force => true do |t|
+    t.string   "email"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "feedbacks", :force => true do |t|
     t.string   "user"

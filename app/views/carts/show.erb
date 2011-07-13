@@ -1,6 +1,6 @@
 <h2>Онлайн заказ</h2>
 
-<% if @cart.length > 0%>
+<% if @cart.length > 0 %>
     <div id="order">
       <table class="order">
         <% for cart_item in @cart %>
@@ -12,7 +12,8 @@
                     <%= f.text_field :quantity %>
                 <% end %>
               </td>
-              <td><span class="cost"><%= cart_item.full_price %> <span class="rub">р<span>уб.</span></span></span></td>
+              <td><span class="cost"><%= cart_item.full_price %> <span class="rub">р<span>уб.</span></span></span>
+              </td>
               <td>
                 <%= link_to 'Убрать из заказа', cart_item %>
               </td>

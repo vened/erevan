@@ -30,7 +30,7 @@ class CartsController < ApplicationController
     @name = current_user
     CartMailer.cart_confirmation(@cart, @total_price, @name).deliver
     #@cart.destroy
-    redirect_to root_url, :notice => "Ваш заказ успешно оформлен, в ближайшее время с вами свяжется наш менеджер!"
+    redirect_to cart_destroy_url, :notice => "Ваш заказ успешно оформлен, в ближайшее время с вами свяжется наш менеджер!"
   end
 
 #
@@ -41,14 +41,12 @@ class CartsController < ApplicationController
 
 
   def destroy
+    @item = current_cart.cart_items
+    for item in @item
+      item.destroy
+    end
     @cart = current_cart
-    @cart.update(:decorated => "1")
-#    @item = current_cart.cart_items
-#    for item in @item
-#      item.destroy
-#    end
-#    @cart = current_cart
-#    @cart.destroy
+    @cart.destroy
     redirect_to root_url
   end
 

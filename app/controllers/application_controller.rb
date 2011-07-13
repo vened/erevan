@@ -9,16 +9,14 @@ class ApplicationController < ActionController::Base
 
     def create_cart
       #Cart.create!
-      Cart.create( :session_id => @user_id)
+      Cart.create(:session_id => @user_id)
     end
+
     def cart_find
       Cart.find_by_session_id(@user_id)
     end
+
     @current_cart ||= cart_find || create_cart
-
-
-
-
 
     #@current_cart ||= Cart.find_by_session_id(@user_id) || Cart.create!
     #@current_cart.increment!(:quantity, 100)

@@ -8,6 +8,7 @@ Erevan::Application.routes.draw do
   match '/cart/profile', :to => 'carts#profile'
   match '/cart/send', :to => 'carts#send_email'
   match '/cart/destroy', :to => 'carts#destroy'
+  match '/cart/cart_up', :to => 'carts#cart_up'
 
   match 'restaurant/menu', :to => 'menus#restaurant_menu'
   match 'flowers', :to => 'menus#flowers'

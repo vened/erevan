@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63b80dfe-778c-4db0-adeb-3a8e5378e907" name="Default" comment="сделал страницу виртуального тура, контакты и отзывы">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/menu/image/1/dish2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/menu/image/1/menu_dish2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/menu/image/1/menu_thumb_dish2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/menu/image/1/pic_head_dish2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/menu/image/1/thumb_dish2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/menu/image/17/flow2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/menu/image/17/menu_flow2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/menu/image/17/menu_thumb_flow2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/menu/image/17/pic_head_flow2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/menu/image/17/thumb_flow2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/menu/image/21/dish1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/menu/image/21/menu_dish1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/menu/image/21/menu_thumb_dish1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/menu/image/21/pic_head_dish1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/menu/image/21/thumb_dish1.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/carts_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/carts_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/carts/profile.haml" afterPath="$PROJECT_DIR$/app/views/carts/profile.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/carts/show.erb" afterPath="$PROJECT_DIR$/app/views/carts/show.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
     </list>
     <ignored path="erevan.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,10 +32,10 @@
         <dependency name="activesupport" version="3.0" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
       </requirement>
       <requirement>
-        <dependency name="activerecord" version="2.3.0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+        <dependency name="activesupport" version="2.3.2" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
       </requirement>
       <requirement>
-        <dependency name="activesupport" version="2.3.2" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+        <dependency name="activerecord" version="2.3.0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
       </requirement>
     </module>
   </component>
@@ -70,13 +60,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/cart_items_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/cart_mailer/cart_confirmation.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/bookings_controller.rb" />
-        <option value="$PROJECT_DIR$/public/javascripts/main.js" />
-        <option value="$PROJECT_DIR$/app/controllers/admin/bookings_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/admin/feedbacks_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/admin/pages_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/admin/menus_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/admin/menu_categories_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/menus/flowers.erb" />
@@ -86,6 +69,13 @@
         <option value="$PROJECT_DIR$/app/views/menus/_menu.erb" />
         <option value="$PROJECT_DIR$/app/views/menus/shashlyk_menu.haml" />
         <option value="$PROJECT_DIR$/app/views/menus/restaurant_menu.haml" />
+        <option value="$PROJECT_DIR$/app/controllers/cart_items_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/models/cart.rb" />
+        <option value="$PROJECT_DIR$/app/views/carts/profile.haml" />
+        <option value="$PROJECT_DIR$/app/controllers/carts_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/carts/show.erb" />
       </list>
     </option>
   </component>
@@ -139,7 +129,6 @@
     </navigator>
     <panes>
       <pane id="Favorites" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -160,7 +149,77 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
+      <pane id="Scope" />
+      <pane id="RailsProjectView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erevan" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erevan" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erevan" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erevan" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.UnclassifiedDBFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erevan" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erevan" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app/uploaders" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.MinorFolderWithDoubleNameNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erevan" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erevan" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app/mailers" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.MinorFolderWithDoubleNameNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erevan" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erevan" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Views" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.UnclassifiedViewsFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -405,14 +464,14 @@
     <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32995194" sideWeight="0.6716259" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32731137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3272921" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32837406" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20633246" sideWeight="0.32583067" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21876675" sideWeight="0.57569295" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21983914" sideWeight="0.5630342" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42430705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43696582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32799146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943678" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -459,84 +518,84 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/javascripts/main.js">
+    <entry file="file://$PROJECT_DIR$/app/views/menus/shashlyk_menu.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="7" selection-start="32" selection-end="116" vertical-scroll-proportion="0.09879254" />
+        <state line="4" column="26" selection-start="53" selection-end="53" vertical-scroll-proportion="0.07903403" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/admin/bookings_controller.rb">
+    <entry file="file:///usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="29" selection-start="245" selection-end="270" vertical-scroll-proportion="0.17782657" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/bookings_controller.rb">
+    <entry file="file:///usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="24" selection-start="159" selection-end="159" vertical-scroll-proportion="0.118551046" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/admin/feedbacks_controller.rb">
+    <entry file="file:///usr/local/ruby/lib/ruby/gems/1.9.1/gems/actionpack-3.0.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="29" selection-start="235" selection-end="235" vertical-scroll-proportion="0.13830955" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/admin/pages_controller.rb">
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="31" selection-start="839" selection-end="839" vertical-scroll-proportion="0.81009877" />
+        <state line="10" column="46" selection-start="377" selection-end="377" vertical-scroll-proportion="0.3846154" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/cart_items_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="32" selection-start="633" selection-end="633" vertical-scroll-proportion="0.5" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/admin/menus_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="52" selection-start="1462" selection-end="1462" vertical-scroll-proportion="0.84193194" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/admin/menu_categories_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="29" selection-start="795" selection-end="795" vertical-scroll-proportion="0.7113063" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/carts/show.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="77" selection-start="1246" selection-end="1246" vertical-scroll-proportion="0.77113867" />
+        <state line="57" column="19" selection-start="1169" selection-end="1169" vertical-scroll-proportion="0.30512822" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/menus/flowers.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="2" selection-start="733" selection-end="733" vertical-scroll-proportion="-19.5" />
+        <state line="18" column="47" selection-start="560" selection-end="560" vertical-scroll-proportion="0.4262295" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/admin.haml">
+    <entry file="file://$PROJECT_DIR$/app/models/cart_item.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="20" selection-start="872" selection-end="872" vertical-scroll-proportion="0.23710209" />
+        <state line="19" column="8" selection-start="270" selection-end="327" vertical-scroll-proportion="0.6182213" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/admin/images_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/cart.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="43" selection-start="539" selection-end="539" vertical-scroll-proportion="0.84210527" />
+        <state line="6" column="0" selection-start="159" selection-end="159" vertical-scroll-proportion="0.19522777" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_restaurant.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="4" selection-start="99" selection-end="99" vertical-scroll-proportion="0.059275523" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_menu.haml">
+    <entry file="file://$PROJECT_DIR$/app/views/feedbacks/index.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/menus/_menu.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="6" selection-start="14" selection-end="911" vertical-scroll-proportion="0.669673" />
+        <state line="28" column="51" selection-start="837" selection-end="837" vertical-scroll-proportion="0.47565117" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/menus/restaurant_menu.haml">
+    <entry file="file://$PROJECT_DIR$/app/views/carts/profile.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="26" selection-start="53" selection-end="53" vertical-scroll-proportion="0.07903403" />
+        <state line="13" column="23" selection-start="318" selection-end="318" vertical-scroll-proportion="0.21499449" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/menus/shashlyk_menu.haml">
+    <entry file="file://$PROJECT_DIR$/app/views/carts/show.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="26" selection-start="53" selection-end="53" vertical-scroll-proportion="0.07903403" />
+        <state line="2" column="2" selection-start="25" selection-end="25" vertical-scroll-proportion="0.033975083" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/carts_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="18" selection-start="1039" selection-end="1048" vertical-scroll-proportion="0.71885335" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="42" selection-start="465" selection-end="465" vertical-scroll-proportion="0.38037485" />
       </provider>
     </entry>
   </component>

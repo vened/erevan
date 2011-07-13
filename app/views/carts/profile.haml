@@ -1,13 +1,14 @@
-#cart
-  #reserv
-    %h2 Ваши данные
-    %p
-      Ф.И.О.:
-      %b= @user.surname
-      %b= @user.name
-      %b= @user.lastname
-    %p
-      Телефон:
-      %b= @user.phone
+%h2{:style=>"margin:0 0 50px"} Ваши данные
 
-    = link_to "Оформить", cart_send_url
+%p
+  Ф.И.О.:
+  %b= @user.surname
+  %b= @user.name
+  %b= @user.lastname
+%p
+  Телефон:
+  %b= @user.phone
+.Checkout.dish
+  = form_for @cart, :remote => true do |f|
+    %input{:type=>"hidden", :value=>"1", :name=>"cart[decorated]", :id=>"cart_decorated"}
+    =f.submit "Оформить"

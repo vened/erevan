@@ -1077,3 +1077,933 @@ Rendered shared/_menu.haml (0.2ms)
 Rendered shared/_slider.haml (5.8ms)
 Rendered pages/home.haml within layouts/application_h (10.1ms)
 Completed 200 OK in 13ms (Views: 10.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 109.194.129.39 at Срд Июл 13 11:54:49 +0400 2011
+  Processing by PagesController#home as HTML
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (2.8ms)
+Rendered pages/home.haml within layouts/application_h (5.2ms)
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/stylesheets/application.css" for 109.194.129.39 at Срд Июл 13 11:54:50 +0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css"):
+  
+
+
+
+Started GET "/javascripts/audio.js" for 109.194.129.39 at Срд Июл 13 11:54:50 +0400 2011
+
+ActionController::RoutingError (No route matches "/javascripts/audio.js"):
+  
+
+
+
+Started GET "/uploads/image/image/48/pic_head_bnn_rest.jpg" for 109.194.129.39 at Срд Июл 13 11:54:50 +0400 2011
+
+ActionController::RoutingError (No route matches "/uploads/image/image/48/pic_head_bnn_rest.jpg"):
+  
+
+
+
+Started GET "/uploads/image/image/49/pic_head_bnn_shash.jpg" for 109.194.129.39 at Срд Июл 13 11:54:50 +0400 2011
+
+ActionController::RoutingError (No route matches "/uploads/image/image/49/pic_head_bnn_shash.jpg"):
+  
+
+
+
+Started GET "/javascripts/audio.js" for 109.194.129.39 at Срд Июл 13 11:54:50 +0400 2011
+
+ActionController::RoutingError (No route matches "/javascripts/audio.js"):
+  
+
+
+
+Started GET "/uploads/image/image/48/pic_head_bnn_rest.jpg" for 109.194.129.39 at Срд Июл 13 11:54:50 +0400 2011
+
+ActionController::RoutingError (No route matches "/uploads/image/image/48/pic_head_bnn_rest.jpg"):
+  
+
+
+
+Started GET "/uploads/image/image/49/pic_head_bnn_shash.jpg" for 109.194.129.39 at Срд Июл 13 11:54:50 +0400 2011
+
+ActionController::RoutingError (No route matches "/uploads/image/image/49/pic_head_bnn_shash.jpg"):
+  
+
+
+
+Started GET "/" for 109.194.129.39 at Срд Июл 13 11:54:51 +0400 2011
+  Processing by PagesController#home as HTML
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (2.8ms)
+Rendered pages/home.haml within layouts/application_h (5.1ms)
+Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/stylesheets/application.css" for 109.194.129.39 at Срд Июл 13 11:54:51 +0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css"):
+  
+
+
+
+Started GET "/javascripts/audio.js" for 109.194.129.39 at Срд Июл 13 11:54:51 +0400 2011
+
+ActionController::RoutingError (No route matches "/javascripts/audio.js"):
+  
+
+
+
+Started GET "/uploads/image/image/48/pic_head_bnn_rest.jpg" for 109.194.129.39 at Срд Июл 13 11:54:52 +0400 2011
+
+ActionController::RoutingError (No route matches "/uploads/image/image/48/pic_head_bnn_rest.jpg"):
+  
+
+
+
+Started GET "/uploads/image/image/49/pic_head_bnn_shash.jpg" for 109.194.129.39 at Срд Июл 13 11:54:52 +0400 2011
+
+ActionController::RoutingError (No route matches "/uploads/image/image/49/pic_head_bnn_shash.jpg"):
+  
+
+
+
+Started GET "/javascripts/audio.js" for 109.194.129.39 at Срд Июл 13 11:54:52 +0400 2011
+
+ActionController::RoutingError (No route matches "/javascripts/audio.js"):
+  
+
+
+
+Started GET "/uploads/image/image/48/pic_head_bnn_rest.jpg" for 109.194.129.39 at Срд Июл 13 11:54:52 +0400 2011
+
+ActionController::RoutingError (No route matches "/uploads/image/image/48/pic_head_bnn_rest.jpg"):
+  
+
+
+
+Started GET "/uploads/image/image/49/pic_head_bnn_shash.jpg" for 109.194.129.39 at Срд Июл 13 11:54:52 +0400 2011
+
+ActionController::RoutingError (No route matches "/uploads/image/image/49/pic_head_bnn_shash.jpg"):
+  
+
+
+
+Started GET "/" for 109.194.129.39 at Срд Июл 13 11:54:53 +0400 2011
+  Processing by PagesController#home as HTML
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (2.7ms)
+Rendered pages/home.haml within layouts/application_h (5.0ms)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/stylesheets/application.css" for 109.194.129.39 at Срд Июл 13 11:54:53 +0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css"):
+  
+
+
+
+Started GET "/javascripts/audio.js" for 109.194.129.39 at Срд Июл 13 11:54:53 +0400 2011
+
+ActionController::RoutingError (No route matches "/javascripts/audio.js"):
+  
+
+
+
+Started GET "/uploads/image/image/48/pic_head_bnn_rest.jpg" for 109.194.129.39 at Срд Июл 13 11:54:53 +0400 2011
+
+ActionController::RoutingError (No route matches "/uploads/image/image/48/pic_head_bnn_rest.jpg"):
+  
+
+
+
+Started GET "/uploads/image/image/49/pic_head_bnn_shash.jpg" for 109.194.129.39 at Срд Июл 13 11:54:53 +0400 2011
+
+ActionController::RoutingError (No route matches "/uploads/image/image/49/pic_head_bnn_shash.jpg"):
+  
+
+
+
+Started GET "/javascripts/audio.js" for 109.194.129.39 at Срд Июл 13 11:54:53 +0400 2011
+
+ActionController::RoutingError (No route matches "/javascripts/audio.js"):
+  
+
+
+
+Started GET "/uploads/image/image/48/pic_head_bnn_rest.jpg" for 109.194.129.39 at Срд Июл 13 11:54:53 +0400 2011
+
+ActionController::RoutingError (No route matches "/uploads/image/image/48/pic_head_bnn_rest.jpg"):
+  
+
+
+
+Started GET "/uploads/image/image/49/pic_head_bnn_shash.jpg" for 109.194.129.39 at Срд Июл 13 11:54:53 +0400 2011
+
+ActionController::RoutingError (No route matches "/uploads/image/image/49/pic_head_bnn_shash.jpg"):
+  
+
+
+
+Started GET "/" for 109.194.129.39 at Срд Июл 13 11:54:54 +0400 2011
+  Processing by PagesController#home as HTML
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (2.8ms)
+Rendered pages/home.haml within layouts/application_h (5.0ms)
+Completed 200 OK in 7ms (Views: 5.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/stylesheets/application.css" for 109.194.129.39 at Срд Июл 13 11:54:54 +0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css"):
+  
+
+
+
+Started GET "/javascripts/audio.js" for 109.194.129.39 at Срд Июл 13 11:54:54 +0400 2011
+
+ActionController::RoutingError (No route matches "/javascripts/audio.js"):
+  
+
+
+
+Started GET "/uploads/image/image/48/pic_head_bnn_rest.jpg" for 109.194.129.39 at Срд Июл 13 11:54:54 +0400 2011
+
+ActionController::RoutingError (No route matches "/uploads/image/image/48/pic_head_bnn_rest.jpg"):
+  
+
+
+
+Started GET "/uploads/image/image/49/pic_head_bnn_shash.jpg" for 109.194.129.39 at Срд Июл 13 11:54:54 +0400 2011
+
+ActionController::RoutingError (No route matches "/uploads/image/image/49/pic_head_bnn_shash.jpg"):
+  
+
+
+
+Started GET "/javascripts/audio.js" for 109.194.129.39 at Срд Июл 13 11:54:54 +0400 2011
+
+ActionController::RoutingError (No route matches "/javascripts/audio.js"):
+  
+
+
+
+Started GET "/uploads/image/image/48/pic_head_bnn_rest.jpg" for 109.194.129.39 at Срд Июл 13 11:54:54 +0400 2011
+
+ActionController::RoutingError (No route matches "/uploads/image/image/48/pic_head_bnn_rest.jpg"):
+  
+
+
+
+Started GET "/uploads/image/image/49/pic_head_bnn_shash.jpg" for 109.194.129.39 at Срд Июл 13 11:54:54 +0400 2011
+
+ActionController::RoutingError (No route matches "/uploads/image/image/49/pic_head_bnn_shash.jpg"):
+  
+
+
+
+Started GET "/" for 109.194.129.39 at Срд Июл 13 11:54:56 +0400 2011
+  Processing by PagesController#home as HTML
+Rendered pages/_cont.haml (0.2ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (4.4ms)
+Rendered pages/home.haml within layouts/application_h (7.8ms)
+Completed 200 OK in 10ms (Views: 8.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/stylesheets/application.css" for 109.194.129.39 at Срд Июл 13 11:54:56 +0400 2011
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css"):
+  
+
+
+
+Started GET "/javascripts/audio.js" for 109.194.129.39 at Срд Июл 13 11:54:56 +0400 2011
+
+ActionController::RoutingError (No route matches "/javascripts/audio.js"):
+  
+
+
+
+Started GET "/uploads/image/image/48/pic_head_bnn_rest.jpg" for 109.194.129.39 at Срд Июл 13 11:54:56 +0400 2011
+
+ActionController::RoutingError (No route matches "/uploads/image/image/48/pic_head_bnn_rest.jpg"):
+  
+
+
+
+Started GET "/uploads/image/image/49/pic_head_bnn_shash.jpg" for 109.194.129.39 at Срд Июл 13 11:54:56 +0400 2011
+
+ActionController::RoutingError (No route matches "/uploads/image/image/49/pic_head_bnn_shash.jpg"):
+  
+
+
+
+Started GET "/javascripts/audio.js" for 109.194.129.39 at Срд Июл 13 11:54:56 +0400 2011
+
+ActionController::RoutingError (No route matches "/javascripts/audio.js"):
+  
+
+
+
+Started GET "/uploads/image/image/48/pic_head_bnn_rest.jpg" for 109.194.129.39 at Срд Июл 13 11:54:56 +0400 2011
+
+ActionController::RoutingError (No route matches "/uploads/image/image/48/pic_head_bnn_rest.jpg"):
+  
+
+
+
+Started GET "/uploads/image/image/49/pic_head_bnn_shash.jpg" for 109.194.129.39 at Срд Июл 13 11:54:56 +0400 2011
+
+ActionController::RoutingError (No route matches "/uploads/image/image/49/pic_head_bnn_shash.jpg"):
+  
+
+
+
+Started GET "/" for 109.194.129.39 at Срд Июл 13 12:04:31 +0400 2011
+  Processing by PagesController#home as HTML
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (2.7ms)
+Rendered pages/home.haml within layouts/application_h (5.0ms)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/javascripts/audio.js" for 109.194.129.39 at Срд Июл 13 12:04:31 +0400 2011
+
+ActionController::RoutingError (No route matches "/javascripts/audio.js"):
+  
+
+
+
+Started GET "/javascripts/audio.js" for 109.194.129.39 at Срд Июл 13 12:04:32 +0400 2011
+
+ActionController::RoutingError (No route matches "/javascripts/audio.js"):
+  
+
+
+
+Started GET "/shashlyk" for 109.194.129.39 at Срд Июл 13 12:04:39 +0400 2011
+  Processing by PagesController#shashlyk as HTML
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_shashlyk.haml (0.1ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (3.5ms)
+Rendered pages/shashlyk.haml within layouts/application_s (5.8ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/javascripts/audio.js" for 109.194.129.39 at Срд Июл 13 12:04:39 +0400 2011
+
+ActionController::RoutingError (No route matches "/javascripts/audio.js"):
+  
+
+
+
+Started GET "/uploads/image/image/52/pic_head_2.jpg" for 109.194.129.39 at Срд Июл 13 12:04:39 +0400 2011
+
+ActionController::RoutingError (No route matches "/uploads/image/image/52/pic_head_2.jpg"):
+  
+
+
+
+Started GET "/uploads/image/image/53/pic_head_w_129b3712.jpg" for 109.194.129.39 at Срд Июл 13 12:04:39 +0400 2011
+
+ActionController::RoutingError (No route matches "/uploads/image/image/53/pic_head_w_129b3712.jpg"):
+  
+
+
+
+Started GET "/javascripts/audio.js" for 109.194.129.39 at Срд Июл 13 12:04:40 +0400 2011
+
+ActionController::RoutingError (No route matches "/javascripts/audio.js"):
+  
+
+
+
+Started GET "/uploads/image/image/52/pic_head_2.jpg" for 109.194.129.39 at Срд Июл 13 12:04:40 +0400 2011
+
+ActionController::RoutingError (No route matches "/uploads/image/image/52/pic_head_2.jpg"):
+  
+
+
+
+Started GET "/uploads/image/image/53/pic_head_w_129b3712.jpg" for 109.194.129.39 at Срд Июл 13 12:04:40 +0400 2011
+
+ActionController::RoutingError (No route matches "/uploads/image/image/53/pic_head_w_129b3712.jpg"):
+  
+
+
+
+Started GET "/shashlyk/menu" for 109.194.129.39 at Срд Июл 13 12:04:42 +0400 2011
+  Processing by MenusController#shashlyk_menu as HTML
+Rendered menus/_menu.erb (4.4ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered menus/shashlyk_menu.haml within layouts/application_m (6.3ms)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/javascripts/audio.js" for 109.194.129.39 at Срд Июл 13 12:04:43 +0400 2011
+
+ActionController::RoutingError (No route matches "/javascripts/audio.js"):
+  
+
+
+
+Started GET "/shashlyk/menu" for 109.194.129.39 at Срд Июл 13 12:04:49 +0400 2011
+  Processing by MenusController#shashlyk_menu as HTML
+Rendered menus/_menu.erb (4.2ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered menus/shashlyk_menu.haml within layouts/application_m (6.1ms)
+Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/javascripts/audio.js" for 109.194.129.39 at Срд Июл 13 12:04:49 +0400 2011
+
+ActionController::RoutingError (No route matches "/javascripts/audio.js"):
+  
+
+
+
+Started GET "/javascripts/audio.js" for 109.194.129.39 at Срд Июл 13 12:04:49 +0400 2011
+
+ActionController::RoutingError (No route matches "/javascripts/audio.js"):
+  
+
+
+
+Started GET "/shashlyk/menu" for 109.194.129.39 at Срд Июл 13 12:04:50 +0400 2011
+  Processing by MenusController#shashlyk_menu as HTML
+Rendered menus/_menu.erb (4.6ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered menus/shashlyk_menu.haml within layouts/application_m (6.6ms)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/javascripts/audio.js" for 109.194.129.39 at Срд Июл 13 12:04:50 +0400 2011
+
+ActionController::RoutingError (No route matches "/javascripts/audio.js"):
+  
+
+
+
+Started GET "/javascripts/audio.js" for 109.194.129.39 at Срд Июл 13 12:04:51 +0400 2011
+
+ActionController::RoutingError (No route matches "/javascripts/audio.js"):
+  
+
+
+
+Started GET "/shashlyk/menu" for 109.194.129.39 at Срд Июл 13 12:04:53 +0400 2011
+  Processing by MenusController#shashlyk_menu as HTML
+Rendered menus/_menu.erb (4.4ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered menus/shashlyk_menu.haml within layouts/application_m (6.3ms)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/javascripts/audio.js" for 109.194.129.39 at Срд Июл 13 12:04:54 +0400 2011
+
+ActionController::RoutingError (No route matches "/javascripts/audio.js"):
+  
+
+
+
+Started GET "/" for 109.194.129.39 at Срд Июл 13 12:04:55 +0400 2011
+  Processing by PagesController#home as HTML
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (2.8ms)
+Rendered pages/home.haml within layouts/application_h (5.0ms)
+Completed 200 OK in 7ms (Views: 5.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/javascripts/audio.js" for 109.194.129.39 at Срд Июл 13 12:04:56 +0400 2011
+
+ActionController::RoutingError (No route matches "/javascripts/audio.js"):
+  
+
+
+
+Started GET "/javascripts/audio.js" for 109.194.129.39 at Срд Июл 13 12:04:56 +0400 2011
+
+ActionController::RoutingError (No route matches "/javascripts/audio.js"):
+  
+
+
+
+Started GET "/" for 109.194.129.39 at Срд Июл 13 12:04:58 +0400 2011
+  Processing by PagesController#home as HTML
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (2.8ms)
+Rendered pages/home.haml within layouts/application_h (5.0ms)
+Completed 200 OK in 7ms (Views: 5.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/javascripts/audio.js" for 109.194.129.39 at Срд Июл 13 12:04:58 +0400 2011
+
+ActionController::RoutingError (No route matches "/javascripts/audio.js"):
+  
+
+
+
+Started GET "/" for 109.194.129.39 at Срд Июл 13 12:05:00 +0400 2011
+  Processing by PagesController#home as HTML
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (2.7ms)
+Rendered pages/home.haml within layouts/application_h (4.9ms)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/javascripts/audio.js" for 109.194.129.39 at Срд Июл 13 12:05:00 +0400 2011
+
+ActionController::RoutingError (No route matches "/javascripts/audio.js"):
+  
+
+
+
+Started GET "/" for 109.194.129.39 at Срд Июл 13 12:05:06 +0400 2011
+  Processing by PagesController#home as HTML
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (2.7ms)
+Rendered pages/home.haml within layouts/application_h (4.9ms)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/javascripts/audio.js" for 109.194.129.39 at Срд Июл 13 12:05:06 +0400 2011
+
+ActionController::RoutingError (No route matches "/javascripts/audio.js"):
+  
+
+
+
+Started GET "/" for 109.194.129.39 at Срд Июл 13 12:05:08 +0400 2011
+  Processing by PagesController#home as HTML
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (78.8ms)
+Rendered pages/home.haml within layouts/application_h (81.2ms)
+Completed 200 OK in 83ms (Views: 81.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/javascripts/audio.js" for 109.194.129.39 at Срд Июл 13 12:05:08 +0400 2011
+
+ActionController::RoutingError (No route matches "/javascripts/audio.js"):
+  
+
+
+
+Started GET "/" for 109.194.129.39 at Срд Июл 13 12:05:11 +0400 2011
+  Processing by PagesController#home as HTML
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (2.9ms)
+Rendered pages/home.haml within layouts/application_h (5.2ms)
+Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/javascripts/audio.js" for 109.194.129.39 at Срд Июл 13 12:05:11 +0400 2011
+
+ActionController::RoutingError (No route matches "/javascripts/audio.js"):
+  
+
+
+
+Started GET "/javascripts/audio.js" for 109.194.129.39 at Срд Июл 13 12:05:12 +0400 2011
+
+ActionController::RoutingError (No route matches "/javascripts/audio.js"):
+  
+
+
+
+Started GET "/shashlyk" for 109.194.129.39 at Срд Июл 13 12:05:21 +0400 2011
+  Processing by PagesController#shashlyk as HTML
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_shashlyk.haml (0.1ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (3.7ms)
+Rendered pages/shashlyk.haml within layouts/application_s (6.1ms)
+Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/javascripts/audio.js" for 109.194.129.39 at Срд Июл 13 12:05:21 +0400 2011
+
+ActionController::RoutingError (No route matches "/javascripts/audio.js"):
+  
+
+
+
+Started GET "/uploads/image/image/52/pic_head_2.jpg" for 109.194.129.39 at Срд Июл 13 12:05:21 +0400 2011
+
+ActionController::RoutingError (No route matches "/uploads/image/image/52/pic_head_2.jpg"):
+  
+
+
+
+Started GET "/uploads/image/image/53/pic_head_w_129b3712.jpg" for 109.194.129.39 at Срд Июл 13 12:05:21 +0400 2011
+
+ActionController::RoutingError (No route matches "/uploads/image/image/53/pic_head_w_129b3712.jpg"):
+  
+
+
+
+Started GET "/uploads/image/image/53/pic_head_w_129b3712.jpg" for 109.194.129.39 at Срд Июл 13 12:05:22 +0400 2011
+
+ActionController::RoutingError (No route matches "/uploads/image/image/53/pic_head_w_129b3712.jpg"):
+  
+
+
+
+Started GET "/uploads/image/image/52/pic_head_2.jpg" for 109.194.129.39 at Срд Июл 13 12:05:22 +0400 2011
+
+ActionController::RoutingError (No route matches "/uploads/image/image/52/pic_head_2.jpg"):
+  
+
+
+
+Started GET "/shashlyk/menu" for 109.194.129.39 at Срд Июл 13 12:05:24 +0400 2011
+  Processing by MenusController#shashlyk_menu as HTML
+Rendered menus/_menu.erb (4.2ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered menus/shashlyk_menu.haml within layouts/application_m (6.1ms)
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/javascripts/audio.js" for 109.194.129.39 at Срд Июл 13 12:05:24 +0400 2011
+
+ActionController::RoutingError (No route matches "/javascripts/audio.js"):
+  
+
+
+
+Started GET "/shashlyk/menu" for 109.194.129.39 at Срд Июл 13 12:05:25 +0400 2011
+  Processing by MenusController#shashlyk_menu as HTML
+Rendered menus/_menu.erb (4.5ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered menus/shashlyk_menu.haml within layouts/application_m (6.6ms)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/javascripts/audio.js" for 109.194.129.39 at Срд Июл 13 12:05:26 +0400 2011
+
+ActionController::RoutingError (No route matches "/javascripts/audio.js"):
+  
+
+
+
+Started GET "/javascripts/audio.js" for 109.194.129.39 at Срд Июл 13 12:05:26 +0400 2011
+
+ActionController::RoutingError (No route matches "/javascripts/audio.js"):
+  
+
+
+
+Started GET "/shashlyk/menu" for 109.194.129.39 at Срд Июл 13 12:06:00 +0400 2011
+  Processing by MenusController#shashlyk_menu as HTML
+Rendered menus/_menu.erb (4.3ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered menus/shashlyk_menu.haml within layouts/application_m (6.1ms)
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/javascripts/audio.js" for 109.194.129.39 at Срд Июл 13 12:06:00 +0400 2011
+
+ActionController::RoutingError (No route matches "/javascripts/audio.js"):
+  
+
+
+
+Started GET "/shashlyk/menu" for 109.194.129.39 at Срд Июл 13 12:07:37 +0400 2011
+  Processing by MenusController#shashlyk_menu as HTML
+Rendered shared/_shashlyk.haml (7.6ms)
+Rendered shared/_user_nav.haml (3.5ms)
+Rendered shared/_menu.haml (8.6ms)
+Rendered menus/shashlyk_menu.haml within layouts/application_m (37.2ms)
+Completed 200 OK in 56ms (Views: 42.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/flowers" for 109.194.129.39 at Срд Июл 13 12:07:48 +0400 2011
+  Processing by MenusController#flowers as HTML
+Rendered shared/_restaurant.haml (6.4ms)
+Rendered shared/_user_nav.haml (0.8ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered menus/flowers.erb within layouts/application_m (126.1ms)
+Completed 200 OK in 129ms (Views: 127.4ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/cart_items" for 109.194.129.39 at Срд Июл 13 12:07:50 +0400 2011
+  Processing by CartItemsController#create as HTML
+  Parameters: {"commit"=>"В корзину", "authenticity_token"=>"2PXZ0JJLdeKWIo1SaWSp9J7QsSHOF+qjDRmyQGEt+no=", "utf8"=>"✓", "cart_item"=>{"menu_id"=>"13"}}
+Completed   in 0ms
+
+
+Started GET "/user/sign_in" for 109.194.129.39 at Срд Июл 13 12:07:51 +0400 2011
+  Processing by SessionsController#new as HTML
+Rendered shared/_user_nav.haml (1.4ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered sessions/new.haml within layouts/application (25.7ms)
+Completed 200 OK in 61ms (Views: 47.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/user/sign_in" for 109.194.129.39 at Срд Июл 13 12:08:05 +0400 2011
+  Processing by SessionsController#create as HTML
+  Parameters: {"commit"=>"Войти", "authenticity_token"=>"2PXZ0JJLdeKWIo1SaWSp9J7QsSHOF+qjDRmyQGEt+no=", "utf8"=>"✓", "user"=>{"remember_me"=>"0", "username"=>"maxstbn", "password"=>"[FILTERED]"}}
+Redirected to http://restaurant.maxstbn.locum.ru/
+Completed 302 Found in 150ms
+
+
+Started GET "/" for 109.194.129.39 at Срд Июл 13 12:08:05 +0400 2011
+  Processing by PagesController#home as HTML
+Rendered pages/_cont.haml (1.4ms)
+Rendered shared/_user_nav.haml (1.9ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (8.6ms)
+Rendered pages/home.haml within layouts/application_h (85.1ms)
+Completed 200 OK in 97ms (Views: 87.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/shashlyk" for 109.194.129.39 at Срд Июл 13 12:08:11 +0400 2011
+  Processing by PagesController#shashlyk as HTML
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_shashlyk.haml (0.1ms)
+Rendered shared/_user_nav.haml (1.7ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (2.2ms)
+Rendered pages/shashlyk.haml within layouts/application_s (16.2ms)
+Completed 200 OK in 20ms (Views: 17.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/flowers" for 109.194.129.39 at Срд Июл 13 12:08:14 +0400 2011
+  Processing by MenusController#flowers as HTML
+Rendered shared/_restaurant.haml (0.1ms)
+Rendered shared/_user_nav.haml (1.4ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered menus/flowers.erb within layouts/application_m (12.0ms)
+Completed 200 OK in 14ms (Views: 12.2ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/cart_items" for 109.194.129.39 at Срд Июл 13 12:08:16 +0400 2011
+  Processing by CartItemsController#create as HTML
+  Parameters: {"commit"=>"В корзину", "authenticity_token"=>"2PXZ0JJLdeKWIo1SaWSp9J7QsSHOF+qjDRmyQGEt+no=", "utf8"=>"✓", "cart_item"=>{"menu_id"=>"16"}}
+Redirected to http://restaurant.maxstbn.locum.ru/flowers
+Completed 302 Found in 14ms
+
+
+Started GET "/flowers" for 109.194.129.39 at Срд Июл 13 12:08:17 +0400 2011
+  Processing by MenusController#flowers as HTML
+Rendered shared/_restaurant.haml (0.1ms)
+Rendered shared/_user_nav.haml (1.3ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered menus/flowers.erb within layouts/application_m (11.3ms)
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/cart_items" for 109.194.129.39 at Срд Июл 13 12:08:18 +0400 2011
+  Processing by CartItemsController#create as HTML
+  Parameters: {"commit"=>"В корзину", "authenticity_token"=>"2PXZ0JJLdeKWIo1SaWSp9J7QsSHOF+qjDRmyQGEt+no=", "utf8"=>"✓", "cart_item"=>{"menu_id"=>"14"}}
+Redirected to http://restaurant.maxstbn.locum.ru/flowers
+Completed 302 Found in 7ms
+
+
+Started GET "/flowers" for 109.194.129.39 at Срд Июл 13 12:08:18 +0400 2011
+  Processing by MenusController#flowers as HTML
+Rendered shared/_restaurant.haml (0.1ms)
+Rendered shared/_user_nav.haml (1.7ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered menus/flowers.erb within layouts/application_m (14.7ms)
+Completed 200 OK in 17ms (Views: 14.9ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/shashlyk" for 109.194.129.39 at Срд Июл 13 12:08:21 +0400 2011
+  Processing by PagesController#shashlyk as HTML
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_shashlyk.haml (0.1ms)
+Rendered shared/_user_nav.haml (2.3ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (2.6ms)
+Rendered pages/shashlyk.haml within layouts/application_s (8.2ms)
+Completed 200 OK in 10ms (Views: 8.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/booking" for 109.194.129.39 at Срд Июл 13 12:08:23 +0400 2011
+  Processing by BookingsController#index as HTML
+  Parameters: {"controllers"=>:bookings}
+Rendered shared/_user_nav.haml (1.5ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered bookings/index.haml within layouts/application_b (26.5ms)
+Completed 200 OK in 31ms (Views: 28.6ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/booking" for 109.194.129.39 at Срд Июл 13 12:08:25 +0400 2011
+  Processing by BookingsController#create as HTML
+  Parameters: {"commit"=>"Забронировать", "controllers"=>:bookings, "authenticity_token"=>"2PXZ0JJLdeKWIo1SaWSp9J7QsSHOF+qjDRmyQGEt+no=", "utf8"=>"✓", "booking"=>{"name"=>"", "time"=>"8:00", "table"=>"1", "date"=>"", "phone"=>"", "surname"=>"", "patronymic"=>""}}
+Rendered shared/_user_nav.haml (1.4ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered bookings/index.haml within layouts/application_b (9.3ms)
+Completed 200 OK in 17ms (Views: 9.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/shashlyk" for 109.194.129.39 at Срд Июл 13 12:08:34 +0400 2011
+  Processing by PagesController#shashlyk as HTML
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_shashlyk.haml (0.1ms)
+Rendered shared/_user_nav.haml (52.0ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (2.4ms)
+Rendered pages/shashlyk.haml within layouts/application_s (56.7ms)
+Completed 200 OK in 58ms (Views: 56.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/contacts" for 109.194.129.39 at Срд Июл 13 12:08:36 +0400 2011
+  Processing by PagesController#contacts as HTML
+Completed 500 Internal Server Error in 14ms
+
+ActionView::MissingTemplate (Missing layout layouts/application_с with {:formats=>[:html], :handlers=>[:rjs, :rhtml, :rxml, :haml, :builder, :erb], :locale=>[:en, :en]} in view paths "/var/www/home/hosting_maxstbn/projects/restaurant/releases/initial_release/app/views", "/var/www/home/hosting_maxstbn/.gem/ruby/1.8/gems/devise-1.3.3/app/views", "/var/www/home/hosting_maxstbn/.gem/ruby/1.8/gems/ckeditor-3.5.0/app/views"):
+  app/controllers/pages_controller.rb:34:in `contacts'
+
+
+
+Started GET "/feedbacks" for 109.194.129.39 at Срд Июл 13 12:08:41 +0400 2011
+  Processing by FeedbacksController#index as HTML
+Rendered shared/_user_nav.haml (1.7ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered feedbacks/index.haml within layouts/application_f (21.4ms)
+Completed 200 OK in 26ms (Views: 23.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/contacts" for 109.194.129.39 at Срд Июл 13 12:08:43 +0400 2011
+  Processing by PagesController#contacts as HTML
+Completed 500 Internal Server Error in 2ms
+
+ActionView::MissingTemplate (Missing layout layouts/application_с with {:formats=>[:html], :handlers=>[:rjs, :rhtml, :rxml, :haml, :builder, :erb], :locale=>[:en, :en]} in view paths "/var/www/home/hosting_maxstbn/projects/restaurant/releases/initial_release/app/views", "/var/www/home/hosting_maxstbn/.gem/ruby/1.8/gems/devise-1.3.3/app/views", "/var/www/home/hosting_maxstbn/.gem/ruby/1.8/gems/ckeditor-3.5.0/app/views"):
+  app/controllers/pages_controller.rb:34:in `contacts'
+
+
+
+Started GET "/restaurant" for 109.194.129.39 at Срд Июл 13 12:08:48 +0400 2011
+  Processing by PagesController#restaurant as HTML
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_restaurant.haml (0.1ms)
+Rendered shared/_user_nav.haml (1.3ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (1.8ms)
+Rendered pages/restaurant.haml within layouts/application_r (13.5ms)
+Completed 200 OK in 17ms (Views: 15.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 109.194.129.39 at Срд Июл 13 12:08:49 +0400 2011
+  Processing by PagesController#home as HTML
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_user_nav.haml (1.3ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (2.7ms)
+Rendered pages/home.haml within layouts/application_h (6.2ms)
+Completed 200 OK in 8ms (Views: 6.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurant" for 109.194.129.39 at Срд Июл 13 12:08:51 +0400 2011
+  Processing by PagesController#restaurant as HTML
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_restaurant.haml (0.1ms)
+Rendered shared/_user_nav.haml (1.3ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (1.8ms)
+Rendered pages/restaurant.haml within layouts/application_r (5.3ms)
+Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/shashlyk" for 109.194.129.39 at Срд Июл 13 12:08:52 +0400 2011
+  Processing by PagesController#shashlyk as HTML
+Rendered pages/_cont.haml (0.1ms)
+Rendered shared/_shashlyk.haml (0.1ms)
+Rendered shared/_user_nav.haml (1.3ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (54.2ms)
+Rendered pages/shashlyk.haml within layouts/application_s (57.9ms)
+Completed 200 OK in 60ms (Views: 57.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/admin" for 109.194.129.39 at Срд Июл 13 12:09:00 +0400 2011
+  Processing by Admin::BookingsController#index as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/admin" for 109.194.129.39 at Срд Июл 13 12:09:06 +0400 2011
+  Processing by Admin::BookingsController#index as HTML
+Rendered admin/bookings/index.haml within layouts/admin (21.9ms)
+Completed 200 OK in 34ms (Views: 32.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/admin/pages" for 109.194.129.39 at Срд Июл 13 12:09:10 +0400 2011
+  Processing by Admin::PagesController#index as HTML
+Rendered admin/pages/index.html.haml within layouts/admin (15.7ms)
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/admin/pages/5/edit" for 109.194.129.39 at Срд Июл 13 12:09:15 +0400 2011
+  Processing by Admin::PagesController#edit as HTML
+  Parameters: {"id"=>"5"}
+Rendered admin/pages/_form.html.haml (7.3ms)
+Rendered admin/pages/edit.html.haml within layouts/admin (10.7ms)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/admin/pages/5" for 109.194.129.39 at Срд Июл 13 12:09:18 +0400 2011
+  Processing by Admin::PagesController#update as HTML
+  Parameters: {"commit"=>"Сохранить", "authenticity_token"=>"2PXZ0JJLdeKWIo1SaWSp9J7QsSHOF+qjDRmyQGEt+no=", "utf8"=>"✓", "id"=>"5", "page"=>{"meta_desc"=>"Контакты", "title"=>"Контакты", "meta_key"=>"Контакты", "desc"=>"<p>\r\n\tПенза ул.Кирова, 42</p>\r\n<p>\r\n\tт. 26-07-07, 26-07-08<br />\r\n\tт. 26-06-26</p>\r\n"}}
+Redirected to http://restaurant.maxstbn.locum.ru/admin/pages/5
+Completed 302 Found in 3ms
+
+
+Started GET "/admin/pages/5" for 109.194.129.39 at Срд Июл 13 12:09:18 +0400 2011
+  Processing by Admin::PagesController#show as HTML
+  Parameters: {"id"=>"5"}
+Rendered admin/pages/show.html.haml within layouts/admin (6.0ms)
+Completed 200 OK in 9ms (Views: 7.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 109.194.129.39 at Срд Июл 13 12:09:27 +0400 2011
+  Processing by PagesController#home as HTML
+Rendered pages/_cont.haml (0.2ms)
+Rendered shared/_user_nav.haml (1.5ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered shared/_slider.haml (3.2ms)
+Rendered pages/home.haml within layouts/application_h (7.1ms)
+Completed 200 OK in 9ms (Views: 7.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/contacts" for 109.194.129.39 at Срд Июл 13 12:09:29 +0400 2011
+  Processing by PagesController#contacts as HTML
+Completed 500 Internal Server Error in 2ms
+
+ActionView::MissingTemplate (Missing layout layouts/application_с with {:formats=>[:html], :handlers=>[:rjs, :rhtml, :rxml, :haml, :builder, :erb], :locale=>[:en, :en]} in view paths "/var/www/home/hosting_maxstbn/projects/restaurant/releases/initial_release/app/views", "/var/www/home/hosting_maxstbn/.gem/ruby/1.8/gems/devise-1.3.3/app/views", "/var/www/home/hosting_maxstbn/.gem/ruby/1.8/gems/ckeditor-3.5.0/app/views"):
+  app/controllers/pages_controller.rb:34:in `contacts'
+
+
+
+Started GET "/contacts" for 127.0.0.1 at 2011-07-13 12:13:16 +0400
+  Processing by PagesController#contacts as HTML
+Rendered shared/_user_nav.haml (6.1ms)
+Rendered shared/_menu.haml (12.6ms)
+Rendered pages/contacts.erb within layouts/application_с (72.9ms)
+Completed 200 OK in 92ms (Views: 76.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2011-07-13 12:13:20 +0400
+  Processing by PagesController#contacts as HTML
+Rendered shared/_user_nav.haml (1.3ms)
+Rendered shared/_menu.haml (0.1ms)
+Rendered pages/contacts.erb within layouts/application_с (4.0ms)
+Completed 200 OK in 7ms (Views: 5.1ms | ActiveRecord: 0.3ms)

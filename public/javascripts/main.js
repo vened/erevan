@@ -1,8 +1,40 @@
 $(document).ready(function() {
 
 
-//    audiojs.events.ready(function() {
-//        var as = audiojs.createAll();
+    audiojs.events.ready(function() {
+        var as = audiojs.createAll();
+    });
+
+
+//    $(".order .edit_cart_item input").bind("keyup", function() {
+//        var $this = $(this);
+//        var pid = $this.data("id");
+//        var pcount = $this.val();
+//        var paint = parseInt(pcount);
+//
+//        if (pcount == "" || pcount == 0 || isNaN(paint)) {
+//            return false;
+//        } else {
+//            $.post(
+//                    "/ajax/cart.php",
+//            {
+//                "id": pid,
+//                "action": "recalculate",
+//                "count": paint
+//            },
+//                    function(data) {
+//
+//                        if (data.sum > summin) {
+//                            $submit.attr("disabled", false).next().hide();
+//                        }
+//                        else {
+//                            $submit.attr("disabled", true).next().show();
+//                        }
+//                        $cartSum.text(data.sum);
+//                        $submit.focus();
+//                    }, 'json'
+//                    );
+//        }
 //    });
 
 
@@ -26,5 +58,6 @@ $(document).ready(function() {
 
 
     $("#reserv select").selectbox();
+
 
 });

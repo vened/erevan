@@ -32,14 +32,6 @@
   -#  %li
   -#    %a{:href => "/tour"} Виртуальный тур
 
-  -#contacts
-  -if @contacts == 1
-    %li.act
-      %a{:href => "/contacts"} Контакты
-  -else
-    %li
-      %a{:href => "/contacts"} Контакты
-
   -#feedbacks
   -if @feed == 1
     %li.act
@@ -55,3 +47,15 @@
   -else
     %li
       %a{:href => "/guests"} Наши гости
+
+  -#Доставка
+  %li.act
+    %a{:href => "/shashlyk/menu"} Доставка
+
+  -#contacts
+  -if @contacts == 1
+    %li.act
+      %a{:href => "/contacts"} Контакты
+  -else
+    %li
+      %a{:href => "/contacts"} Контакты

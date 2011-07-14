@@ -1,5 +1,7 @@
 %h2= @news.title
 %p
+  %b= @news.created_at.to_date
+  %br
   %strong Аннотация:
   %br
   = @news.note

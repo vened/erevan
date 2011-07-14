@@ -3,6 +3,10 @@
   - for news in @news
     %dt
       %h4= link_to news.title, news
-    %dd.note= news.note
+
+    %dd.note
+      %b= news.created_at.to_date
+      %br
+      = news.note
 
 = will_paginate @news, :previous_label => "«", :next_label => "»"

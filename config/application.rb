@@ -27,9 +27,9 @@ module Erevan
     # config.time_zone = 'Central Time (US & Canada)'
 
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
-    config.i18n.load_path += Dir[Rails.root.join('ru', 'locales', '*.{rb,yml}').to_s]
+#    config.i18n.load_path += Dir[Rails.root.join('ru', 'locales', '*.{rb,yml}').to_s]
     #config.i18n.load_path += Dir[Rails.root.join('config', 'locales', '', '*.{rb,yml}')]
-    config.i18n.default_locale = :ru
+    #config.i18n.default_locale = :ru
 
     # JavaScript files you want as :defaults (application.js is always included).
     # config.action_view.javascript_expansions[:defaults] = %w(jquery rails)
@@ -40,7 +40,7 @@ module Erevan
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
 
-		config.autoload_paths += %W( #{config.root}/app/models/ckeditor )
+    config.autoload_paths += %W( #{config.root}/app/models/ckeditor )
 
   end
 end

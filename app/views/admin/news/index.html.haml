@@ -4,8 +4,7 @@
   %div{:style=>"margin:40px 0 10px"}
     %h3
       = link_to news.title, admin_news_path(news)
-    %b= news.created_at.to_formatted_s(:long)
-    -#.date.fs11.gray7= time_ago_in_words(news.created_at || Time.now) + ' назад'
+    %b= news.created_at.to_date
     %p= news.note
     %p
       = link_to 'Открыть новость', admin_news_path(news)

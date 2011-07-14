@@ -13,6 +13,7 @@
     = javascript_include_tag "jquery.selectbox-0.6.1"
     = javascript_include_tag "jquery.cycle.lite.min"
     = javascript_include_tag "main"
+    = javascript_include_tag "cookie"
     %script{:src=>"/img/audio.min.js", :type=>"text/javascript"}
 
   %body.fp
@@ -28,6 +29,7 @@
               %h1.logo
                 %a{:href => "/"}
                   %img{:src => "/img/logo.png", :alt =>"Ресторан Ереван", :title => "Ресторан Ереван"}
+              -#%audio{:src=>"http://s3.amazonaws.com/audiojs/02-juicy-r.mp3"}
               %audio{:src=>"http://s3.amazonaws.com/audiojs/02-juicy-r.mp3", :autoplay=>"autoplay"}
 
             = raw menu

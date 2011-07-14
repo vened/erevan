@@ -165,11 +165,12 @@ ul { list-style:none;}
 #order td { padding:6px 0 8px; text-align:center;}
 #order tbody td { border-bottom:1px solid #cabea5;}
 #order tbody td:first-child { text-align:left; width:68%;}
+#order tbody td:last-child {width:10%;}
 #order input[type="text"] { background:url("../img/order_inp.png") no-repeat 50% 50%; height:18px; width:66px; text-align:center; font:15px Arial; color:#9c2815; border:none; margin-top:1px; padding:4px 0 5px;}
 #order .Checkout a{ margin-top:4px; float:right;line-height:30px;}
 #order .del { display:block; overflow:hidden; width:20px; height:20px; background:url("../img/ico_del.gif") no-repeat 50% 50%; text-indent:-999px; margin-top:2px;}
 #order .cost { font-weight:bold; font-size:18px;}
-#order tbody .cost { margin:0 25px 0 30px;}
+#order tbody .cost { margin:0 15px;width:100px;display: block;}
 #order td.cost {text-align:right;}
 
 /* footer */

@@ -2,16 +2,22 @@
 
 #feed_form
   .toggle Оставить свой отзыв
-  = form_for @feedback do |f|
-    = f.error_messages :header_message => "Ошибка!", :message => "Вы допустили ошибку при заполнение формы", :header_tag => :h3
+  -if user_signed_in?
+    = form_for @feedback do |f|
+      = f.error_messages :header_message => "Ошибка!", :message => "Вы допустили ошибку при заполнение формы", :header_tag => :h3
 
-    = f.label :user, :Имя
-    = f.text_field :user
+      = f.label :user, :Имя
+      = f.text_field :user, :value => current_user.name
 
-    = f.label :desc, :Отзыв
-    = f.text_area :desc, :rows => "6", :cols => "30"
+      = f.label :desc, :Отзыв
+      = f.text_area :desc, :rows => "6", :cols => "30"
 
-    = f.submit :Отправить
+      = f.submit :Отправить
+  -else
+    %form{:style=>"padding:20px 0 0 0"}
+      Что бы оставить свой отзыв необходимо
+      = link_to "зарегистрироваться", new_user_registration_path
+
 
 .feeds
   -for feedback in @feedbacks

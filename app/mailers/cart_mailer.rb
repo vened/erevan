@@ -1,15 +1,15 @@
 # encoding: utf-8
 class CartMailer < ActionMailer::Base
 
-  default_url_options[:host] = "localhost:3000"
+  default_url_options[:host] = "erevan-restoran.ru"
 
-  default :from => "admin@erevan.ru"
+  default :from => "erevan@erevan.ru"
 
   def cart_confirmation(cart, total_price, name)
     @cart = cart
     @total_price = total_price
     @name = name
-    mail(:to => "maxstbn@gmail.com", :subject => "Новый заказ")
+    mail(:to => "maxstbn@gmail.com, erevan7777777@gmail.com, gab26@yandex.ru, maxstbn@yandex.ru", :subject => "Новый заказ")
 
     require "xmpp4r"
     robot = Jabber::Client::new(Jabber::JID::new("erevan_robot@jabber.ru"))

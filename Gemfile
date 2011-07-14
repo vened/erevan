@@ -17,7 +17,7 @@ gem "xmpp4r"
 
 #group :development do
 #	gem 'annotate-models', '1.0.4'
-#	gem "nifty-generators"
+	gem "nifty-generators"
 #end
 
 # Use unicorn as the web server

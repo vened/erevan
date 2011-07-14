@@ -1,4 +1,7 @@
 #slider
   %div
     - for i in @images
-      = image_tag i.image_url(:pic_head)
+      -if i.image.blank?
+        %p изображение испорчено
+      -else
+        = image_tag i.image_url(:pic_head)

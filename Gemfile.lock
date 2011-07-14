@@ -52,6 +52,7 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.16)
+    nifty-generators (0.4.6)
     orm_adapter (0.0.5)
     paperclip (2.3.11)
       activerecord (>= 2.3.0)
@@ -97,6 +98,7 @@ DEPENDENCIES
   haml
   jquery-rails
   mail
+  nifty-generators
   paperclip (~> 2.3)
   rails (= 3.0.8)
   rmagick

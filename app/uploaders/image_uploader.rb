@@ -11,19 +11,19 @@ class ImageUploader < CarrierWave::Uploader::Base
   end
 
   version :thumb do
-    process :resize_to_limit => [100, 50]
+    process :resize_to_fill => [100, 50]
   end
 
 	version :pic_head do
-    process :resize_to_limit => [698, 247]
+    process :resize_to_fill => [698, 247]
   end
 
   version :menu do
-    process :resize_to_limit => [210, 210]
+    process :resize_to_fill => [210, 210]
   end
 
   version :menu_thumb do
-    process :resize_to_limit => [140, 140]
+    process :resize_to_fill => [140, 140]
   end
 
   # Choose what kind of storage to use for this uploader:

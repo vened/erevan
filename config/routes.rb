@@ -1,5 +1,7 @@
 Erevan::Application.routes.draw do
 
+  resources :guests
+
   resources :cart_items
 
   resources :carts

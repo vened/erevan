@@ -12,6 +12,7 @@ gem "rmagick"
 gem 'carrierwave'
 gem 'devise'
 gem "mail"
+gem "xmpp4r"
 
 
 #group :development do

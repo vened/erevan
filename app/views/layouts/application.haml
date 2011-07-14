@@ -29,7 +29,7 @@
               %h1.logo
                 %a{:href => "/"}
                   %img{:src => "/img/logo.png", :alt =>"Ресторан Ереван", :title => "Ресторан Ереван"}
-              %audio{:src=>"http://s3.amazonaws.com/audiojs/02-juicy-r.mp3"}
+              = render 'shared/audio'
 
             = raw menu
 

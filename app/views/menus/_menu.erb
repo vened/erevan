@@ -10,7 +10,7 @@
 <div class="dish_list">
   <% for menu in @menus %>
       <% if menu.image? %>
-          <div class="dish" action="#">
+          <div id="<%= menu.id %>" class="dish" action="#">
             <%= image_tag menu.image_url(:menu) %>
             <h4>
               <%= menu.title %>

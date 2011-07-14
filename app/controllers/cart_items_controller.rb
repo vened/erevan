@@ -15,7 +15,7 @@ class CartItemsController < ApplicationController
       current_cart.cart_items.create!(params[:cart_item])
     end
 
-    redirect_to :back
+    redirect_to "/flowers##{@product.id}"
   end
 
   def update

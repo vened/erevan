@@ -2,7 +2,7 @@
 <div class="dish_list">
   <% for menu in @menus %>
       <% if menu.image? %>
-          <div class="dish" action="#">
+          <div id="<%= menu.id %>" class="dish" action="#">
             <%= image_tag menu.image_url(:menu) %>
             <h4>
               <%= menu.title %>
@@ -18,7 +18,7 @@
             <% @cart_items = menu.cart_items %>
             <%= form_for @cart_items.build do |f| %>
                 <%= f.hidden_field :menu_id %>
-                <%= f.submit "В корзину" %>
+                <%= f.submit "В корзину", :href=>"#" %>
             <% end %>
           </div>
       <% end %>

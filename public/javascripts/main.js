@@ -21,5 +21,14 @@ $(document).ready(function() {
 
     $("#reserv select").selectbox();
 
+    $("a[rel=example_group]").fancybox({
+        'transitionIn'        : 'none',
+        'transitionOut'        : 'none',
+        'titlePosition'     : 'over',
+        'titleFormat'        : function(title, currentArray, currentIndex, currentOpts) {
+            return '<span id="fancybox-title-over">' + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+        }
+    });
+
 
 });

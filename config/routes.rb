@@ -37,6 +37,7 @@ Erevan::Application.routes.draw do
   namespace :admin do
     resources :feedbacks
     resources :menu_categories
+    resources :guests
     match '/restaurant_menu', :to => 'menus#restaurant_menu'
     match '/shashlyk_menu', :to => 'menus#shashlyk_menu'
     match '/flowers', :to => 'menus#flowers'

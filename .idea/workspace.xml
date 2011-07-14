@@ -2,23 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63b80dfe-778c-4db0-adeb-3a8e5378e907" name="Default" comment="сделал страницу виртуального тура, контакты и отзывы">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/erevan.iml" afterPath="$PROJECT_DIR$/.idea/erevan.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/admin/guests_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/guests/edit.html.haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/guests/index.html.haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/guests/new.html.haml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/guests/_form.html.haml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/guests/edit.html.haml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/guests/new.html.haml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/guests/show.html.haml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/development.sqlite3" afterPath="$PROJECT_DIR$/db/development.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/production.sqlite3" afterPath="$PROJECT_DIR$/db/production.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/mailers/booking_mailer.rb" afterPath="$PROJECT_DIR$/app/mailers/booking_mailer.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/mailers/cart_mailer.rb" afterPath="$PROJECT_DIR$/app/mailers/cart_mailer.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/image.rb" afterPath="$PROJECT_DIR$/app/models/image.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/guests_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/guests_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/guest.rb" afterPath="$PROJECT_DIR$/app/models/guest.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/uploaders/image_uploader.rb" afterPath="$PROJECT_DIR$/app/uploaders/image_uploader.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/menus/restaurant_menu.haml" afterPath="$PROJECT_DIR$/app/views/menus/restaurant_menu.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/menus/shashlyk_menu.haml" afterPath="$PROJECT_DIR$/app/views/menus/shashlyk_menu.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/contacts.erb" afterPath="$PROJECT_DIR$/app/views/pages/contacts.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_audio.haml" afterPath="$PROJECT_DIR$/app/views/shared/_audio.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/guests/index.html.haml" afterPath="$PROJECT_DIR$/app/views/guests/index.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/admin.haml" afterPath="$PROJECT_DIR$/app/views/layouts/admin.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.haml" afterPath="$PROJECT_DIR$/app/views/layouts/application.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_menu.haml" afterPath="$PROJECT_DIR$/app/views/shared/_menu.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_slider.haml" afterPath="$PROJECT_DIR$/app/views/shared/_slider.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20110714132213_create_guests.rb" afterPath="$PROJECT_DIR$/db/migrate/20110714132213_create_guests.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/admin.js" afterPath="$PROJECT_DIR$/public/javascripts/admin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/main.js" afterPath="$PROJECT_DIR$/public/javascripts/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/admin.css" afterPath="$PROJECT_DIR$/public/stylesheets/admin.css" />
     </list>
     <ignored path="erevan.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,19 +61,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="guests.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Erevan/guests.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="152" selection-start="216" selection-end="216" vertical-scroll-proportion="-1.875">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="guests_controller.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/guests_controller.rb">
+        <entry file="file://$PROJECT_DIR$/app/controllers/admin/guests_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="21" column="33" selection-start="484" selection-end="484" vertical-scroll-proportion="0.3472988">
               <folding />
             </state>
           </provider>
@@ -90,22 +87,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/helpers/carts_helper.rb" />
-        <option value="$PROJECT_DIR$/app/mailers/cart_mailer.rb" />
-        <option value="$PROJECT_DIR$/app/views/menus/restaurant_menu.erb" />
-        <option value="$PROJECT_DIR$/app/views/menus/shashlyk_menu.haml" />
-        <option value="$PROJECT_DIR$/app/views/menus/restaurant_menu.haml" />
-        <option value="$PROJECT_DIR$/log/unicorn.stderr.log" />
-        <option value="$PROJECT_DIR$/log/production.log" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application_с.haml" />
-        <option value="$PROJECT_DIR$/app/views/shared/_yandex.erb" />
-        <option value="$PROJECT_DIR$/app/views/pages/contacts.erb" />
-        <option value="$PROJECT_DIR$/app/models/image.rb" />
-        <option value="$PROJECT_DIR$/initial_release/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/public/stylesheets/admin.css" />
+        <option value="$PROJECT_DIR$/app/views/admin/images/_images.haml" />
+        <option value="$PROJECT_DIR$/app/views/admin/guests/_form.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/admin/guests/new.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/admin/guests/edit.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/layouts/admin.haml" />
+        <option value="$PROJECT_DIR$/public/javascripts/admin.js" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.haml" />
+        <option value="$PROJECT_DIR$/public/javascripts/main.js" />
+        <option value="$PROJECT_DIR$/app/views/guests/index.html.haml" />
+        <option value="$PROJECT_DIR$/app/models/guest.rb" />
         <option value="$PROJECT_DIR$/app/uploaders/image_uploader.rb" />
-        <option value="$PROJECT_DIR$/app/views/shared/_audio.haml" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/admin/guests/index.html.haml" />
+        <option value="$PROJECT_DIR$/app/controllers/guests_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/shared/_menu.haml" />
+        <option value="$PROJECT_DIR$/app/controllers/admin/guests_controller.rb" />
       </list>
     </option>
   </component>
@@ -189,6 +186,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erevan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erevan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -277,11 +292,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views/admin" />
+      <recent name="$PROJECT_DIR$/app/controllers/admin" />
       <recent name="$PROJECT_DIR$/public/img" />
       <recent name="$PROJECT_DIR$/app/controllers" />
       <recent name="$PROJECT_DIR$/app/views" />
-      <recent name="$PROJECT_DIR$/app/views/layouts" />
-      <recent name="$PROJECT_DIR$/app/controllers/admin" />
     </key>
   </component>
   <component name="RunManager" selected="Rails.Development: erevan">
@@ -353,6 +368,13 @@
         <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSRemoteDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="false" name="test" type="RakeRunConfigurationType" factoryName="Rake">
@@ -504,8 +526,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1056" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="0" width="1920" height="1056" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32995194" sideWeight="0.6716259" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3272921" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -513,7 +535,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20633246" sideWeight="0.32583067" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24450402" sideWeight="0.633547" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18873994" sideWeight="0.633547" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.366453" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32799146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -562,110 +584,114 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/pages/_cont.haml">
+    <entry file="file://$PROJECT_DIR$/Erevan/guests.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/contacts.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="24" selection-start="2005" selection-end="2005" vertical-scroll-proportion="0.6896552">
+        <state line="67" column="35" selection-start="1285" selection-end="2177" vertical-scroll-proportion="0.8323896">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_yandex.erb">
+    <entry file="file://$PROJECT_DIR$/public/javascripts/admin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="235" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/initial_release/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="56" selection-start="615" selection-end="629" vertical-scroll-proportion="0.6632653">
+        <state line="18" column="63" selection-start="675" selection-end="675" vertical-scroll-proportion="0.29768467">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/image.rb">
+    <entry file="file://$PROJECT_DIR$/public/javascripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="30" selection-start="108" selection-end="136" vertical-scroll-proportion="0.12244898">
+        <state line="30" column="7" selection-start="891" selection-end="891" vertical-scroll-proportion="0.49614114">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/menus/_menu.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/menus/index.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/menus/restaurant_menu.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/guest.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="16" selection-start="183" selection-end="183" vertical-scroll-proportion="0.08269019">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/guests/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="67" selection-start="252" selection-end="319" vertical-scroll-proportion="0.21499449">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/feedback.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="16" selection-start="327" selection-end="366" vertical-scroll-proportion="0.099228226">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/feedbacks/index.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="70" selection-start="283" selection-end="353" vertical-scroll-proportion="0.23153253">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/uploaders/image_uploader.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="85" selection-start="816" selection-end="816" vertical-scroll-proportion="0.5788313">
+        <state line="28" column="11" selection-start="504" selection-end="515" vertical-scroll-proportion="0.46306506">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/development.log">
+    <entry file="file://$PROJECT_DIR$/app/views/admin/guests/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="107" selection-start="1993" selection-end="2002" vertical-scroll-proportion="0.5704698">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/server.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_audio.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/mailers/cart_mailer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/mailers/booking_mailer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20110629070133_create_pages.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="47" selection-start="620" selection-end="620" vertical-scroll-proportion="0.7446808">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="332" selection-end="332" vertical-scroll-proportion="0.31422272">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Erevan/guests.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="152" selection-start="216" selection-end="216" vertical-scroll-proportion="-1.875">
+        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/guests_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="3" column="13" selection-start="153" selection-end="153" vertical-scroll-proportion="0.049614113">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/feedbacks_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="183" selection-end="192" vertical-scroll-proportion="0.08269019">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_menu.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="7" selection-start="893" selection-end="893" vertical-scroll-proportion="0.80154353">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/admin/guests_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="33" selection-start="484" selection-end="484" vertical-scroll-proportion="0.3472988">
           <folding />
         </state>
       </provider>

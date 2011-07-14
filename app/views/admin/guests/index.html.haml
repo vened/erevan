@@ -1,0 +1,24 @@
+%h1 Наши гости
+%p= link_to "Добавить", new_admin_guest_path
+%table
+  %tr
+    %th Изображение
+    %th Текст
+    %th Дата
+    %th
+  - for guest in @guests
+    %tr
+      %td.center
+        %a{:title=>"#{guest.title}", :href=>"#{guest.image}", :rel=>"example_group"}
+          = image_tag guest.image_url(:guest_thumb)
+      %td.center
+        = guest.title
+      %td.center
+        = guest.data
+      %td.center
+        = link_to 'Редактировать', edit_admin_guest_path(guest)
+        = link_to 'Удалить', admin_guest_path(guest), :confirm => 'Are you sure?', :method => :delete
+
+%p= link_to "Добавить", new_admin_guest_path
+
+= will_paginate @guests, :previous_label => "«", :next_label => "»"

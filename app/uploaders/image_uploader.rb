@@ -26,6 +26,14 @@ class ImageUploader < CarrierWave::Uploader::Base
     process :resize_to_fill => [140, 140]
   end
 
+  version :guest_thumb do
+    process :resize_to_fill => [110, 150]
+  end
+
+  version :guest_img do
+    process :resize_to_fill => [220, 300]
+  end
+
   # Choose what kind of storage to use for this uploader:
 #  storage :file
   # storage :fog

@@ -1,0 +1,16 @@
+%h2 Добавить избражение
+= form_for [:admin, @guest], :html => {:multipart => true} do |f|
+  = f.error_messages
+  %p
+    %div Выберите изображение
+    = f.file_field :image
+  %p
+    = f.label :title, "Текст"
+    %br
+    = f.text_field :title
+  %p
+    = f.label :data, "Дата"
+    %br
+    = f.text_field :data
+  %p
+    = f.submit :value => :Загрузить

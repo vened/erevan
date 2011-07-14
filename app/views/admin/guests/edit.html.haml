@@ -1,0 +1,26 @@
+%h2 Добавить избражение
+= form_for [:admin, @guest], :html => {:multipart => true} do |f|
+  = f.error_messages
+  -if @guest.image?
+    %p= image_tag @guest.image_url(:guest_img)
+    %p
+      %div
+        Выберите новое изображение
+        %br
+        (при загрузке нового изображения, старое удалится)
+      = f.file_field :image
+  -else
+    %p
+      %div Выберите новое изображение блюда
+      = f.file_field :image
+
+  %p
+    = f.label :title, "Текст"
+    %br
+    = f.text_field :title
+  %p
+    = f.label :data, "Дата"
+    %br
+    = f.text_field :data
+  %p
+    = f.submit :value => :Загрузить

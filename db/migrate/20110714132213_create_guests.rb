@@ -3,6 +3,7 @@ class CreateGuests < ActiveRecord::Migration
     create_table :guests do |t|
       t.string :image
       t.string :title
+      t.string :data
       t.timestamps
     end
   end

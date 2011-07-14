@@ -1,15 +1,14 @@
-- title "Guests"
+%h2 Наши гости
 
-%table
-  %tr
-    %th Image
-    %th Title
+.guests
   - for guest in @guests
-    %tr
-      %td= guest.image
-      %td= guest.title
-      %td= link_to 'Show', guest
-      %td= link_to 'Edit', edit_guest_path(guest)
-      %td= link_to 'Destroy', guest, :confirm => 'Are you sure?', :method => :delete
+    .guest
+      %a{:title=>"#{guest.title}", :href=>"#{guest.image}", :rel=>"example_group"}
+        = image_tag guest.image_url(:guest_img)
+      %h4
+        = guest.title
+        = guest.data
 
-%p= link_to "New Guest", new_guest_path
+  .cb
+
+= will_paginate @guests, :previous_label => "«", :next_label => "»"

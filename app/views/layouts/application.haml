@@ -8,12 +8,13 @@
     %meta{:content => meta_desc, :name => "description"}
     = csrf_meta_tag
     = stylesheet_link_tag "application"
-    -#= javascript_include_tag :all
+    = stylesheet_link_tag "fancybox/jquery.fancybox-1.3.4.css"
     = javascript_include_tag "jquery.min"
     = javascript_include_tag "jquery.selectbox-0.6.1"
     = javascript_include_tag "jquery.cycle.lite.min"
     = javascript_include_tag "main"
     = javascript_include_tag "cookie"
+    = javascript_include_tag "jquery.fancybox-1.3.4.pack"
     %script{:src=>"/img/audio.min.js", :type=>"text/javascript"}
 
   %body.fp

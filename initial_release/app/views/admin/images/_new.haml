@@ -1,0 +1,8 @@
+%h2 Загрузить изображение
+= form_for [:admin, @page, @image], :html => {:multipart => true} do |f|
+  = f.error_messages
+  %p
+    %div Выберите файл
+    = f.file_field :image
+  %p
+    = f.submit :value => :Загрузить

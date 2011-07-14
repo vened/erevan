@@ -1,0 +1,24 @@
+%h1 Меню ресторана
+%table
+  %tr
+    %th Изображение
+    %th Название
+    %th Описание
+    %th Цена
+    %th Редактирование
+  - for menu in @menus
+    %tr
+      %td.center
+        -if menu.image?
+          = image_tag menu.image_url(:menu_thumb)
+      %td.center= menu.title
+      %td.center= menu.desc
+      %td.center= menu.price
+
+      %td.center
+        %a{:href=>"/admin/flowers_edit/#{menu.id}"} Редактировать
+        = link_to 'Удалить', [:admin, menu], :confirm => 'Точно удалить?', :method => :delete
+
+%p= link_to "Добавить букет", admin_flowers_new_path
+
+-#= will_paginate @menus, :previous_label => "«", :next_label => "»"

@@ -1,0 +1,11 @@
+one:
+  meta_key: MyString
+  meta_desc: MyString
+  title: MyString
+  desc: MyText
+
+two:
+  meta_key: MyString
+  meta_desc: MyString
+  title: MyString
+  desc: MyText

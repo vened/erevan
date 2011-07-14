@@ -1,0 +1,11 @@
+.title
+  = @page.title
+  %span (список картинок в шапке страницы)
+-if @images.blank?
+  %div.red загруженых изображений нет
+-else
+  %ul#ImagesList
+    - for image in @images
+      %li
+        %div= image_tag image.image_url(:pic_head)
+        = link_to "Удалить изображение", [:admin, @page, image], :method => :delete, :confirm => "Точно удалить?"

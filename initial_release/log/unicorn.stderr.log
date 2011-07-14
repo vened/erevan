@@ -1,0 +1,117 @@
+executing ["/var/lib/gems/1.8/bin/unicorn_rails", "-Dc", "/etc/unicorn/restauran.maxstbn.rb"] (in /var/www/home/hosting_maxstbn/projects/restauran/releases/initial_release)
+forked child re-executing...
+I, [2011-07-14T13:26:08.465247 #8319]  INFO -- : inherited addr=/var/sockets/restauran.maxstbn.sock fd=3
+I, [2011-07-14T13:26:08.465567 #8319]  INFO -- : Refreshing Gem list
+reaped #<Process::Status: pid=5579,exited(0)> worker=0
+master complete
+master process ready
+worker=0 spawned pid=8383
+worker=0 ready
+executing ["/var/lib/gems/1.8/bin/unicorn_rails", "-Dc", "/etc/unicorn/restauran.maxstbn.rb"] (in /var/www/home/hosting_maxstbn/projects/restauran/releases/initial_release)
+forked child re-executing...
+I, [2011-07-14T13:26:58.767992 #10282]  INFO -- : inherited addr=/var/sockets/restauran.maxstbn.sock fd=3
+I, [2011-07-14T13:26:58.768295 #10282]  INFO -- : Refreshing Gem list
+reaped #<Process::Status: pid=8383,exited(0)> worker=0
+master complete
+master process ready
+worker=0 spawned pid=10347
+worker=0 ready
+executing ["/var/lib/gems/1.8/bin/unicorn_rails", "-Dc", "/etc/unicorn/restauran.maxstbn.rb"] (in /var/www/home/hosting_maxstbn/projects/restauran/releases/initial_release)
+forked child re-executing...
+I, [2011-07-14T13:28:19.135406 #12981]  INFO -- : inherited addr=/var/sockets/restauran.maxstbn.sock fd=3
+I, [2011-07-14T13:28:19.135711 #12981]  INFO -- : Refreshing Gem list
+master process ready
+worker=0 spawned pid=13014
+worker=0 ready
+reaped #<Process::Status: pid=10347,exited(0)> worker=0
+master complete
+executing ["/var/lib/gems/1.8/bin/unicorn_rails", "-Dc", "/etc/unicorn/restauran.maxstbn.rb"] (in /var/www/home/hosting_maxstbn/projects/restauran/releases/initial_release)
+forked child re-executing...
+I, [2011-07-14T13:30:19.663217 #18526]  INFO -- : inherited addr=/var/sockets/restauran.maxstbn.sock fd=3
+I, [2011-07-14T13:30:19.663526 #18526]  INFO -- : Refreshing Gem list
+reaped #<Process::Status: pid=13014,exited(0)> worker=0
+master complete
+master process ready
+worker=0 spawned pid=18610
+worker=0 ready
+executing ["/var/lib/gems/1.8/bin/unicorn_rails", "-Dc", "/etc/unicorn/restauran.maxstbn.rb"] (in /var/www/home/hosting_maxstbn/projects/restauran/releases/initial_release)
+forked child re-executing...
+I, [2011-07-14T13:35:40.604472 #28652]  INFO -- : inherited addr=/var/sockets/restauran.maxstbn.sock fd=3
+I, [2011-07-14T13:35:40.604777 #28652]  INFO -- : Refreshing Gem list
+master process ready
+worker=0 spawned pid=28741
+worker=0 ready
+reaped #<Process::Status: pid=18610,exited(0)> worker=0
+master complete
+executing ["/var/lib/gems/1.8/bin/unicorn_rails", "-Dc", "/etc/unicorn/restauran.maxstbn.rb"] (in /var/www/home/hosting_maxstbn/projects/restauran/releases/initial_release)
+forked child re-executing...
+I, [2011-07-14T13:39:41.344054 #17952]  INFO -- : inherited addr=/var/sockets/restauran.maxstbn.sock fd=3
+I, [2011-07-14T13:39:41.344359 #17952]  INFO -- : Refreshing Gem list
+master process ready
+worker=0 spawned pid=18018
+worker=0 ready
+reaped #<Process::Status: pid=28741,exited(0)> worker=0
+master complete
+executing ["/var/lib/gems/1.8/bin/unicorn_rails", "-Dc", "/etc/unicorn/restauran.maxstbn.rb"] (in /var/www/home/hosting_maxstbn/projects/restauran/releases/initial_release)
+forked child re-executing...
+I, [2011-07-14T13:51:34.330205 #8473]  INFO -- : inherited addr=/var/sockets/restauran.maxstbn.sock fd=3
+I, [2011-07-14T13:51:34.330502 #8473]  INFO -- : Refreshing Gem list
+master process ready
+worker=0 spawned pid=8536
+worker=0 ready
+reaped #<Process::Status: pid=18018,exited(0)> worker=0
+master complete
+executing ["/var/lib/gems/1.8/bin/unicorn_rails", "-Dc", "/etc/unicorn/restauran.maxstbn.rb"] (in /var/www/home/hosting_maxstbn/projects/restauran/releases/initial_release)
+forked child re-executing...
+I, [2011-07-14T13:54:45.253380 #14389]  INFO -- : inherited addr=/var/sockets/restauran.maxstbn.sock fd=3
+I, [2011-07-14T13:54:45.253672 #14389]  INFO -- : Refreshing Gem list
+master process ready
+worker=0 spawned pid=14448
+worker=0 ready
+reaped #<Process::Status: pid=8536,exited(0)> worker=0
+master complete
+executing ["/var/lib/gems/1.8/bin/unicorn_rails", "-Dc", "/etc/unicorn/restauran.maxstbn.rb"] (in /var/www/home/hosting_maxstbn/projects/restauran/releases/initial_release)
+forked child re-executing...
+I, [2011-07-14T14:06:37.653866 #12586]  INFO -- : inherited addr=/var/sockets/restauran.maxstbn.sock fd=3
+I, [2011-07-14T14:06:37.662454 #12586]  INFO -- : Refreshing Gem list
+master process ready
+worker=0 spawned pid=12672
+worker=0 ready
+reaped #<Process::Status: pid=14448,exited(0)> worker=0
+master complete
+executing ["/var/lib/gems/1.8/bin/unicorn_rails", "-Dc", "/etc/unicorn/restauran.maxstbn.rb"] (in /var/www/home/hosting_maxstbn/projects/restauran/releases/initial_release)
+forked child re-executing...
+I, [2011-07-14T14:10:28.659845 #6625]  INFO -- : inherited addr=/var/sockets/restauran.maxstbn.sock fd=3
+I, [2011-07-14T14:10:28.660156 #6625]  INFO -- : Refreshing Gem list
+master process ready
+worker=0 spawned pid=6686
+worker=0 ready
+reaped #<Process::Status: pid=12672,exited(0)> worker=0
+master complete
+executing ["/var/lib/gems/1.8/bin/unicorn_rails", "-Dc", "/etc/unicorn/restauran.maxstbn.rb"] (in /var/www/home/hosting_maxstbn/projects/restauran/releases/initial_release)
+forked child re-executing...
+I, [2011-07-14T14:14:18.699723 #13863]  INFO -- : inherited addr=/var/sockets/restauran.maxstbn.sock fd=3
+I, [2011-07-14T14:14:18.700027 #13863]  INFO -- : Refreshing Gem list
+master process ready
+worker=0 spawned pid=13952
+worker=0 ready
+reaped #<Process::Status: pid=6686,exited(0)> worker=0
+master complete
+executing ["/var/lib/gems/1.8/bin/unicorn_rails", "-Dc", "/etc/unicorn/restauran.maxstbn.rb"] (in /var/www/home/hosting_maxstbn/projects/restauran/releases/initial_release)
+forked child re-executing...
+I, [2011-07-14T14:15:50.010345 #18549]  INFO -- : inherited addr=/var/sockets/restauran.maxstbn.sock fd=3
+I, [2011-07-14T14:15:50.010656 #18549]  INFO -- : Refreshing Gem list
+master process ready
+worker=0 spawned pid=18691
+worker=0 ready
+reaped #<Process::Status: pid=13952,exited(0)> worker=0
+master complete
+executing ["/var/lib/gems/1.8/bin/unicorn_rails", "-Dc", "/etc/unicorn/restauran.maxstbn.rb"] (in /var/www/home/hosting_maxstbn/projects/restauran/releases/initial_release)
+forked child re-executing...
+I, [2011-07-14T14:18:04.270100 #21716]  INFO -- : inherited addr=/var/sockets/restauran.maxstbn.sock fd=3
+I, [2011-07-14T14:18:04.270449 #21716]  INFO -- : Refreshing Gem list
+master process ready
+worker=0 spawned pid=23113
+worker=0 ready
+reaped #<Process::Status: pid=18691,exited(0)> worker=0
+master complete

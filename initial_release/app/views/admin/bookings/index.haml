@@ -1,0 +1,26 @@
+%h1 Запросы на бронирование столов
+
+%table
+  %tr
+    %th ФИО
+    %th Столик
+    %th Дата / Время
+    %th Телефон
+    %th
+
+  -@bookings.each do |b|
+    %tr
+      %td
+        = b.surname
+        = b.name
+        = b.patronymic
+      %td= b.table
+      %td
+        = b.date
+        \/
+        = b.time
+
+      %td= b.phone
+      %td= link_to 'Удалить', [:admin, b], :confirm => 'Точно удалить?', :method => :delete
+
+= will_paginate @feedbacks, :previous_label => "«", :next_label => "»"

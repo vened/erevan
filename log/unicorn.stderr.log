@@ -1,23 +1,9 @@
-executing ["/var/lib/gems/1.8/bin/unicorn_rails", "-Dc", "/etc/unicorn/restaurant.maxstbn.rb"] (in /var/www/home/hosting_maxstbn/projects/restaurant/releases/initial_release)
+executing ["/var/lib/gems/1.8/bin/unicorn_rails", "-Dc", "/etc/unicorn/restauran.maxstbn.rb"] (in /var/www/home/hosting_maxstbn/projects/restauran/releases/initial_release)
 forked child re-executing...
-I, [2011-07-11T14:52:55.499992 #22946]  INFO -- : inherited addr=/var/sockets/restaurant.maxstbn.sock fd=3
-I, [2011-07-11T14:52:55.500282 #22946]  INFO -- : Refreshing Gem list
-master process ready
-worker=0 spawned pid=23016
-worker=0 ready
-reaped #<Process::Status: pid=19620,exited(0)> worker=0
+I, [2011-07-14T13:26:08.465247 #8319]  INFO -- : inherited addr=/var/sockets/restauran.maxstbn.sock fd=3
+I, [2011-07-14T13:26:08.465567 #8319]  INFO -- : Refreshing Gem list
+reaped #<Process::Status: pid=5579,exited(0)> worker=0
 master complete
-executing ["/var/lib/gems/1.8/bin/unicorn_rails", "-Dc", "/etc/unicorn/restaurant.maxstbn.rb"] (in /var/www/home/hosting_maxstbn/projects/restaurant/releases/initial_release)
-forked child re-executing...
-I, [2011-07-11T15:02:08.106199 #10788]  INFO -- : inherited addr=/var/sockets/restaurant.maxstbn.sock fd=3
-I, [2011-07-11T15:02:08.106492 #10788]  INFO -- : Refreshing Gem list
 master process ready
-worker=0 spawned pid=10876
+worker=0 spawned pid=8383
 worker=0 ready
-reaped #<Process::Status: pid=23016,exited(0)> worker=0
-master complete
-executing ["/var/lib/gems/1.8/bin/unicorn_rails", "-Dc", "/etc/unicorn/restaurant.maxstbn.rb"] (in /var/www/home/hosting_maxstbn/projects/restaurant/releases/initial_release)
-forked child re-executing...
-/var/lib/gems/1.8/gems/bundler-1.0.10/lib/bundler/shared_helpers.rb:107:in `gem': unicorn is not part of the bundle. Add it to Gemfile. (Gem::LoadError)
-	from /var/lib/gems/1.8/bin/unicorn_rails:18
-reaped #<Process::Status: pid=16090,exited(1)> exec()-ed

@@ -138,6 +138,7 @@
     <orderEntry type="library" scope="PROVIDED" name="[gem] jquery-rails (v1.0.12, /usr/local/ruby/lib/ruby/gems/1.9.1/gems/jquery-rails-1.0.12)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] devise (v1.4.2, /usr/local/ruby/lib/ruby/gems/1.9.1/gems/devise-1.4.2)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] mail (v2.3.0, /usr/local/ruby/lib/ruby/gems/1.9.1/gems/mail-2.3.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] xmpp4r (v0.5, /usr/local/ruby/lib/ruby/gems/1.9.1/gems/xmpp4r-0.5)" level="application" />
   </component>
 </module>
 

@@ -1,0 +1,28 @@
+#reserv
+  = form_for(@booking) do |f|
+    = f.error_messages :header_message => "Ошибка!", :message => "Вы допустили ошибку при заполнение формы", :header_tag => :h3
+
+    .field.frm_line
+      = f.label :surname, "Фамилия"
+      .inp= f.text_field :surname
+    .field.frm_line
+      = f.label :name, "Имя"
+      .inp= f.text_field :name
+    .field.frm_line
+      = f.label :patronymic, "Отчество"
+      .inp= f.text_field :patronymic
+    .field.frm_line
+      = f.label :phone, "Телефон"
+      .inp= f.text_field :phone
+    .field.frm_line
+      = f.label :time, "Время"
+      .sel= f.select( :time, [["8:00"], ["9:00"], ["10:00"], ["11:00"], ["12:00"], ["13:00"], ["14:00"], ["15:00"], ["16:00"], ["17:00"], ["18:00"], ["19:00"], ["20:00"], ["21:00"], ["22:00"], ["23:00"], ["24:00"]])
+    .field.frm_line
+      = f.label :table, "Столик"
+      .sel= f.select( :table, [[1], [2], [3], [4], [5], [6], [7], [8], [9], [10]])
+    .field.frm_line
+      = f.label :date, "Дата"
+      .sel= f.text_field :date
+      .pr (пример - 20 сентября)
+
+    = f.submit "Забронировать"

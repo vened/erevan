@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63b80dfe-778c-4db0-adeb-3a8e5378e907" name="Default" comment="сделал страницу виртуального тура, контакты и отзывы">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/shared/_yandex.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/&quot;app/views/layouts/application_сhaml&quot;" afterPath="$PROJECT_DIR$/&quot;app/views/layouts/application_сhaml&quot;" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/erevan.iml" afterPath="$PROJECT_DIR$/.idea/erevan.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/development.sqlite3" afterPath="$PROJECT_DIR$/db/development.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/carts_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/carts_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/mailers/cart_mailer.rb" afterPath="$PROJECT_DIR$/app/mailers/cart_mailer.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/boot.rb" afterPath="$PROJECT_DIR$/config/boot.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/menus/restaurant_menu.haml" afterPath="$PROJECT_DIR$/app/views/menus/restaurant_menu.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/menus/shashlyk_menu.haml" afterPath="$PROJECT_DIR$/app/views/menus/shashlyk_menu.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/contacts.erb" afterPath="$PROJECT_DIR$/app/views/pages/contacts.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_audio.haml" afterPath="$PROJECT_DIR$/app/views/shared/_audio.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/production.log" afterPath="$PROJECT_DIR$/log/production.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/unicorn.stderr.log" afterPath="$PROJECT_DIR$/log/unicorn.stderr.log" />
     </list>
     <ignored path="erevan.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,13 +34,13 @@
   <component name="DisabledGemRequirementsHolder">
     <module name="erevan">
       <requirement>
-        <dependency name="activesupport" version="3.0" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+        <dependency name="activesupport" version="2.3.2" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
       </requirement>
       <requirement>
         <dependency name="activerecord" version="2.3.0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
       </requirement>
       <requirement>
-        <dependency name="activesupport" version="2.3.2" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+        <dependency name="activesupport" version="3.0" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
       </requirement>
     </module>
   </component>
@@ -46,19 +49,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="cart_confirmation.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/cart_mailer/cart_confirmation.erb">
+      <file leaf-file-name="contacts.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/pages/contacts.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="16" selection-start="1055" selection-end="1176" vertical-scroll-proportion="-31.166666">
+            <state line="5" column="204" selection-start="155" selection-end="357" vertical-scroll-proportion="0.16556291">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cart_mailer.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/mailers/cart_mailer.rb">
+      <file leaf-file-name="_yandex.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/shared/_yandex.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="64" selection-start="615" selection-end="615" vertical-scroll-proportion="0.5816327">
+            <state line="0" column="235" selection-start="235" selection-end="235" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -81,15 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/layouts/application_с.haml" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application_t.haml" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application_s.haml" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application_r.haml" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application_m.haml" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application_f.haml" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application_b.haml" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.haml" />
-        <option value="$PROJECT_DIR$/app/views/menus/flowers.erb" />
         <option value="$PROJECT_DIR$/app/controllers/cart_items_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/menus/_menu.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
@@ -97,6 +91,15 @@
         <option value="$PROJECT_DIR$/config/boot.rb" />
         <option value="$PROJECT_DIR$/app/helpers/carts_helper.rb" />
         <option value="$PROJECT_DIR$/app/mailers/cart_mailer.rb" />
+        <option value="$PROJECT_DIR$/app/views/menus/restaurant_menu.erb" />
+        <option value="$PROJECT_DIR$/app/views/menus/shashlyk_menu.haml" />
+        <option value="$PROJECT_DIR$/app/views/menus/restaurant_menu.haml" />
+        <option value="$PROJECT_DIR$/log/unicorn.stderr.log" />
+        <option value="$PROJECT_DIR$/log/production.log" />
+        <option value="$PROJECT_DIR$/app/views/shared/_audio.haml" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application_с.haml" />
+        <option value="$PROJECT_DIR$/app/views/shared/_yandex.erb" />
+        <option value="$PROJECT_DIR$/app/views/pages/contacts.erb" />
       </list>
     </option>
   </component>
@@ -184,6 +187,10 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shared" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -202,10 +209,6 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cart_mailer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -218,24 +221,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="erevan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="erevan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mailers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -554,16 +539,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1056" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32995194" sideWeight="0.6716259" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3272921" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32837406" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20633246" sideWeight="0.32583067" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23592493" sideWeight="0.55448717" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24128686" sideWeight="0.55448717" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44551283" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44551283" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32799146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943678" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -611,114 +596,90 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application_f.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="37" selection-start="1025" selection-end="1025" vertical-scroll-proportion="0.51267916">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application_b.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="37" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.45424476">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="37" selection-start="1022" selection-end="1022" vertical-scroll-proportion="0.51267916">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/cart_items_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="39" selection-start="554" selection-end="554" vertical-scroll-proportion="0.28114665">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/menus/_menu.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="34" selection-start="315" selection-end="315" vertical-scroll-proportion="0.20385051">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/menus/flowers.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="34" selection-start="114" selection-end="134" vertical-scroll-proportion="0.06795017">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="11" selection-start="272" selection-end="272" vertical-scroll-proportion="0.23153253">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="57" selection-start="257" selection-end="257" vertical-scroll-proportion="0.18367347">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/boot.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="62" selection-start="190" selection-end="190" vertical-scroll-proportion="0.15306123">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/email_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/carts_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="2" selection-start="22" selection-end="22" vertical-scroll-proportion="0.033076074">
-          <folding />
-        </state>
+        <state line="2" column="2" selection-start="22" selection-end="22" vertical-scroll-proportion="0.033076074" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/carts_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/layout_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/mailers/cart_mailer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="64" selection-start="615" selection-end="615" vertical-scroll-proportion="0.5816327" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/cart_mailer/cart_confirmation.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="16" selection-start="1055" selection-end="1176" vertical-scroll-proportion="1.6051502" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/menus/shashlyk_menu.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="102" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/menus/restaurant_menu.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="102" selection-start="402" selection-end="402" vertical-scroll-proportion="0.08389262" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/unicorn.stdout.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/production.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/unicorn.stderr.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="509" selection-end="509" vertical-scroll-proportion="0.14884233" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_audio.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application_с.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="27" selection-start="720" selection-end="720" vertical-scroll-proportion="0.28114665">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/_cont.haml">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/cart_mailer/cart_confirmation.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_yandex.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="16" selection-start="1055" selection-end="1176" vertical-scroll-proportion="-31.166666">
+        <state line="0" column="235" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/mailers/cart_mailer.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/pages/contacts.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="64" selection-start="615" selection-end="615" vertical-scroll-proportion="0.5816327">
+        <state line="5" column="204" selection-start="155" selection-end="357" vertical-scroll-proportion="0.16556291">
           <folding />
         </state>
       </provider>

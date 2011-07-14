@@ -1,0 +1,49 @@
+%ul#menu
+
+  -#home
+  -if @home == 1
+    %li.act
+      %a{:href => "/"} Главная
+  -else
+    %li
+      %a{:href => "/"} Главная
+
+  -#restaurant
+  -if @restaurant == 1
+    %li.act
+      %a{:href => "/restaurant"} Ресторан
+  -else
+    %li
+      %a{:href => "/restaurant"} Ресторан
+
+  -#shashlyk
+  -if @shashlyk == 1
+    %li.act
+      %a{:href => "/shashlyk"} Шашлычная
+  -else
+    %li
+      %a{:href => "/shashlyk"} Шашлычная
+
+  -#tour
+  -#-if @tour == 1
+  -#  %li.act
+  -#    %a{:href => "/tour"} Виртуальный тур
+  -#-else
+  -#  %li
+  -#    %a{:href => "/tour"} Виртуальный тур
+
+  -#contacts
+  -if @contacts == 1
+    %li.act
+      %a{:href => "/contacts"} Контакты
+  -else
+    %li
+      %a{:href => "/contacts"} Контакты
+
+  -#feedbacks
+  -if @feed == 1
+    %li.act
+      %a{:href => "/feedbacks"} Отзывы
+  -else
+    %li
+      %a{:href => "/feedbacks"} Отзывы

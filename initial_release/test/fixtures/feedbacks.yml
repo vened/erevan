@@ -1,0 +1,7 @@
+one:
+  user: MyString
+  desc: MyText
+
+two:
+  user: MyString
+  desc: MyText

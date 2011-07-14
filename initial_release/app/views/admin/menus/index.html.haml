@@ -1,0 +1,30 @@
+%h1 Список блюд
+%table
+  %tr
+    %th Изображение
+    %th Название
+    %th Описание
+    %th Цена
+    %th Категория
+    %th Редактирование
+  - for menu in @menus
+    %tr
+      %td.center
+        -if menu.image?
+          = image_tag menu.image_url(:menu_thumb)
+      %td.center= menu.title
+      %td.center= menu.desc
+      %td.center= menu.price
+      %td.center
+        - cat_id = menu.menu_category_id
+        - if menu_c = MenuCategory.find(cat_id)
+          = menu_c.name
+        - else
+
+      %td.center
+        = link_to 'Редактировать', edit_admin_menu_path(menu)
+        = link_to 'Удалить', [:admin, menu], :confirm => 'Точно удалить?', :method => :delete
+
+%p= link_to "Добавить новое блюдо", new_admin_menu_path
+
+= will_paginate @feedbacks, :previous_label => "«", :next_label => "»"

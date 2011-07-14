@@ -1,0 +1,23 @@
+%h2 Авторизация
+
+= form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f|
+  %p
+    = f.label :username, :Логин
+    %br
+    = f.text_field :username
+
+  %p
+    = f.label :password, :Пароль
+    %br
+    = f.password_field :password
+
+  -if devise_mapping.rememberable?
+    %p
+      = f.check_box :remember_me
+      = f.label :remember_me, :Запомнить
+  %p
+    Ещё не зарегистрированны? -
+    =link_to "Зарегистрироваться", new_user_registration_path
+
+
+  %p= f.submit "Войти"

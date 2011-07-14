@@ -1,0 +1,27 @@
+<h2>Заказ цветов</h2>
+<div class="dish_list">
+  <% for menu in @menus %>
+      <% if menu.image? %>
+          <div id="<%= menu.id %>" class="dish" action="#">
+            <%= image_tag menu.image_url(:menu) %>
+            <h4>
+              <%= menu.title %>
+            </h4>
+
+            <div class="desc">
+              <%= menu.desc %>
+            </div>
+        <span class="cost">
+          <%= menu.price %>
+          <span class="rub">р<span>уб.</span></span>
+        </span>
+            <% @cart_items = menu.cart_items %>
+            <%= form_for @cart_items.build do |f| %>
+                <%= f.hidden_field :menu_id %>
+                <%= f.submit "В корзину", :href=>"#" %>
+            <% end %>
+          </div>
+      <% end %>
+  <% end %>
+</div>
+<%= render 'shared/restaurant' %>

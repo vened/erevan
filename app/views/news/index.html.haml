@@ -1,0 +1,8 @@
+%h1 Новости
+%dl.news
+  - for news in @news
+    %dt
+      %h4= link_to news.title, news
+    %dd.note= news.note
+
+= will_paginate @news, :previous_label => "«", :next_label => "»"

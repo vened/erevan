@@ -1,0 +1,14 @@
+%h2= @news.title
+%p
+  %strong Аннотация:
+  %br
+  = @news.note
+%p
+  %strong Текст новости:
+  %br
+  = raw @news.desc
+
+%p
+  = link_to "Редактировать", edit_admin_news_path(@news)
+  |
+  = link_to "Удалить", [:admin, @news], :confirm => 'Are you sure?', :method => :delete

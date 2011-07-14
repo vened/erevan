@@ -6,6 +6,7 @@ Erevan::Application.initialize!
 
 Haml::Template.options[:format] = :xhtml
 
+
 #Rails::Initializer.run do |config|
 #
 #  config.gem "paperclip", :version => "~> 2.3"

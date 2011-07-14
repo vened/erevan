@@ -9,6 +9,14 @@
       %a{:href => "/"} Главная
 
   -#restaurant
+  -if @new == 1
+    %li.act
+      %a{:href => "/news"} Новости
+  -else
+    %li
+      %a{:href => "/news"} Новости
+
+  -#restaurant
   -if @restaurant == 1
     %li.act
       %a{:href => "/restaurant"} Ресторан
@@ -49,7 +57,7 @@
       %a{:href => "/guests"} Наши гости
 
   -#Доставка
-  %li.act
+  %li
     %a{:href => "/shashlyk/menu"} Доставка
 
   -#contacts

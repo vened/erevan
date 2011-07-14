@@ -1,0 +1,20 @@
+%h1 Новости
+%p{:style=>"margin:0 0 40px"}= link_to "Добавить новость", new_admin_news_path
+- for news in @news
+  %div{:style=>"margin:40px 0 10px"}
+    %h3
+      = link_to news.title, admin_news_path(news)
+    %b= news.created_at.to_formatted_s(:long)
+    -#.date.fs11.gray7= time_ago_in_words(news.created_at || Time.now) + ' назад'
+    %p= news.note
+    %p
+      = link_to 'Открыть новость', admin_news_path(news)
+      |
+      = link_to 'Редактировать', edit_admin_news_path(news)
+      |
+      = link_to 'Удалить', admin_news_path(news), :confirm => 'Are you sure?', :method => :delete
+  %hr
+
+%p{:style=>"margin:40px 0 0 0"}= link_to "Добавить новость", new_admin_news_path
+
+= will_paginate @news, :previous_label => "«", :next_label => "»"

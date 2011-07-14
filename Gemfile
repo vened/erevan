@@ -13,6 +13,7 @@ gem 'carrierwave'
 gem 'devise'
 gem "mail"
 gem "xmpp4r"
+gem 'rails-i18n'
 
 
 #group :development do

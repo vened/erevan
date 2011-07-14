@@ -1,0 +1,6 @@
+%h1#news_title= @news.title
+%p
+  %b= @news.created_at.to_formatted_s(:long)
+.news_desc= raw @news.desc
+
+= link_to "Назад", :back

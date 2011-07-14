@@ -17,6 +17,10 @@ body { width:100%; margin:0 auto; font:14px/1.2 Philosopher, Arial; color:#000;}
     font-weight: normal;
     font-style: normal;
 }
+h1#news_title{margin:0 0 25px}
+.news{padding:25px 0 25px}
+.news dt{font-weight:bold}
+.news dd{margin:0 0 30px}
 
 /* grid */
 #p {	min-height:100%; margin:0 auto -69px; width:100%; min-width:996px; background:#5c2a20 url("../img/bg2.png");}

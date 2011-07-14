@@ -1,5 +1,7 @@
 Erevan::Application.routes.draw do
 
+  resources :news
+
   resources :guests
 
   resources :cart_items
@@ -38,6 +40,7 @@ Erevan::Application.routes.draw do
     resources :feedbacks
     resources :menu_categories
     resources :guests
+    resources :news
     match '/restaurant_menu', :to => 'menus#restaurant_menu'
     match '/shashlyk_menu', :to => 'menus#shashlyk_menu'
     match '/flowers', :to => 'menus#flowers'
